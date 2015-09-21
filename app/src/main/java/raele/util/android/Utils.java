@@ -29,20 +29,23 @@ public class Utils {
         return result;
     }
 
-    public void makeLongToast(int textId) {
+    public void showLongToast(int textId) {
         Toast.makeText(mContext, mContext.getString(textId), Toast.LENGTH_LONG).show();
     }
 
-    public void makeLongToast(String text) {
+    public void showLongToast(String text) {
         Toast.makeText(mContext, text, Toast.LENGTH_LONG).show();
     }
 
-    public void makeShortToast(int textId) {
+    public void showShortToast(int textId) {
         Toast.makeText(mContext, mContext.getString(textId), Toast.LENGTH_SHORT).show();
     }
 
-    public void makeShortToast(String text) {
+    public void showShortToast(String text) {
         Toast.makeText(mContext, text, Toast.LENGTH_SHORT).show();
     }
 
+    public void notImplemented() {
+        showShortToast("Not implemented yet.");
+    }
 }

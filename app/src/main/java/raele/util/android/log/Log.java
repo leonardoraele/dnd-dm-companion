@@ -63,9 +63,9 @@ public final class Log {
 	}
 	
 	/**
-	 * Get the method name for a depth in call stack. <br />
+	 * Get the method nameId for a depth in call stack. <br />
 	 * Utility function
-	 * @return method name
+	 * @return method nameId
 	 */
 	private static String getClassMethod()
 	{

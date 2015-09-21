@@ -1,16 +1,32 @@
 <resources>
-    <string name="app_name">dnd-dm-companion</string>
-
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
+    <string name="app_name">D&amp;D Dungeon Master\'s Companion</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_example">Example action</string>
-
-    <string name="action_settings">Settings</string>
-    <string name="navitem_1">Section 1</string>
-    <string name="navitem_2">Section 2</string>
+    <string name="navitem_players_handbook">Player\'s Handbook Consulting</string>
+    <string name="navitem_home">Home</string>
+    <string name="phb_menu_races">Races</string>
+    <string name="phb_menu_classes">Classes</string>
+    <string name="phb_menu_backgrounds">Backgrounds</string>
+    <string name="phb_menu_feats">Feats</string>
+    <string name="phb_menu_equipments"><![CDATA[Equipments &amp; Inventory]]></string>
+    <string name="phb_menu_downtime"><![CDATA[Traveling, Downtime &amp; Services]]></string>
+    <string name="phb_menu_combat">Combat Rulings</string>
+    <string name="phb_menu_spells">Spells</string>
+    <string name="phb_menu_experience">Experience Table</string>
+    <string name="phb_menu_trinkets">Trinkets Table</string>
+    <string name="phb_races_human">Human</string>
+    <string name="phb_races_human_default">Default Human</string>
+    <string name="phb_races_human_variant">Variant Human</string>
+    <string name="phb_races_elf">Elf</string>
+    <string name="phb_races_elf_high">High Elf</string>
+    <string name="phb_races_elf_wood">Wood Elf</string>
+    <string name="phb_races_elf_drow">Drow</string>
+    <string name="phb_races_dwarf">Dwarf</string>
+    <string name="phb_races_dwarf_hill">Hills Dwarf</string>
+    <string name="phb_races_dwarf_mountain">Mountains Dwarf</string>
+    <string name="phb_races_halfling">Halfling</string>
+    <string name="phb_races_halfling_stout">Halfling Stout</string>
+    <string name="phb_races_halfling_lightfoot">Halfling Lightfoot</string>
 </resources>
