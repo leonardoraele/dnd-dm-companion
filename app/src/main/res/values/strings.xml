@@ -29,4 +29,20 @@
     <string name="phb_races_halfling">Halfling</string>
     <string name="phb_races_halfling_stout">Halfling Stout</string>
     <string name="phb_races_halfling_lightfoot">Halfling Lightfoot</string>
+    <string name="phb_races_details_basic_features">Basic Features</string>
+    <string name="phb_races_details_height">Height</string>
+    <string name="phb_races_details_weight">Weight</string>
+    <string name="phb_races_details_size">Size</string>
+    <string name="phb_races_details_adult_age">Adult Age</string>
+    <string name="phb_races_details_max_age">Maximum Age</string>
+    <string name="phb_races_details_alignment">Alignment</string>
+    <string name="phb_races_details_racial_traits">Racial Traits</string>
+    <string name="phb_races_details_ability_score">Ability Scores Mod.</string>
+    <string name="phb_races_details_speed">Speed</string>
+    <string name="phb_races_details_languages">Languages</string>
+    <string name="phb_races_details_darkvision">Darkvision</string>
+    <string name="phb_races_details_other">Other</string>
+    <string name="phb_races_details_sample_names">Sample Names</string>
+    <string name="phb_races_details_darkvision_no">No</string>
+    <string name="phb_races_details_darkvision_yes">Yes, up to %s ft.</string>
 </resources>

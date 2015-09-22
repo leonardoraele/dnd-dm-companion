@@ -1,92 +1,98 @@
 package raele.dnd_dm_companion.fragment;
 
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-import com.activeandroid.Model;
-import com.activeandroid.query.Select;
-
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
+import java.util.Locale;
 
 import raele.dnd_dm_companion.R;
-import raele.dnd_dm_companion.database.SubRace;
-import raele.util.Collections;
+import raele.dnd_dm_companion.database.DbHelper;
+import raele.util.android.log.Log;
 
 /**
  * Created by lpr on 21/09/15.
  */
 public class RacesFragment extends Fragment {
 
+    private static final String GET_ALL_SUB_RACE_NAMES =
+            "SELECT sr._id, tr._text FROM _sub_race sr, _translation tr WHERE " +
+                    "sr._name_id = tr._id and tr._language = ?";
+
+    private Integer[] mRaceIds;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        Log.begin();
         View view = inflater.inflate(R.layout.fragment_races, container, false);
 
         ListView listView = (ListView) view.findViewById(R.id.phb_races_menu_list);
         ListAdapter adapter = createRacesListAdapter();
         listView.setAdapter(adapter);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                selectItem(position);
+            }
+        });
 
-        /*
-        view.findViewById(R.id.phb_races_human_default).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {Utils.of(getActivity()).notImplemented();}
-        });
-        view.findViewById(R.id.phb_races_human_variant).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {Utils.of(getActivity()).notImplemented();}
-        });
-        view.findViewById(R.id.phb_races_dwarf_hill).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {Utils.of(getActivity()).notImplemented();}
-        });
-        view.findViewById(R.id.phb_races_dwarf_mountain).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {Utils.of(getActivity()).notImplemented();}
-        });
-        view.findViewById(R.id.phb_races_elf_high).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {Utils.of(getActivity()).notImplemented();}
-        });
-        view.findViewById(R.id.phb_races_elf_wood).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {Utils.of(getActivity()).notImplemented();}
-        });
-        view.findViewById(R.id.phb_races_elf_drow).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {Utils.of(getActivity()).notImplemented();}
-        });
-        view.findViewById(R.id.phb_races_halfling_lightfoot).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {Utils.of(getActivity()).notImplemented();}
-        });
-        view.findViewById(R.id.phb_races_halfling_stout).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {Utils.of(getActivity()).notImplemented();}
-        });
-        */
-
+        Log.end();
         return view;
     }
 
-    private ListAdapter createRacesListAdapter() {
-        List<Model> result = new Select().from(SubRace.class).execute();
-        List<Integer> nameIds = Collections.map(result, new ArrayList<Integer>(result.size()),
-                new Collections.Mapper<Model, Integer>() {
-            @Override
-            public Integer map(Model model) {
-                return SubRace.class.cast(model).nameTextId;
-            }
-        });
-        List raceNames =
-        ArrayAdapter adapter = new ArrayAdapter(getActivity(), R.layout.layout_races_menu_item, R.id.phb_races_menu_item_name, raceNames);
+    private ArrayAdapter<String> createRacesListAdapter() {
+        Log.begin();
+
+        String language = Locale.getDefault().getISO3Language().toUpperCase();
+        Log.info("Using language: " + language);
+
+        Log.info("Requesting the database...");
+        SQLiteDatabase db = new DbHelper(getActivity()).getReadableDatabase();
+
+        Log.info("Querying the database for races...");
+        Cursor cursor = db.rawQuery(GET_ALL_SUB_RACE_NAMES, new String[] {language});
+
+        Log.info("Query returned " + cursor.getCount() + " entries.");
+        String[] raceNames = new String[cursor.getCount()];
+        mRaceIds = new Integer[cursor.getCount()];
+        for (int i = 0; cursor.moveToNext(); i++) {
+            mRaceIds[i] = cursor.getInt(0);
+            raceNames[i] = cursor.getString(1);
+        }
+        Log.info(Arrays.toString(raceNames));
+
+        Log.info("Now building the adapter...");
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(), R.layout.layout_phb_races_menu_item,
+                R.id.phb_races_menu_item_name, raceNames);
+
+        Log.info("Finished.");
+        Log.end();
+        return adapter;
+    }
+
+    public void selectItem(int position) throws IndexOutOfBoundsException {
+        RaceDetailsFragment fragment = new RaceDetailsFragment();
+        Bundle args = new Bundle();
+        args.putInt(RaceDetailsFragment.ARGUMENT_RACE_ID, mRaceIds[position]);
+        fragment.setArguments(args);
+
+        FragmentManager manager = getActivity().getSupportFragmentManager();
+        manager.beginTransaction()
+                .addToBackStack(toString())
+                .replace(R.id.container, fragment)
+                .commit();
     }
 
 }

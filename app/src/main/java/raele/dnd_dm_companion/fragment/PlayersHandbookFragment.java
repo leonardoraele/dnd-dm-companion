@@ -112,7 +112,7 @@ public class PlayersHandbookFragment extends Fragment {
         FragmentManager manager = getActivity().getSupportFragmentManager();
         manager.beginTransaction()
                 .addToBackStack(toString())
-                .add(fragment, fragment.toString())
+                .replace(R.id.container, fragment)
                 .commit();
     }
 
