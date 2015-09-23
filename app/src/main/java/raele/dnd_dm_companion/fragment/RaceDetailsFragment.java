@@ -15,7 +15,6 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Locale;
 import java.util.Map;
-import java.util.Set;
 
 import raele.dnd_dm_companion.R;
 import raele.dnd_dm_companion.database.DbHelper;
@@ -27,7 +26,7 @@ import raele.util.android.log.Log;
  */
 public class RaceDetailsFragment extends Fragment {
 
-    public static final String ARGUMENT_RACE_ID = "RACE_ID";
+    public static final String ARG_RACE_ID = "RACE_ID";
 
     private static final String GET_RACE_DETAILS_SQL =
             "SELECT tr_name._text, _sub_race._height, _sub_race._weight, tr_size._text, " +
@@ -96,10 +95,10 @@ public class RaceDetailsFragment extends Fragment {
 
         Log.info("Reading received arguments...");
         Bundle args = getArguments();
-        if (args == null || !args.containsKey(ARGUMENT_RACE_ID)) {
+        if (args == null || !args.containsKey(ARG_RACE_ID)) {
             Log.error("No arguments found.");
         } else {
-            int id = args.getInt(ARGUMENT_RACE_ID);
+            int id = args.getInt(ARG_RACE_ID);
             Log.info("Received id: " + id);
 
             String lang = Locale.getDefault().getISO3Language().toUpperCase();

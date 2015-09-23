@@ -83,9 +83,9 @@ public class RacesFragment extends Fragment {
     }
 
     public void selectItem(int position) throws IndexOutOfBoundsException {
-        RaceDetailsFragment fragment = new RaceDetailsFragment();
+        RaceDetailsPagerFragment fragment = new RaceDetailsPagerFragment();
         Bundle args = new Bundle();
-        args.putInt(RaceDetailsFragment.ARGUMENT_RACE_ID, mRaceIds[position]);
+        args.putInt(RaceDetailsPagerFragment.ARG_SHOWN_RACE, mRaceIds[position]);
         fragment.setArguments(args);
 
         FragmentManager manager = getActivity().getSupportFragmentManager();

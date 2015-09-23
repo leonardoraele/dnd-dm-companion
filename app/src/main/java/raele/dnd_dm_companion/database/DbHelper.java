@@ -44,11 +44,10 @@ public class DbHelper extends SQLiteOpenHelper {
             return;
         }
 
-        Log.info("Setting up database...");
+        Log.info("Setting up database tables...");
         for (int i = 0; i < sqlStatements.length - 1; i++) {
             db.execSQL(sqlStatements[i]);
         }
-//        db.execSQL(setupSql);
 
         Log.info("SQL setup file '" + SETUP_SCRIPT_FILENAME + "' was executed.");
         Log.end();

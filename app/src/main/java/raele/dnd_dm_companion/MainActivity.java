@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity
 
     // Defines what items will appear in this activity's navigation drawer and the order they appear.
     public static final NavigationDrawerItem[] sNavItems = new NavigationDrawerItem[] {
-            NavigationDrawerItem.Home,
+//            NavigationDrawerItem.Home,
             NavigationDrawerItem.PlayersHandbook,
     };
 
