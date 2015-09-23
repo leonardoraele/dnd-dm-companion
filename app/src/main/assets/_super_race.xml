@@ -1,0 +1,6 @@
+<data>
+  <insert table="_super_race">
+    <column name="_id" id="true">superrace_human</column>
+    <column name="_name_id" translation="ENG">Human</column>
+  </insert>
+</data>

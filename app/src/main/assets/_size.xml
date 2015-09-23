@@ -1,0 +1,39 @@
+<data>
+  
+  <insert table="_size">
+    <column name="_id" id="true">size_tiny</column>
+    <column name="_description_id" translation="ENG">Tiny</column>
+    <column name="_description_id" translation="POR">Minúsculo</column>
+  </insert>
+
+  <insert table="_size">
+    <column name="_id" id="true">size_small</column>
+    <column name="_description_id" translation="ENG">Small</column>
+    <column name="_description_id" translation="POR">Pequeno</column>
+  </insert>
+
+  <insert table="_size">
+    <column name="_id" id="true">size_medium</column>
+    <column name="_description_id" translation="ENG">Medium</column>
+    <column name="_description_id" translation="POR">Médio</column>
+  </insert>
+
+  <insert table="_size">
+    <column name="_id" id="true">size_large</column>
+    <column name="_description_id" translation="ENG">Large</column>
+    <column name="_description_id" translation="POR">Grande</column>
+  </insert>
+
+  <insert table="_size">
+    <column name="_id" id="true">size_huge</column>
+    <column name="_description_id" translation="ENG">Huge</column>
+    <column name="_description_id" translation="POR">Gigantesco</column>
+  </insert>
+
+  <insert table="_size">
+    <column name="_id" id="true">size_gargantuan</column>
+    <column name="_description_id" translation="ENG">Gargantuan</column>
+    <column name="_description_id" translation="POR">Colossal</column>
+  </insert>
+
+</data>

@@ -1,0 +1,39 @@
+<data>
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_varianthuman</column> <!-- Id -->
+    <column name="_super_race_id" id="true">superrace_human</column> <!-- Id -->
+    <column name="_size_id" id="true">size_medium</column> <!-- Id -->
+
+    <column name="_name_id" translation="ENG">Human (Variant)</column> <!-- Translateable Text -->
+    <column name="_adult_age_id" translation="ENG">18-20</column> <!-- Translateable Text -->
+    <column name="_max_age_id" translation="ENG">80-90</column> <!-- Translateable Text -->
+    <column name="_alignment_id" translation="ENG">Any</column> <!-- Translateable Text -->
+    <column name="_ability_id" translation="ENG">+1 on two abilities of your choice</column> <!-- Translateable Text -->
+    <column name="_languages_id" translation="ENG">Common and one more at choise</column> <!-- Translateable Text -->
+
+    <column name="_height">5-6 ft.</column> <!-- String -->
+    <column name="_weight">120-240 lb.</column> <!-- String -->
+
+    <column name="_speed">30</column> <!-- Int -->
+    <column name="_darkvision">0</column> <!-- Int -->
+  </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_defaulthuman</column> <!-- Id -->
+    <column name="_super_race_id" id="true">superrace_human</column> <!-- Id -->
+    <column name="_size_id" id="true">size_medium</column> <!-- Id -->
+
+    <column name="_name_id" translation="ENG">Human (Default)</column> <!-- Translateable Text -->
+    <column name="_adult_age_id" translation="ENG">18-20</column> <!-- Translateable Text -->
+    <column name="_max_age_id" translation="ENG">80-90</column> <!-- Translateable Text -->
+    <column name="_alignment_id" translation="ENG">Any</column> <!-- Translateable Text -->
+    <column name="_ability_id" translation="ENG">+1 on each ability</column> <!-- Translateable Text -->
+    <column name="_languages_id" translation="ENG">Common and one more at choise</column> <!-- Translateable Text -->
+
+    <column name="_height">5-6 ft.</column> <!-- String -->
+    <column name="_weight">120-240 lb.</column> <!-- String -->
+
+    <column name="_speed">30</column> <!-- Int -->
+    <column name="_darkvision">0</column> <!-- Int -->
+  </insert>
+</data>
