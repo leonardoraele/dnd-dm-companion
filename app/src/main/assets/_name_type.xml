@@ -1,0 +1,33 @@
+<data>
+
+  <insert table="_name_type">
+    <column name="_id" id="true">nametype_childname</column>
+    <column name="_description_id" translation="ENG">Child names</column>
+    <column name="_description_id" translation="POR">Nomes infantis</column>
+  </insert>
+
+  <insert table="_name_type">
+    <column name="_id" id="true">nametype_malename</column>
+    <column name="_description_id" translation="ENG">Male names</column>
+    <column name="_description_id" translation="POR">Nomes masculinos</column>
+  </insert>
+
+  <insert table="_name_type">
+    <column name="_id" id="true">nametype_femalename</column>
+    <column name="_description_id" translation="ENG">Female names</column>
+    <column name="_description_id" translation="POR">Nomes femininos</column>
+  </insert>
+
+  <insert table="_name_type">
+    <column name="_id" id="true">nametype_familyname</column>
+    <column name="_description_id" translation="ENG">Clan/family names</column>
+    <column name="_description_id" translation="POR">Clãs/Sobrenomes</column>
+  </insert>
+
+  <insert table="_name_type">
+    <column name="_id" id="true">nametype_nickname</column>
+    <column name="_description_id" translation="ENG">Nicknames</column>
+    <column name="_description_id" translation="POR">Apelidos</column>
+  </insert>
+
+</data>

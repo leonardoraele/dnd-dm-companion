@@ -1,0 +1,63 @@
+<data>
+
+  <insert table="_racial_trait">
+    <column name="_sub_race_id" id="true">subrace_varianthuman</column>
+    <column name="_feature_id" id="true">feature_varianthuman_skills</column>
+  </insert>
+
+  <insert table="_racial_trait">
+    <column name="_sub_race_id" id="true">subrace_varianthuman</column>
+    <column name="_feature_id" id="true">feature_varianthuman_feat</column>
+  </insert>
+
+  <insert table="_racial_trait">
+    <column name="_sub_race_id" id="true">subrace_hillsdwarf</column>
+    <column name="_feature_id" id="true">feature_dwarf_dwarvenresilience</column>
+  </insert>
+
+  <insert table="_racial_trait">
+    <column name="_sub_race_id" id="true">subrace_mountaindwarf</column>
+    <column name="_feature_id" id="true">feature_dwarf_dwarvenresilience</column>
+  </insert>
+
+  <insert table="_racial_trait">
+    <column name="_sub_race_id" id="true">subrace_hillsdwarf</column>
+    <column name="_feature_id" id="true">feature_dwarf_dwarvencombattraining</column>
+  </insert>
+
+  <insert table="_racial_trait">
+    <column name="_sub_race_id" id="true">subrace_mountaindwarf</column>
+    <column name="_feature_id" id="true">feature_dwarf_dwarvencombattraining</column>
+  </insert>
+
+  <insert table="_racial_trait">
+    <column name="_sub_race_id" id="true">subrace_hillsdwarf</column>
+    <column name="_feature_id" id="true">feature_dwarf_toolproficiency</column>
+  </insert>
+
+  <insert table="_racial_trait">
+    <column name="_sub_race_id" id="true">subrace_mountaindwarf</column>
+    <column name="_feature_id" id="true">feature_dwarf_toolproficiency</column>
+  </insert>
+
+  <insert table="_racial_trait">
+    <column name="_sub_race_id" id="true">subrace_hillsdwarf</column>
+    <column name="_feature_id" id="true">feature_dwarf_stonecunning</column>
+  </insert>
+
+  <insert table="_racial_trait">
+    <column name="_sub_race_id" id="true">subrace_mountaindwarf</column>
+    <column name="_feature_id" id="true">feature_dwarf_stonecunning</column>
+  </insert>
+
+  <insert table="_racial_trait">
+    <column name="_sub_race_id" id="true">subrace_hillsdwarf</column>
+    <column name="_feature_id" id="true">feature_hillsdwarf_dwarventoughness</column>
+  </insert>
+
+  <insert table="_racial_trait">
+    <column name="_sub_race_id" id="true">subrace_mountaindwarf</column>
+    <column name="_feature_id" id="true">feature_mountaindwarf_dwarvenarmortraining</column>
+  </insert>
+
+</data>

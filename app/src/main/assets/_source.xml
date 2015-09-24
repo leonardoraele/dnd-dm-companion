@@ -1,0 +1,33 @@
+<data>
+
+  <insert table="_source">
+    <column name="_id" id="true">source_playershandbook</column>
+    <column name="_description_id" translation="ENG">Player's Handbook</column>
+    <column name="_description_id" translation="POR">Livro do Jogador</column>
+  </insert>
+
+  <insert table="_source">
+    <column name="_id" id="true">source_dungeonmastersguide</column>
+    <column name="_description_id" translation="ENG">Dungeon Master's Guide</column>
+    <column name="_description_id" translation="POR">Livro do Mestre</column>
+  </insert>
+
+  <insert table="_source">
+    <column name="_id" id="true">source_elementalevilplayerscompanion</column>
+    <column name="_description_id" translation="ENG">Elemental Evil Player's Companion</column>
+    <column name="_description_id" translation="POR">Livro do Jogador do Mal Elemental</column>
+  </insert>
+
+  <insert table="_source">
+    <column name="_id" id="true">source_undearthedarcana</column>
+    <column name="_description_id" translation="ENG">Unearthed Arcana</column>
+    <column name="_description_id" translation="POR">Unearthed Arcana</column>
+  </insert>
+
+  <insert table="_source">
+    <column name="_id" id="true">source_fanmade</column>
+    <column name="_description_id" translation="ENG">Fan-made</column>
+    <column name="_description_id" translation="POR">Feito por Fãs</column>
+  </insert>
+
+</data>

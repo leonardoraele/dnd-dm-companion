@@ -1,0 +1,67 @@
+<data>
+
+    <insert table="_feature">
+      <column name="_id" id="true">feature_varianthuman_skills</column>
+      <column name="_name_id" translation="ENG">Skills</column>
+      <column name="_name_id" translation="POR">Habilidades</column>
+      <column name="_description_id" translation="ENG">You gain proficiency in one skill of your choise.</column>
+      <column name="_description_id" translation="POR">Você ganha proficiência em uma habiliade à sua escolha.</column>
+    </insert>
+
+    <insert table="_feature">
+      <column name="_id" id="true">feature_varianthuman_feat</column>
+      <column name="_name_id" translation="ENG">Feat</column>
+      <column name="_name_id" translation="POR">Talento</column>
+      <column name="_description_id" translation="ENG">You gain one feat of your choise.</column>
+      <column name="_description_id" translation="POR">Você ganha um talento à sua escolha.</column>
+    </insert>
+
+    <insert table="_feature">
+      <column name="_id" id="true">feature_dwarf_dwarvenresilience</column>
+      <column name="_name_id" translation="ENG">Dwarven Resilience</column>
+      <column name="_name_id" translation="POR">Resiliência Anã</column>
+      <column name="_description_id" translation="ENG">You have advantage on saving throws against poison, and you have resistance against poison damage.</column>
+      <column name="_description_id" translation="POR">Você tem vantagem em saving throws contra veneno, e tem resisência contra danos de veneno.</column>
+    </insert>
+
+    <insert table="_feature">
+      <column name="_id" id="true">feature_dwarf_dwarvencombattraining</column>
+      <column name="_name_id" translation="ENG">Dwarven Combat Training</column>
+      <column name="_name_id" translation="POR">Treinamento Anão de Combate</column>
+      <column name="_description_id" translation="ENG">You have proficiency with the battleaxe, handaxe, throwing hammer, and warhammer.</column>
+      <column name="_description_id" translation="POR">Você tem proficiência com machados de batalha, machadinhas, martelos de arremesso e martelos de guerra.</column>
+    </insert>
+
+    <insert table="_feature">
+      <column name="_id" id="true">feature_dwarf_toolproficiency</column>
+      <column name="_name_id" translation="ENG">Tool Proficience</column>
+      <column name="_name_id" translation="POR">Proficiência com Ferramenta</column>
+      <column name="_description_id" translation="ENG">You gain proficiency with the artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</column>
+      <column name="_description_id" translation="POR">Você ganha proficiência com uma ferramenta de artesão de sua escolha entre: ferramenta de ferreiro, suprimentos de cervejeiro ou ferramentas de pedreiro.</column>
+    </insert>
+
+    <insert table="_feature">
+      <column name="_id" id="true">feature_dwarf_stonecunning</column>
+      <column name="_name_id" translation="ENG">Stonecunning</column>
+      <column name="_name_id" translation="POR">Ligação com Pedras</column>
+      <column name="_description_id" translation="ENG">Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</column>
+      <column name="_description_id" translation="POR">Sempre que você fizer um teste de Inteligência (História) relacionado à construções de pedra, você é considerado proficiente na habilidade História e adiciona o dobro do seu bônus de proficiência ao teste, ao invés do seu bônus de proficiência normal.</column>
+    </insert>
+
+    <insert table="_feature">
+      <column name="_id" id="true">feature_hillsdwarf_dwarventoughness</column>
+      <column name="_name_id" translation="ENG">Dwarven Toughness</column>
+      <column name="_name_id" translation="POR">Dureza Anã</column>
+      <column name="_description_id" translation="ENG">Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</column>
+      <column name="_description_id" translation="POR">Seu HP máximo aumenta em 1, e aumenta em mais 1 para cada vez que você ganhar um nível.</column>
+    </insert>
+
+    <insert table="_feature">
+      <column name="_id" id="true">feature_mountaindwarf_dwarvenarmortraining</column>
+      <column name="_name_id" translation="ENG">Dwarven Armor Training</column>
+      <column name="_name_id" translation="POR">Treinamento Anão de Armaduras</column>
+      <column name="_description_id" translation="ENG">You have proficiency with light and medium armor.</column>
+      <column name="_description_id" translation="POR">Você tem proficiência com armaduras leves e médias.</column>
+    </insert>
+
+</data>

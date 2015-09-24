@@ -46,27 +46,25 @@ public class RaceDetailsFragment extends Fragment {
                     "tr_languages._id = _sub_race._languages_id AND tr_languages._language = ?";
 
     private static final String GET_RACIAL_TRAITS_SQL =
-            "SELECT _racial_trait._id, tr_name._text, tr_desc._text " +
-            "FROM _racial_trait, _translation tr_name, _translation tr_desc " +
+            "SELECT tr_name._text, tr_desc._text " +
+            "FROM _feature, _racial_trait, _translation tr_name, _translation tr_desc " +
             "WHERE _racial_trait._sub_race_id = ? AND " +
-                    "tr_name._id = _racial_trait._name_id AND tr_name._language = ? AND " +
-                    "tr_desc._id = _racial_trait._description_id AND tr_desc._language = ?";
+                    "_feature._id = _racial_trait._feature_id AND " +
+                    "tr_name._id = _feature._name_id AND tr_name._language = ? AND " +
+                    "tr_desc._id = _feature._description_id AND tr_desc._language = ?";
 
     private static final String GET_NAME_SAMPLES_SQL =
-            "SELECT tr_name._text, tr_type._text " +
-            "FROM _sample_name, _translation tr_name, _name_type, _translation tr_type " +
+            "SELECT _sample_name._name, tr_type._text " +
+            "FROM _sample_name, _name_type, _translation tr_type " +
             "WHERE _sample_name._race_id = ? AND " +
-                    "tr_name._id = _sample_name._name_id AND tr_name._language = ? AND " +
                     "_name_type._id = _sample_name._type_id AND " +
                     "tr_type._id = _name_type._description_id AND tr_type._language = ?";
 
     private static final class TraitInfo {
-        public int id;
         public String name;
         public String description;
 
-        public TraitInfo(int id, String name, String description) {
-            this.id = id;
+        public TraitInfo(String name, String description) {
             this.name = name;
             this.description = description;
         }
@@ -133,14 +131,16 @@ public class RaceDetailsFragment extends Fragment {
             Log.info("Found " + traitsDataCursor.getCount() + " results.");
             mTraits = new ArrayList<>(traitsDataCursor.getCount());
             while (traitsDataCursor.moveToNext()) {
-                int traitId = traitsDataCursor.getInt(0);
-                String traitName = traitsDataCursor.getString(1);
-                String traitDescription = traitsDataCursor.getString(2);
-                mTraits.add(new TraitInfo(traitId, traitName, traitDescription));
+                String traitName = traitsDataCursor.getString(0);
+                String traitDescription = traitsDataCursor.getString(1);
+                mTraits.add(new TraitInfo(traitName, traitDescription));
             }
 
+            Utils.of(getActivity()).logTable("_name_type", db);
+            Utils.of(getActivity()).logTable("_sample_name", db);
+
             Log.info("Querying sample names...");
-            Cursor sampleNamesCursor = db.rawQuery(GET_NAME_SAMPLES_SQL, new String[]{""+mSuperRaceId, lang, lang});
+            Cursor sampleNamesCursor = db.rawQuery(GET_NAME_SAMPLES_SQL, new String[]{""+mSuperRaceId, lang});
 
             Log.info("Found " + sampleNamesCursor.getCount() + " results.");
             mSampleNames = new HashMap<>(3);

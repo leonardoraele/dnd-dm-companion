@@ -17,7 +17,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.StringWriter;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
 
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -32,7 +31,17 @@ public class DbHelper extends SQLiteOpenHelper {
 
     private static final String SETUP_SCRIPT_FILENAME = "database_setup.sql";
     private static final String DATABASE_FILENAME = "database.db";
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 13;
+    private static final String[] XML_DATA_FILES = new String[] {
+            "_size.xml",
+            "_super_race.xml",
+            "_sub_race.xml",
+            "_source.xml",
+            "_feature.xml",
+            "_racial_trait.xml",
+            "_name_type.xml",
+            "_sample_name.xml",
+    };
 
     private final Context mContext;
 
@@ -87,12 +96,16 @@ public class DbHelper extends SQLiteOpenHelper {
     }
 
     private void fillDatabase(SQLiteDatabase db) {
+        Log.begin();
         HashMap<String, Integer> idTable = new HashMap<>();
         int id = 1;
 
-        id = readXmlData(db, "_size.xml", idTable, id);
-        id = readXmlData(db, "_super_race.xml", idTable, id);
-        readXmlData(db, "_sub_race.xml", idTable, id);
+        for (int i = 0; i < XML_DATA_FILES.length; i++) {
+            Log.info("Inserting data to " + XML_DATA_FILES[i] + " table...");
+            id = readXmlData(db, XML_DATA_FILES[i], idTable, id);
+        }
+
+        Log.end();
     }
 
     private int readXmlData(SQLiteDatabase db, String assetName, Map<String, Integer> idMap, int nextId) {
@@ -165,6 +178,7 @@ public class DbHelper extends SQLiteOpenHelper {
             db.insert(tableName, null, values);
         }
 
+        db.setTransactionSuccessful();
         db.endTransaction();
 
         return nextId;

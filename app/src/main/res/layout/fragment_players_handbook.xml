@@ -21,6 +21,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:drawableTop="@drawable/abc_btn_check_to_on_mtrl_015"
+                android:padding="8dp"
                 android:text="@string/phb_menu_races"/>
 
             <Button

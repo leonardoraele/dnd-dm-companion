@@ -1,39 +1,421 @@
 <data>
+
   <insert table="_sub_race">
-    <column name="_id" id="true">subrace_varianthuman</column> <!-- Id -->
-    <column name="_super_race_id" id="true">superrace_human</column> <!-- Id -->
-    <column name="_size_id" id="true">size_medium</column> <!-- Id -->
+    <column name="_id" id="true">subrace_defaulthuman</column>
+    <column name="_super_race_id" id="true">superrace_human</column>
+    <column name="_size_id" id="true">size_medium</column>
+    <column name="_source_id" id="true">source_playershandbook</column>
 
-    <column name="_name_id" translation="ENG">Human (Variant)</column> <!-- Translateable Text -->
-    <column name="_adult_age_id" translation="ENG">18-20</column> <!-- Translateable Text -->
-    <column name="_max_age_id" translation="ENG">80-90</column> <!-- Translateable Text -->
-    <column name="_alignment_id" translation="ENG">Any</column> <!-- Translateable Text -->
-    <column name="_ability_id" translation="ENG">+1 on two abilities of your choice</column> <!-- Translateable Text -->
-    <column name="_languages_id" translation="ENG">Common and one more at choise</column> <!-- Translateable Text -->
+    <column name="_name_id" translation="ENG">Human (Default)</column>
+    <column name="_name_id" translation="POR">Humano (Padrão)</column>
+    <column name="_adult_age_id" translation="ENG">18-20</column>
+    <column name="_adult_age_id" translation="POR">18-20</column>
+    <column name="_max_age_id" translation="ENG">80-90</column>
+    <column name="_max_age_id" translation="POR">80-90</column>
+    <column name="_alignment_id" translation="ENG">Any</column>
+    <column name="_alignment_id" translation="POR">Qualquer um</column>
+    <column name="_ability_id" translation="ENG">+1 on each ability</column>
+    <column name="_ability_id" translation="POR">+1 em cada atributo</column>
+    <column name="_languages_id" translation="ENG">Common and one more of your choise</column>
+    <column name="_languages_id" translation="ENG">Comum e mais uma à sua escolha</column>
 
-    <column name="_height">5-6 ft.</column> <!-- String -->
-    <column name="_weight">120-240 lb.</column> <!-- String -->
+    <column name="_height">5-6 ft.</column>
+    <column name="_weight">120-240 lb.</column>
 
-    <column name="_speed">30</column> <!-- Int -->
-    <column name="_darkvision">0</column> <!-- Int -->
+    <column name="_speed">30</column>
+    <column name="_darkvision">0</column>
   </insert>
 
   <insert table="_sub_race">
-    <column name="_id" id="true">subrace_defaulthuman</column> <!-- Id -->
-    <column name="_super_race_id" id="true">superrace_human</column> <!-- Id -->
-    <column name="_size_id" id="true">size_medium</column> <!-- Id -->
+    <column name="_id" id="true">subrace_varianthuman</column>
+    <column name="_super_race_id" id="true">superrace_human</column>
+    <column name="_size_id" id="true">size_medium</column>
+    <column name="_source_id" id="true">source_playershandbook</column>
 
-    <column name="_name_id" translation="ENG">Human (Default)</column> <!-- Translateable Text -->
-    <column name="_adult_age_id" translation="ENG">18-20</column> <!-- Translateable Text -->
-    <column name="_max_age_id" translation="ENG">80-90</column> <!-- Translateable Text -->
-    <column name="_alignment_id" translation="ENG">Any</column> <!-- Translateable Text -->
-    <column name="_ability_id" translation="ENG">+1 on each ability</column> <!-- Translateable Text -->
-    <column name="_languages_id" translation="ENG">Common and one more at choise</column> <!-- Translateable Text -->
+    <column name="_name_id" translation="ENG">Human (Variant)</column>
+    <column name="_name_id" translation="POR">Humano (Variante)</column>
+    <column name="_adult_age_id" translation="ENG">18-20</column>
+    <column name="_adult_age_id" translation="POR">18-20</column>
+    <column name="_max_age_id" translation="ENG">80-90</column>
+    <column name="_max_age_id" translation="POR">80-90</column>
+    <column name="_alignment_id" translation="ENG">Any</column>
+    <column name="_alignment_id" translation="POR">Qualquer um</column>
+    <column name="_ability_id" translation="ENG">+1 on two abilities of your choice</column>
+    <column name="_ability_id" translation="POR">+1 em dois atributos à sua escolha</column>
+    <column name="_languages_id" translation="ENG">Common and one more of your choise</column>
+    <column name="_languages_id" translation="ENG">Comum e mais uma à sua escolha</column>
 
-    <column name="_height">5-6 ft.</column> <!-- String -->
-    <column name="_weight">120-240 lb.</column> <!-- String -->
+    <column name="_height">5-6 ft.</column>
+    <column name="_weight">120-240 lb.</column>
 
-    <column name="_speed">30</column> <!-- Int -->
-    <column name="_darkvision">0</column> <!-- Int -->
+    <column name="_speed">30</column>
+    <column name="_darkvision">0</column>
   </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_hillsdwarf</column>
+    <column name="_super_race_id" id="true">superrace_dwarf</column>
+    <column name="_size_id" id="true">size_medium</column>
+    <column name="_source_id" id="true">source_playershandbook</column>
+
+    <column name="_name_id" translation="ENG">Hills Dwarf</column>
+    <column name="_name_id" translation="POR">Anão da Colina</column>
+    <column name="_adult_age_id" translation="ENG">18-20 (50)</column>
+    <column name="_adult_age_id" translation="POR">18-20 (50)</column>
+    <column name="_max_age_id" translation="ENG">400-500</column>
+    <column name="_max_age_id" translation="POR">400-500</column>
+    <column name="_alignment_id" translation="ENG">LG, LN, NG</column>
+    <column name="_alignment_id" translation="POR">LB, LN, NB</column>
+    <column name="_ability_id" translation="ENG">Con+2; Wis+1</column>
+    <column name="_ability_id" translation="POR">Con+2; Sab+1</column>
+    <column name="_languages_id" translation="ENG">Common and dwarvish</column>
+    <column name="_languages_id" translation="POR">Comum e anão</column>
+
+    <column name="_height">4-5 ft.</column>
+    <column name="_weight">150 lb.</column>
+
+    <column name="_speed">25 ft.</column>
+    <column name="_darkvision">60 ft.</column>
+  </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_mountaindwarf</column>
+    <column name="_super_race_id" id="true">superrace_dwarf</column>
+    <column name="_size_id" id="true">size_medium</column>
+    <column name="_source_id" id="true">source_playershandbook</column>
+
+    <column name="_name_id" translation="ENG">Mountain Dwarf</column>
+    <column name="_name_id" translation="POR">Anão da Montanha</column>
+    <column name="_adult_age_id" translation="ENG">18-20 (50)</column>
+    <column name="_adult_age_id" translation="POR">18-20 (50)</column>
+    <column name="_max_age_id" translation="ENG">400-500</column>
+    <column name="_max_age_id" translation="POR">400-500</column>
+    <column name="_alignment_id" translation="ENG">LG, LN, NG</column>
+    <column name="_alignment_id" translation="POR">LB, LN, NB</column>
+    <column name="_ability_id" translation="ENG">Con+2; Str+2</column>
+    <column name="_ability_id" translation="POR">Con+2; For+2</column>
+    <column name="_languages_id" translation="ENG">Common and dwarvish</column>
+    <column name="_languages_id" translation="POR">Comum e anão</column>
+
+    <column name="_height">4-5 ft.</column>
+    <column name="_weight">150 lb.</column>
+
+    <column name="_speed">25 ft.</column>
+    <column name="_darkvision">60 ft.</column>
+  </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_highelf</column>
+    <column name="_super_race_id" id="true">superrace_elf</column>
+    <column name="_size_id" id="true">size_medium</column>
+    <column name="_source_id" id="true">source_playershandbook</column>
+
+    <column name="_name_id" translation="ENG">High Elf</column>
+    <column name="_name_id" translation="POR">Alto Elfo</column>
+    <column name="_adult_age_id" translation="ENG">18-20 (100)</column>
+    <column name="_adult_age_id" translation="POR">18-20 (100)</column>
+    <column name="_max_age_id" translation="ENG">700-750</column>
+    <column name="_max_age_id" translation="POR">700-750</column>
+    <column name="_alignment_id" translation="ENG">CG, CN, NG</column>
+    <column name="_alignment_id" translation="POR">CB, CN, NB</column>
+    <column name="_ability_id" translation="ENG">Dex+2; Int+1</column>
+    <column name="_ability_id" translation="POR">Des+2; Int+1</column>
+    <column name="_languages_id" translation="ENG">Common, elvish and one more</column>
+    <column name="_languages_id" translation="POR">Comum, élfico e mais uma</column>
+
+    <column name="_height">5-6 ft.</column>
+    <column name="_weight">100-150 lb.</column>
+
+    <column name="_speed">30 ft.</column>
+    <column name="_darkvision">60 ft.</column>
+  </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_woodelf</column>
+    <column name="_super_race_id" id="true">superrace_elf</column>
+    <column name="_size_id" id="true">size_medium</column>
+    <column name="_source_id" id="true">source_playershandbook</column>
+
+    <column name="_name_id" translation="ENG">Wood Elf</column>
+    <column name="_name_id" translation="POR">Elfo Florestal</column>
+    <column name="_adult_age_id" translation="ENG">18-20 (100)</column>
+    <column name="_adult_age_id" translation="POR">18-20 (100)</column>
+    <column name="_max_age_id" translation="ENG">700-750</column>
+    <column name="_max_age_id" translation="POR">700-750</column>
+    <column name="_alignment_id" translation="ENG">CG, CN, NG</column>
+    <column name="_alignment_id" translation="POR">CB, CN, NB</column>
+    <column name="_ability_id" translation="ENG">Dex+2; Wis+1</column>
+    <column name="_ability_id" translation="POR">Des+2; Sab+1</column>
+    <column name="_languages_id" translation="ENG">Common and elvish</column>
+    <column name="_languages_id" translation="POR">Comum e élfico</column>
+
+    <column name="_height">5-6 ft.</column>
+    <column name="_weight">100-150 lb.</column>
+
+    <column name="_speed">35 ft.</column>
+    <column name="_darkvision">60 ft.</column>
+  </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_drow</column>
+    <column name="_super_race_id" id="true">superrace_elf</column>
+    <column name="_size_id" id="true">size_medium</column>
+    <column name="_source_id" id="true">source_playershandbook</column>
+
+    <column name="_name_id" translation="ENG">Drow</column>
+    <column name="_name_id" translation="POR">Drow (Elfo Negro)</column>
+    <column name="_adult_age_id" translation="ENG">18-20 (100)</column>
+    <column name="_adult_age_id" translation="POR">18-20 (100)</column>
+    <column name="_max_age_id" translation="ENG">700-750</column>
+    <column name="_max_age_id" translation="POR">700-750</column>
+    <column name="_alignment_id" translation="ENG">CE, CN, NE</column>
+    <column name="_alignment_id" translation="POR">CM, CN, NM</column>
+    <column name="_ability_id" translation="ENG">Dex+2; Cha+1</column>
+    <column name="_ability_id" translation="POR">Des+2; Car+1</column>
+    <column name="_languages_id" translation="ENG">Common and elvish</column>
+    <column name="_languages_id" translation="POR">Comum e élfico</column>
+
+    <column name="_height">5-6 ft.</column>
+    <column name="_weight">100-150 lb.</column>
+
+    <column name="_speed">30 ft.</column>
+    <column name="_darkvision">60 ft.</column>
+  </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_halflinglightfoot</column>
+    <column name="_super_race_id" id="true">superrace_halfling</column>
+    <column name="_size_id" id="true">size_small</column>
+    <column name="_source_id" id="true">source_playershandbook</column>
+
+    <column name="_name_id" translation="ENG">Halfling Lightfoot</column>
+    <column name="_name_id" translation="POR">Halfling Pés-leves</column>
+    <column name="_adult_age_id" translation="ENG">20</column>
+    <column name="_adult_age_id" translation="POR">20</column>
+    <column name="_max_age_id" translation="ENG">150</column>
+    <column name="_max_age_id" translation="POR">150</column>
+    <column name="_alignment_id" translation="ENG">LG</column>
+    <column name="_alignment_id" translation="POR">LB</column>
+    <column name="_ability_id" translation="ENG">Dex+2; Cha+1</column>
+    <column name="_ability_id" translation="POR">Dex+2; Car+1</column>
+    <column name="_languages_id" translation="ENG">Common and halfling</column>
+    <column name="_languages_id" translation="POR">Comum e halfling</column>
+
+    <column name="_height">3 ft.</column>
+    <column name="_weight">40-50 lb.</column>
+
+    <column name="_speed">25 ft.</column>
+    <column name="_darkvision">0 ft.</column>
+  </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_halflingstout</column>
+    <column name="_super_race_id" id="true">superrace_halfling</column>
+    <column name="_size_id" id="true">size_small</column>
+    <column name="_source_id" id="true">source_playershandbook</column>
+
+    <column name="_name_id" translation="ENG">Halfling Stout</column>
+    <column name="_name_id" translation="POR">Halfling Robusto</column>
+    <column name="_adult_age_id" translation="ENG">20</column>
+    <column name="_adult_age_id" translation="POR">20</column>
+    <column name="_max_age_id" translation="ENG">150</column>
+    <column name="_max_age_id" translation="POR">150</column>
+    <column name="_alignment_id" translation="ENG">LG</column>
+    <column name="_alignment_id" translation="POR">LB</column>
+    <column name="_ability_id" translation="ENG">Dex+2; Con+1</column>
+    <column name="_ability_id" translation="POR">Dex+2; Con+1</column>
+    <column name="_languages_id" translation="ENG">Common and halfling</column>
+    <column name="_languages_id" translation="POR">Comum e halfling</column>
+
+    <column name="_height">3 ft.</column>
+    <column name="_weight">40-50 lb.</column>
+
+    <column name="_speed">25 ft.</column>
+    <column name="_darkvision">0 ft.</column>
+  </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_dragonborn</column>
+    <column name="_super_race_id" id="true">superrace_dragonborn</column>
+    <column name="_size_id" id="true">size_medium</column>
+    <column name="_source_id" id="true">source_playershandbook</column>
+
+    <column name="_name_id" translation="ENG">Dragonborn</column>
+    <column name="_name_id" translation="POR">Draconato</column>
+    <column name="_adult_age_id" translation="ENG">15</column>
+    <column name="_adult_age_id" translation="POR">15</column>
+    <column name="_max_age_id" translation="ENG">80</column>
+    <column name="_max_age_id" translation="POR">80</column>
+    <column name="_alignment_id" translation="ENG">LG, CE</column>
+    <column name="_alignment_id" translation="POR">LB, CM</column>
+    <column name="_ability_id" translation="ENG">Str+2; Cha+1</column>
+    <column name="_ability_id" translation="POR">For+2; Car+1</column>
+    <column name="_languages_id" translation="ENG">Common and draconic</column>
+    <column name="_languages_id" translation="POR">Comum e draconiano</column>
+
+    <column name="_height">6 ft.</column>
+    <column name="_weight">250 lb.</column>
+
+    <column name="_speed">30 ft.</column>
+    <column name="_darkvision">0 ft.</column>
+  </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_forestgnome</column>
+    <column name="_super_race_id" id="true">superrace_gnome</column>
+    <column name="_size_id" id="true">size_small</column>
+    <column name="_source_id" id="true">source_playershandbook</column>
+
+    <column name="_name_id" translation="ENG">Forest Gnome</column>
+    <column name="_name_id" translation="POR">Gnomo da Floresta</column>
+    <column name="_adult_age_id" translation="ENG">40</column>
+    <column name="_adult_age_id" translation="POR">40</column>
+    <column name="_max_age_id" translation="ENG">350-400</column>
+    <column name="_max_age_id" translation="POR">350-400</column>
+    <column name="_alignment_id" translation="ENG">LG, NG, CG</column>
+    <column name="_alignment_id" translation="POR">LB, NB, CB</column>
+    <column name="_ability_id" translation="ENG">Int+2; Dex+1</column>
+    <column name="_ability_id" translation="POR">Int+2; Des+1</column>
+    <column name="_languages_id" translation="ENG">Common and gnomish</column>
+    <column name="_languages_id" translation="POR">Comum e gnômico</column>
+
+    <column name="_height">3-4 ft.</column>
+    <column name="_weight">40 lb.</column>
+
+    <column name="_speed">25 ft.</column>
+    <column name="_darkvision">60 ft.</column>
+  </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_rockgnome</column>
+    <column name="_super_race_id" id="true">superrace_gnome</column>
+    <column name="_size_id" id="true">size_small</column>
+    <column name="_source_id" id="true">source_playershandbook</column>
+
+    <column name="_name_id" translation="ENG">Rock Gnome</column>
+    <column name="_name_id" translation="POR">Gnomo da Pedra</column>
+    <column name="_adult_age_id" translation="ENG">40</column>
+    <column name="_adult_age_id" translation="POR">40</column>
+    <column name="_max_age_id" translation="ENG">350-400</column>
+    <column name="_max_age_id" translation="POR">350-400</column>
+    <column name="_alignment_id" translation="ENG">LG, NG, CG</column>
+    <column name="_alignment_id" translation="POR">LB, NB, CB</column>
+    <column name="_ability_id" translation="ENG">Int+2; Con+1</column>
+    <column name="_ability_id" translation="POR">Int+2; Con+1</column>
+    <column name="_languages_id" translation="ENG">Common and gnomish</column>
+    <column name="_languages_id" translation="POR">Comum e gnômico</column>
+
+    <column name="_height">3-4 ft.</column>
+    <column name="_weight">40 lb.</column>
+
+    <column name="_speed">25 ft.</column>
+    <column name="_darkvision">60 ft.</column>
+  </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_halfelf</column>
+    <column name="_super_race_id" id="true">superrace_halfelf</column>
+    <column name="_size_id" id="true">size_medium</column>
+    <column name="_source_id" id="true">source_playershandbook</column>
+
+    <column name="_name_id" translation="ENG">Half-Elf</column>
+    <column name="_name_id" translation="POR">Meio-Elfo</column>
+    <column name="_adult_age_id" translation="ENG">20</column>
+    <column name="_adult_age_id" translation="POR">20</column>
+    <column name="_max_age_id" translation="ENG">180</column>
+    <column name="_max_age_id" translation="POR">180</column>
+    <column name="_alignment_id" translation="ENG">CG, CN, CE</column>
+    <column name="_alignment_id" translation="POR">CB, CN, CM</column>
+    <column name="_ability_id" translation="ENG">Cha+2; and +1 on two other abilities of your choise</column>
+    <column name="_ability_id" translation="POR">Car+2; e +1 em dois outros atributos à sua escolha</column>
+    <column name="_languages_id" translation="ENG">Common, elvish and one more of your choise</column>
+    <column name="_languages_id" translation="POR">Comum, élfico e mais uma à sua escolha</column>
+
+    <column name="_height">5-6 ft.</column>
+    <column name="_weight">100-240 ft.</column>
+
+    <column name="_speed">30 ft.</column>
+    <column name="_darkvision">60 ft.</column>
+  </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_halforc</column>
+    <column name="_super_race_id" id="true">superrace_halforc</column>
+    <column name="_size_id" id="true">size_medium</column>
+    <column name="_source_id" id="true">source_playershandbook</column>
+
+    <column name="_name_id" translation="ENG">Half-Orc</column>
+    <column name="_name_id" translation="POR">Meio-Orc</column>
+    <column name="_adult_age_id" translation="ENG">14</column>
+    <column name="_adult_age_id" translation="POR">14</column>
+    <column name="_max_age_id" translation="ENG">75</column>
+    <column name="_max_age_id" translation="POR">75</column>
+    <column name="_alignment_id" translation="ENG">CN, CE</column>
+    <column name="_alignment_id" translation="POR">CN, CM</column>
+    <column name="_ability_id" translation="ENG">Str+2; Con+1</column>
+    <column name="_ability_id" translation="POR">For+2; Con+1</column>
+    <column name="_languages_id" translation="ENG">Common and orcish</column>
+    <column name="_languages_id" translation="POR">Comum e órquico</column>
+
+    <column name="_height">6-7 ft.</column>
+    <column name="_weight">180-240 ft.</column>
+
+    <column name="_speed">30 ft.</column>
+    <column name="_darkvision">60 ft.</column>
+  </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_tielflinf</column>
+    <column name="_super_race_id" id="true">superrace_tielfling</column>
+    <column name="_size_id" id="true">size_medium</column>
+    <column name="_source_id" id="true">source_playershandbook</column>
+
+    <column name="_name_id" translation="ENG">Tielfling</column>
+    <column name="_name_id" translation="POR">Tielfling</column>
+    <column name="_adult_age_id" translation="ENG">20</column>
+    <column name="_adult_age_id" translation="POR">20</column>
+    <column name="_max_age_id" translation="ENG">110</column>
+    <column name="_max_age_id" translation="POR">110</column>
+    <column name="_alignment_id" translation="ENG">CE</column>
+    <column name="_alignment_id" translation="POR">CM</column>
+    <column name="_ability_id" translation="ENG">Cha+2; Int+1</column>
+    <column name="_ability_id" translation="POR">Car+2; Int+1</column>
+    <column name="_languages_id" translation="ENG">Common and infernal</column>
+    <column name="_languages_id" translation="POR">Comum e infernal</column>
+
+    <column name="_height">5-6 ft.</column>
+    <column name="_weight">120-240 ft.</column>
+
+    <column name="_speed">30 ft.</column>
+    <column name="_darkvision">60 ft.</column>
+  </insert>
+
+  <!-- TEMPLATE:
+
+  <insert table="_sub_race">
+    <column name="_id" id="true"></column>
+    <column name="_super_race_id" id="true"></column>
+    <column name="_size_id" id="true"></column>
+
+    <column name="_name_id" translation="ENG"></column>
+    <column name="_name_id" translation="POR"></column>
+    <column name="_adult_age_id" translation="ENG"></column>
+    <column name="_adult_age_id" translation="POR"></column>
+    <column name="_max_age_id" translation="ENG"></column>
+    <column name="_max_age_id" translation="POR"></column>
+    <column name="_alignment_id" translation="ENG"></column>
+    <column name="_alignment_id" translation="POR"></column>
+    <column name="_ability_id" translation="ENG"></column>
+    <column name="_ability_id" translation="POR"></column>
+    <column name="_languages_id" translation="ENG"></column>
+    <column name="_languages_id" translation="POR"></column>
+
+    <column name="_height"></column>
+    <column name="_weight"></column>
+
+    <column name="_speed"></column>
+    <column name="_darkvision"></column>
+  </insert>
+
+  -->
 </data>

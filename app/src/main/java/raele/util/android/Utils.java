@@ -2,10 +2,14 @@ package raele.util.android;
 
 import android.app.Application;
 import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.widget.Toast;
 
 import java.util.HashMap;
 import java.util.Map;
+
+import raele.util.android.log.Log;
 
 /**
  * Created by lpr on 21/09/15.
@@ -47,5 +51,19 @@ public class Utils {
 
     public void notImplemented() {
         showShortToast("Not implemented yet.");
+    }
+
+    public void logTable(String sample_name, SQLiteDatabase db) {
+        Log.begin();
+        Cursor cursor = db.rawQuery("SELECT * FROM " + sample_name, null);
+
+        for (int i = 0; cursor.moveToNext(); i++) {
+            Log.begin();
+            for (int j = 0; j < cursor.getColumnCount(); j++) {
+                Log.info("Row " + i + " column " + j + " (" + cursor.getColumnName(j) + ": " + cursor.getString(j));
+            }
+            Log.end();
+        }
+        Log.end();
     }
 }
