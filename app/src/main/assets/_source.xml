@@ -1,6 +1,12 @@
 <data>
 
   <insert table="_source">
+    <column name="_id" id="true">source_basic_rules</column>
+    <column name="_description_id" translation="ENG">D&D Basic Rules</column>
+    <column name="_description_id" translation="POR">D&D Regras Básicas</column>
+  </insert>
+
+  <insert table="_source">
     <column name="_id" id="true">source_playershandbook</column>
     <column name="_description_id" translation="ENG">Player's Handbook</column>
     <column name="_description_id" translation="POR">Livro do Jogador</column>
@@ -15,7 +21,7 @@
   <insert table="_source">
     <column name="_id" id="true">source_elementalevilplayerscompanion</column>
     <column name="_description_id" translation="ENG">Elemental Evil Player's Companion</column>
-    <column name="_description_id" translation="POR">Livro do Jogador do Mal Elemental</column>
+    <column name="_description_id" translation="POR">Suplemento de Aventura Mal Elemental</column>
   </insert>
 
   <insert table="_source">

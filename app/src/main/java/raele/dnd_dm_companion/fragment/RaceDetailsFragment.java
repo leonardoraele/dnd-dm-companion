@@ -1,5 +1,6 @@
 package raele.dnd_dm_companion.fragment;
 
+import android.app.AlertDialog;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -136,9 +137,6 @@ public class RaceDetailsFragment extends Fragment {
                 mTraits.add(new TraitInfo(traitName, traitDescription));
             }
 
-            Utils.of(getActivity()).logTable("_name_type", db);
-            Utils.of(getActivity()).logTable("_sample_name", db);
-
             Log.info("Querying sample names...");
             Cursor sampleNamesCursor = db.rawQuery(GET_NAME_SAMPLES_SQL, new String[]{""+mSuperRaceId, lang});
 
@@ -186,9 +184,16 @@ public class RaceDetailsFragment extends Fragment {
         if (mDarkvision == 0) {
             darkvision = getString(R.string.phb_races_details_darkvision_no);
         } else {
-            darkvision = String.format(getString(R.string.phb_races_details_darkvision_yes),""+mDarkvision);
+            darkvision = String.format(getString(R.string.phb_races_details_darkvision_yes), "" + mDarkvision);
         }
-        TextView.class.cast(view.findViewById(R.id.phb_races_details_darkvision)).setText(darkvision);
+        TextView darkvisionView = TextView.class.cast(view.findViewById(R.id.phb_races_details_darkvision));
+        darkvisionView.setText(darkvision);
+        darkvisionView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onDarkvisionClick();
+            }
+        });
 
         Log.info("Inflating trait views...");
         ViewGroup traits = (ViewGroup) view.findViewById(R.id.phb_races_details_other);
@@ -198,7 +203,7 @@ public class RaceDetailsFragment extends Fragment {
             traitView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Utils.of(getActivity()).showLongToast(trait.description);
+                    onTraitClick(trait);
                 }
             });
             traits.addView(traitView);
@@ -226,5 +231,18 @@ public class RaceDetailsFragment extends Fragment {
         Log.info("Everything ok.");
         Log.end();
         return view;
+    }
+
+    private void onDarkvisionClick() {
+        String title = getString(R.string.phb_races_details_darkvision);
+        String description = String.format(
+                getString(R.string.phb_races_details_darkvision_description),
+                "" + mDarkvision
+        );
+        Utils.of(getActivity()).showInfoDialog(title, description);
+    }
+
+    private void onTraitClick(TraitInfo trait) {
+        Utils.of(getActivity()).showInfoDialog(trait.name, trait.description);
     }
 }

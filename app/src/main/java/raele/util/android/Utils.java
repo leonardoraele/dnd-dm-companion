@@ -1,5 +1,6 @@
 package raele.util.android;
 
+import android.app.AlertDialog;
 import android.app.Application;
 import android.content.Context;
 import android.database.Cursor;
@@ -65,5 +66,13 @@ public class Utils {
             Log.end();
         }
         Log.end();
+    }
+
+    public void showInfoDialog(String title, String description) {
+        new AlertDialog.Builder(mContext)
+                .setTitle(title)
+                .setMessage(description)
+                .create()
+                .show();
     }
 }

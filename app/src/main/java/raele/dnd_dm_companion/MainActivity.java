@@ -6,6 +6,7 @@ import android.support.v4.app.FragmentManager;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 
+import raele.dnd_dm_companion.fragment.AbilityCalculatorFragment;
 import raele.dnd_dm_companion.fragment.MainFragment;
 import raele.dnd_dm_companion.fragment.PlayersHandbookFragment;
 import raele.util.android.log.Log;
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity
     public static enum NavigationDrawerItem {
         Home(R.string.navitem_home, MainFragment.class),
         PlayersHandbook(R.string.navitem_players_handbook, PlayersHandbookFragment.class),
+        AbilityCalculator(R.string.navitem_stat_calculator, AbilityCalculatorFragment.class),
         ;
         private final int mDescriptionId;
         private final Class<? extends Fragment> mFragmentClass;
@@ -46,6 +48,7 @@ public class MainActivity extends AppCompatActivity
     public static final NavigationDrawerItem[] sNavItems = new NavigationDrawerItem[] {
 //            NavigationDrawerItem.Home,
             NavigationDrawerItem.PlayersHandbook,
+            NavigationDrawerItem.AbilityCalculator,
     };
 
     /**

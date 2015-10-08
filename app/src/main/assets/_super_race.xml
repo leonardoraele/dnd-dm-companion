@@ -1,47 +1,62 @@
 <data>
   <insert table="_super_race">
     <column name="_id" id="true">superrace_human</column>
+    <column name="_source_id" id="true">source_basic_rules</column>
     <column name="_name_id" translation="ENG">Human</column>
     <column name="_name_id" translation="POR">Humano</column>
   </insert>
   <insert table="_super_race">
     <column name="_id" id="true">superrace_dwarf</column>
+    <column name="_source_id" id="true">source_basic_rules</column>
     <column name="_name_id" translation="ENG">Dwarf</column>
     <column name="_name_id" translation="POR">Anão</column>
   </insert>
   <insert table="_super_race">
     <column name="_id" id="true">superrace_elf</column>
+    <column name="_source_id" id="true">source_basic_rules</column>
     <column name="_name_id" translation="ENG">Elf</column>
     <column name="_name_id" translation="POR">Elfo</column>
   </insert>
   <insert table="_super_race">
     <column name="_id" id="true">superrace_halfling</column>
+    <column name="_source_id" id="true">source_basic_rules</column>
     <column name="_name_id" translation="ENG">Halfling</column>
     <column name="_name_id" translation="POR">Halfling</column>
   </insert>
   <insert table="_super_race">
     <column name="_id" id="true">superrace_dragonborn</column>
+    <column name="_source_id" id="true">source_playershandbook</column>
     <column name="_name_id" translation="ENG">Dragonborn</column>
     <column name="_name_id" translation="POR">Draconato</column>
   </insert>
   <insert table="_super_race">
     <column name="_id" id="true">superrace_gnome</column>
+    <column name="_source_id" id="true">source_playershandbook</column>
     <column name="_name_id" translation="ENG">Gnome</column>
     <column name="_name_id" translation="POR">Gnomo</column>
   </insert>
   <insert table="_super_race">
     <column name="_id" id="true">superrace_halfelf</column>
+    <column name="_source_id" id="true">source_playershandbook</column>
     <column name="_name_id" translation="ENG">Half-Elf</column>
     <column name="_name_id" translation="POR">Meio-Elfo</column>
   </insert>
   <insert table="_super_race">
     <column name="_id" id="true">superrace_halforc</column>
+    <column name="_source_id" id="true">source_playershandbook</column>
     <column name="_name_id" translation="ENG">Half-Orc</column>
     <column name="_name_id" translation="POR">Meio-Orc</column>
   </insert>
   <insert table="_super_race">
     <column name="_id" id="true">superrace_tielfling</column>
+    <column name="_source_id" id="true">source_playershandbook</column>
     <column name="_name_id" translation="ENG">Tielfling</column>
     <column name="_name_id" translation="POR">Tielfling</column>
+  </insert>
+  <insert table="_super_race">
+    <column name="_id" id="true">superrace_aasimar</column>
+    <column name="_source_id" id="true">source_dungeonmastersguide</column>
+    <column name="_name_id" translation="ENG">Aasimar</column>
+    <column name="_name_id" translation="POR">Aasimar</column>
   </insert>
 </data>
