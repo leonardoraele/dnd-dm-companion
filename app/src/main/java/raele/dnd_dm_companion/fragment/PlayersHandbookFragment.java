@@ -103,7 +103,13 @@ public class PlayersHandbookFragment extends Fragment {
     }
 
     private void onClassesClick() {
-        Utils.of(getActivity()).notImplemented();
+        Fragment fragment = new ClassesFragment();
+
+        FragmentManager manager = getActivity().getSupportFragmentManager();
+        manager.beginTransaction()
+                .addToBackStack(toString())
+                .replace(R.id.container, fragment)
+                .commit();
     }
 
     private void onRacesClick() {

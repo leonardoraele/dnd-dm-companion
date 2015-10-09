@@ -1,0 +1,431 @@
+<data>
+
+    <insert table="_class">
+        <column name="_id" id="true">class_barbarian</column>
+        <column name="_name_id" translation="ENG">Barbarian</column>
+        <column name="_name_id" translation="POR">Bárbaro</column>
+        <column name="_hit_dice">12</column>
+        <column name="_armors_id" translation="ENG">Light armor, medium armor, shields</column>
+        <column name="_armors_id" translation="POR">Armadura leve, armadura média e armadura pesada</column>
+        <column name="_weapons_id" translation="ENG">Simple weapons, martial weapons</column>
+        <column name="_weapons_id" translation="POR">Armas simples e armas marciais</column>
+        <column name="_tools_id" translation="ENG">None</column>
+        <column name="_tools_id" translation="POR">Nenhum</column>
+        <column name="_saves_id" translation="ENG">Str, Con</column>
+        <column name="_saves_id" translation="POR">For, Con</column>
+        <column name="_skills_id" translation="ENG">Choose two from: Animal Handling, Athletics, Intimidation, Nature, Perception and Survival</column>
+        <column name="_skills_id" translation="POR">Escolha duas dentre: Manusear Animais, Atletismo, Intimidação, Natureza, Percepção e Sobrevivência</column>
+        <column name="_multicl_prer_id" translation="ENG">Str >= 13</column>
+        <column name="_multicl_prer_id" translation="POR">For >= 13</column>
+        <column name="_multicl_prof_id" translation="ENG">Shields, simple weapons, martial weapons</column>
+        <column name="_multicl_prof_id" translation="POR">Escudos, armas simples e armas marciais</column>
+        <column name="_money_id" translation="ENG">2d4*10 gp (50)</column>
+        <column name="_money_id" translation="POR">2d4*10 p.o. (50)</column>
+        <column name="_equipment_id" translation="ENG">
+            • (a) a greataxe or (b) any martial melee weapon;
+            • (a) two handaxes or (b) any simple weapon;
+            • An explorer’s pack and four javelins.
+        </column>
+        <column name="_equipment_id" translation="POR">
+            • (a) um machado de duas mãos ou (b) qualquer arma marcial de curto alcance;
+            • (a) duas machadinhas (b) qualquer arma simples;
+            • Um kit de explorador e quatro azagaias.
+        </column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_class">
+        <column name="_id" id="true">class_bard</column>
+        <column name="_name_id" translation="ENG">Bard</column>
+        <column name="_name_id" translation="POR">Bardo</column>
+        <column name="_hit_dice">8</column>
+        <column name="_armors_id" translation="ENG">Light armor</column>
+        <column name="_armors_id" translation="POR">Armadura leve</column>
+        <column name="_weapons_id" translation="ENG">Simple weapons, hand crossbows, longswords, rapiers, shortswords</column>
+        <column name="_weapons_id" translation="POR">Armas simples, bestas de mão, espadas longas, floretes e espadas curtas</column>
+        <column name="_tools_id" translation="ENG">Three musical instruments of your choice</column>
+        <column name="_tools_id" translation="POR">Três instrumentos musicais à sua escolha</column>
+        <column name="_saves_id" translation="ENG">Dex, Cha</column>
+        <column name="_saves_id" translation="POR">Des, Car</column>
+        <column name="_skills_id" translation="ENG">Choose any three.</column>
+        <column name="_skills_id" translation="POR">Escolha três habilidades à sua escolha</column>
+        <column name="_multicl_prer_id" translation="ENG">Car >= 13</column>
+        <column name="_multicl_prer_id" translation="POR">Cha >= 13</column>
+        <column name="_multicl_prof_id" translation="ENG">Light armor, one skill of your choice, one musical instrument of your choice</column>
+        <column name="_multicl_prof_id" translation="POR">Armadura leve, uma habilidade à sua escolha e um instrumento musical à sua escolha</column>
+        <column name="_money_id" translation="ENG">5d4*10 gp (125)</column>
+        <column name="_money_id" translation="POR">5d4*10 p.o. (125)</column>
+        <column name="_equipment_id" translation="ENG">
+            • (a) a rapier, (b) a longsword, or (c) any simple weapon
+            • (a) a lute or (b) any other musical instrument
+            • (a) a diplomat’s pack or (b) an entertainer's pack
+            • Leather armor and a dagger.
+        </column>
+        <column name="_equipment_id" translation="POR">
+            • (a) um florete, (b) uma espada longa ou (c) qualquer arma simples
+            • (a) uma flauta ou (b) qualquer instrumento musical
+            • (a) um kit de diplomata ou (b) um kit de artista
+            • Armadura de couro leve e uma adaga.
+        </column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_class">
+        <column name="_id" id="true">class_cleric</column>
+        <column name="_name_id" translation="ENG">Cleric</column>
+        <column name="_name_id" translation="POR">Clérigo</column>
+        <column name="_hit_dice">8</column>
+        <column name="_armors_id" translation="ENG">Light armor, medium armor, shields</column>
+        <column name="_armors_id" translation="POR">Armaduras leves, armaduras médias e escudos</column>
+        <column name="_weapons_id" translation="ENG">All simple weapons</column>
+        <column name="_weapons_id" translation="POR">Todas armas simples</column>
+        <column name="_tools_id" translation="ENG">None</column>
+        <column name="_tools_id" translation="POR">Nenhum</column>
+        <column name="_saves_id" translation="ENG">Wis, Cha</column>
+        <column name="_saves_id" translation="POR">Sab, Car</column>
+        <column name="_skills_id" translation="ENG">Choose two from History, Insight, Medicine, Persuasion, and Religion</column>
+        <column name="_skills_id" translation="POR">Escolha duas dentre: História, Intuição, Medicina, Persuasão e Religião</column>
+        <column name="_multicl_prer_id" translation="ENG">Wis >= 13</column>
+        <column name="_multicl_prer_id" translation="POR">Sab >= 13</column>
+        <column name="_multicl_prof_id" translation="ENG">Light armor, medium armor, shields</column>
+        <column name="_multicl_prof_id" translation="POR">Armadura leve, armadura média e escudos</column>
+        <column name="_money_id" translation="ENG">5d4*10 gp (125)</column>
+        <column name="_money_id" translation="POR">5d4*10 p.o. (125)</column>
+        <column name="_equipment_id" translation="ENG">
+            • (a) a mace or (b) a warhammer (if proficient)
+            • (a) a light crossbow and 20 bolts or (b) any simple weapon
+            • (a) scale mail, (b) leather armor, or (c) chain mail (if proficient)
+            • (a) a priest’s pack or (b) an explorer’s pack
+            • A shield and a holy symbol
+        </column>
+        <column name="_equipment_id" translation="POR">
+            • (a) uma maça ou (b) um martelo de guerra (se for proficiente)
+            • (a) uma besta leve e um estojo com 20 virotes ou (b) qualquer arma simples
+            • (a) armadura de escamas, (b) armadura de couro leve, ou (c) cota de malha (se for proficiente)
+            • (a) um kit de sacerdote ou (b) um kit de explorador
+            • Um escudo e um simbolo sagrado
+        </column>
+        <column name="_source_id" id="true">source_basic_rules</column>
+    </insert>
+
+    <insert table="_class">
+        <column name="_id" id="true">class_druid</column>
+        <column name="_name_id" translation="ENG">Druid</column>
+        <column name="_name_id" translation="POR">Druida</column>
+        <column name="_hit_dice">8</column>
+        <column name="_armors_id" translation="ENG">Light armor, medium armor, shields (druids will not wear armor or use shields made of metal)</column>
+        <column name="_armors_id" translation="POR">Armadura leve, armadura média, escudos (druidas não usam armadura ou escudos feitos de metal)</column>
+        <column name="_weapons_id" translation="ENG">Clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears</column>
+        <column name="_weapons_id" translation="POR">Porretes, adagas, dardos, azagaias, maças, cajados/bastões, cimitarras, foices, fundas e lanças simples</column>
+        <column name="_tools_id" translation="ENG">Herbalism kit</column>
+        <column name="_tools_id" translation="POR">Kit de herbalismo</column>
+        <column name="_saves_id" translation="ENG">Int, Wis</column>
+        <column name="_saves_id" translation="POR">Int, Sab</column>
+        <column name="_skills_id" translation="ENG">Choose two from Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, and Survival</column>
+        <column name="_skills_id" translation="POR">Escolha duas entre: Arcana, Manusear Animais, Intuição, Natureza, Percepção, Religião e Sobrevivência</column>
+        <column name="_multicl_prer_id" translation="ENG">Wis >= 13</column>
+        <column name="_multicl_prer_id" translation="POR">Sab >= 13</column>
+        <column name="_multicl_prof_id" translation="ENG">Light armor, medium armor, shields (druids will not wear armor or use shields made of metal)</column>
+        <column name="_multicl_prof_id" translation="POR">Armadura leve, armadura média, escudos (druids will not wear armor or use shields made of metal)</column>
+        <column name="_money_id" translation="ENG">2d4*10 gp (50)</column>
+        <column name="_money_id" translation="POR">2d4*10 p.o. (50)</column>
+        <column name="_equipment_id" translation="ENG">
+            • (a) a wooden shield or (b) any simple weapon
+            • (a) a scimitar or (b) any simple melee weapon
+            • Leather armor, an explorer’s pack, and a druidic focus
+        </column>
+        <column name="_equipment_id" translation="POR">
+            • (a) um escudo de madeira or (b) qualquer arma simples
+            • (a) uma cimitarra ou (b) qualquer arma simples de curto alcance
+            • Armadura de couro leve, um kit de explorador e um foco druídico
+        </column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_class">
+        <column name="_id" id="true">class_fighter</column>
+        <column name="_name_id" translation="ENG">Fighter</column>
+        <column name="_name_id" translation="POR">Lutador</column>
+        <column name="_hit_dice">10</column>
+        <column name="_armors_id" translation="ENG">All armor, shields</column>
+        <column name="_armors_id" translation="POR">Todas as armaduras e escudos</column>
+        <column name="_weapons_id" translation="ENG">Simple weapons, martial weapons</column>
+        <column name="_weapons_id" translation="POR">Armas simples e armas marciais</column>
+        <column name="_tools_id" translation="ENG">None</column>
+        <column name="_tools_id" translation="POR">Nenhum</column>
+        <column name="_saves_id" translation="ENG">Str, Con</column>
+        <column name="_saves_id" translation="POR">For, Con</column>
+        <column name="_skills_id" translation="ENG">Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival</column>
+        <column name="_skills_id" translation="POR">Escolha duas dentre: Acrobacia, Manusear Animais, Atletismo, História, Intuiçao, Intimidaçao, Percepçao e Sobrevivencia</column>
+        <column name="_multicl_prer_id" translation="ENG">Str ou Dex >= 13</column>
+        <column name="_multicl_prer_id" translation="POR">For ou Des >= 13</column>
+        <column name="_multicl_prof_id" translation="ENG">Light armor, medium armor, shields, simple weapons, martial weapons</column>
+        <column name="_multicl_prof_id" translation="POR">Armadura leve, armadura média, escudos, armas simples e armas marciais</column>
+        <column name="_money_id" translation="ENG">5d4*10 gp (125)</column>
+        <column name="_money_id" translation="POR">5d4*10 p.o. (125)</column>
+        <column name="_equipment_id" translation="ENG">
+            • (a) a martial weapon and a shield or (b) two martial weapons
+            • (a) a light crossbow and 20 bolts or (b) two handaxes
+            • (a) chain mail or (b) leather, longbow, and 20 arrows
+            • (a) a dungeoneer’s pack or (b) an explorer’s pack
+        </column>
+        <column name="_equipment_id" translation="POR">
+            • (a) uma arma marcial e um escudo, ou (b) duas armas marciais
+            • (a) uma besta leve e um estojo com 20 virotes, ou (b) duas machadinhas
+            • (a) cota de malha ou (b) armadura de couro leve, um arco longo e uma aljava com 20 flechas
+            • (a) um kit de aventureiro ou (b) um kit de explorador
+        </column>
+        <column name="_source_id" id="true">source_basic_rules</column>
+    </insert>
+
+    <insert table="_class">
+        <column name="_id" id="true">class_monk</column>
+        <column name="_name_id" translation="ENG">Monk</column>
+        <column name="_name_id" translation="POR">Monge</column>
+        <column name="_hit_dice">8</column>
+        <column name="_armors_id" translation="ENG">None</column>
+        <column name="_armors_id" translation="POR">Nenhuma</column>
+        <column name="_weapons_id" translation="ENG">Simple weapons, shortswords</column>
+        <column name="_weapons_id" translation="POR">Armas simples e espadas curtas</column>
+        <column name="_tools_id" translation="ENG">Choose one type of artisan’s tools or one musical instrument</column>
+        <column name="_tools_id" translation="POR">Escolha um tipo de ferramenta de artesão ou um instrumento musical</column>
+        <column name="_saves_id" translation="ENG">Str, Dex</column>
+        <column name="_saves_id" translation="POR">For, Des</column>
+        <column name="_skills_id" translation="ENG">Choose two from Acrobatics, Athletics, History, Insight, Religion, and Stealth</column>
+        <column name="_skills_id" translation="POR">Escolha duas dentre: Acrobacias, Atletismo, História, Intuiçao, Religião e Furtividade</column>
+        <column name="_multicl_prer_id" translation="ENG">Dex and Wis >= 13</column>
+        <column name="_multicl_prer_id" translation="POR">Des e Sab >= 13</column>
+        <column name="_multicl_prof_id" translation="ENG">Simple weapons, shortswords</column>
+        <column name="_multicl_prof_id" translation="POR">Armas simples e espadas curtas</column>
+        <column name="_money_id" translation="ENG">5d4 gp (12)</column>
+        <column name="_money_id" translation="POR">5d4 p.o. (12)</column>
+        <column name="_equipment_id" translation="ENG">
+            • (a) a shortsword or (b) any simple weapon
+            • (a) a dungeoneer’s pack or (b) an explorer’s pack
+            • 10 darts
+        </column>
+        <column name="_equipment_id" translation="POR">
+            • (a) uma espada curta ou (b) qualquer arma simples
+            • (a) um kit de aventureiro ou (b) um kit de explorador
+            • 10 dardos
+        </column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_class">
+        <column name="_id" id="true">class_paladin</column>
+        <column name="_name_id" translation="ENG">Paladin</column>
+        <column name="_name_id" translation="POR">Paladino</column>
+        <column name="_hit_dice">10</column>
+        <column name="_armors_id" translation="ENG">All armor, shields</column>
+        <column name="_armors_id" translation="POR">Todas as armaduras e escudos</column>
+        <column name="_weapons_id" translation="ENG">Simple weapons, martial weapons</column>
+        <column name="_weapons_id" translation="POR">Armas simples e armas marciais</column>
+        <column name="_tools_id" translation="ENG">None</column>
+        <column name="_tools_id" translation="POR">Nenhum</column>
+        <column name="_saves_id" translation="ENG">Wis, Cha</column>
+        <column name="_saves_id" translation="POR">Sab, Car</column>
+        <column name="_skills_id" translation="ENG">Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion</column>
+        <column name="_skills_id" translation="POR">Escolha duas dentre: Atletismo, Intuição, Intimidação, Medicina, Persuasão e Religião</column>
+        <column name="_multicl_prer_id" translation="ENG">Str and Cha >= 13</column>
+        <column name="_multicl_prer_id" translation="POR">For e Car >= 13</column>
+        <column name="_multicl_prof_id" translation="ENG">Light armor, medium armor, shields, simple weapons, martial weapons</column>
+        <column name="_multicl_prof_id" translation="POR">Armaduras leves, armaduras médias, escudos, armas simples e armas marciais</column>
+        <column name="_money_id" translation="ENG">5d4*10 gp (125)</column>
+        <column name="_money_id" translation="POR">5d4*10 p.o. (125)</column>
+        <column name="_equipment_id" translation="ENG">
+            • (a) a martial weapon and a shield or (b) two martial weapons
+            • (a) five javelins or (b) any simple melee weapon
+            • (a) a priest’s pack or (b) an explorer’s pack
+            • Chain mail and a holy symbol
+        </column>
+        <column name="_equipment_id" translation="POR">
+            • (a) uma arma marcial e um escudo, ou (b) duas armas marciais
+            • (a) cinco azagaias ou (b) qualquer arma simples
+            • (a) um kit de sacerdote ou (b) um kit de explorador
+            • Cota de malha e um símbolo sagrado
+        </column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_class">
+        <column name="_id" id="true">class_ranger</column>
+        <column name="_name_id" translation="ENG">Ranger</column>
+        <column name="_name_id" translation="POR">Patrulheiro</column>
+        <column name="_hit_dice">10</column>
+        <column name="_armors_id" translation="ENG">Light armor, medium armor, shields </column>
+        <column name="_armors_id" translation="POR">Armaduras leves, armaduras médias e escudos</column>
+        <column name="_weapons_id" translation="ENG">Simple weapons, martial weapons</column>
+        <column name="_weapons_id" translation="POR">Armas simples e armas marciais</column>
+        <column name="_tools_id" translation="ENG">None</column>
+        <column name="_tools_id" translation="POR">Nenhum</column>
+        <column name="_saves_id" translation="ENG">Str, Dex</column>
+        <column name="_saves_id" translation="POR">For, Des</column>
+        <column name="_skills_id" translation="ENG">Choose three from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival</column>
+        <column name="_skills_id" translation="POR">Escolha três dentre: Manusear Animais, Atletismo, Intuição, Investigação, Natureza, Percepção, Furtividade e Sobrevivência</column>
+        <column name="_multicl_prer_id" translation="ENG">Dex and Wis >= 13</column>
+        <column name="_multicl_prer_id" translation="POR">Des e Sab >= 13</column>
+        <column name="_multicl_prof_id" translation="ENG">Light armor, medium armor, shields, simple weapons, martial weapons, one skill from the class’s skill list</column>
+        <column name="_multicl_prof_id" translation="POR">Armaduras leves, armaduras médias, escudos, armas simples, armas marciais e uma habilidade da lista da classe</column>
+        <column name="_money_id" translation="ENG">5d4*10 gp (125)</column>
+        <column name="_money_id" translation="POR">5d4*10 p.o. (125)</column>
+        <column name="_equipment_id" translation="ENG">
+            • (a) two shortswords or (b) two simple melee weapons
+            • (a) scale mail or (b) leather armor
+            • (a) a dungeoneer’s pack or (b) an explorer’s pack
+            • A longbow and a quiver of 20 arrows
+        </column>
+        <column name="_equipment_id" translation="POR">
+            • (a) duas espadas curtas ou (b) duas armas simples de curto alcance
+            • (a) armadura de escamas ou (b) armadura de couro leve
+            • (a) um kit de aventureiro ou (b) um kit de explorador
+            • Um arco longo e uma aljava com 20 flechas
+        </column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_class">
+        <column name="_id" id="true">class_rogue</column>
+        <column name="_name_id" translation="ENG">Rogue</column>
+        <column name="_name_id" translation="POR">Ladino</column>
+        <column name="_hit_dice">8</column>
+        <column name="_armors_id" translation="ENG">Light armor</column>
+        <column name="_armors_id" translation="POR">Armadura leve</column>
+        <column name="_weapons_id" translation="ENG">Simple weapons, hand crossbows, longswords, rapiers, shortswords</column>
+        <column name="_weapons_id" translation="POR">Armas simples, bestas de mão, espadas longas, floretes e espadas curtas</column>
+        <column name="_tools_id" translation="ENG">Thieves’ tools</column>
+        <column name="_tools_id" translation="POR">Ferramentas de Ladrão</column>
+        <column name="_saves_id" translation="ENG">Dex, Int</column>
+        <column name="_saves_id" translation="POR">Des e Int</column>
+        <column name="_skills_id" translation="ENG">Choose four from Acrobatics, Athletics, Deception. Insight, Intimidation, Investigation, Perception, Performance. Persuasion, Sleight of Hand, and Stealth</column>
+        <column name="_skills_id" translation="POR">Escolha quatro dentre: Acrobacias, Atletismo, Enganaçao, Intuição, Intimidaçao, Investigação, Percepção, Performance, Persuasao, Truques de Maos e Furtividade</column>
+        <column name="_multicl_prer_id" translation="ENG">Dex >= 13</column>
+        <column name="_multicl_prer_id" translation="POR">Des >= 13</column>
+        <column name="_multicl_prof_id" translation="ENG">Light armor, one skill from the class’s skill list, thieves’ tools</column>
+        <column name="_multicl_prof_id" translation="POR">Armadura leve, uma habilidade da lista da classe e ferramentas de ladrão</column>
+        <column name="_money_id" translation="ENG">4d4*10 gp (100)</column>
+        <column name="_money_id" translation="POR">4d4*10 p.o. (100)</column>
+        <column name="_equipment_id" translation="ENG">
+            • (a) a rapier or (b) a shortsword
+            • (a) a shortbow and quiver of 20 arrows or (b) a shortsword
+            • (a) a burglar’s pack, (b) a dungeoneer’s pack, or (c) an explorer’s pack
+            • Leather armor, two daggers, and thieves’ tools
+        </column>
+        <column name="_equipment_id" translation="POR">
+            • (a) um florete ou (b) uma espada curta
+            • (a) um arco curto e uma aljava com 20 flechas, ou (b) uma espada curta
+            • (a) um kit de traficante, (b) um kit de aventureiro, ou (c) um kit de explorador
+            • Uma armadura de couro leve, duas adagas e ferramentas de ladrao
+        </column>
+        <column name="_source_id" id="true">source_basic_rules</column>
+    </insert>
+
+    <insert table="_class">
+        <column name="_id" id="true">class_sorcerer</column>
+        <column name="_name_id" translation="ENG">Sorcerer</column>
+        <column name="_name_id" translation="POR">Feiticeiro</column>
+        <column name="_hit_dice">6</column>
+        <column name="_armors_id" translation="ENG">None</column>
+        <column name="_armors_id" translation="POR">Nenhuma</column>
+        <column name="_weapons_id" translation="ENG">Daggers, darts, slings, quarterstaffs, light crossbows</column>
+        <column name="_weapons_id" translation="POR">Adagas, dardos, fundas, cajados e besta leve</column>
+        <column name="_tools_id" translation="ENG">None</column>
+        <column name="_tools_id" translation="POR">Nenhum</column>
+        <column name="_saves_id" translation="ENG">Con, Cha</column>
+        <column name="_saves_id" translation="POR">Con, Car</column>
+        <column name="_skills_id" translation="ENG">Choose two from Arcana, Deception, Insight, Intimidation, Persuasion, and Religion</column>
+        <column name="_skills_id" translation="POR">Escolha duas dentre: Arcana, Enganação, Intuição, Intimidação, Persuasão e Religião</column>
+        <column name="_multicl_prer_id" translation="ENG">Cha >= 13</column>
+        <column name="_multicl_prer_id" translation="POR">Car >= 13</column>
+        <column name="_multicl_prof_id" translation="ENG">None</column>
+        <column name="_multicl_prof_id" translation="POR">Nenhuma</column>
+        <column name="_money_id" translation="ENG">3d4*10 gp (75)</column>
+        <column name="_money_id" translation="POR">3d4*10 p.o. (75)</column>
+        <column name="_equipment_id" translation="ENG">
+            • (a) a light crossbow and 20 bolts or (b) any simple weapon
+            • (a) a com ponent pouch or (b) an arcane focus
+            • (a) a dungeoneer’s pack or (b) an explorer’s pack
+            • Two daggers
+        </column>
+        <column name="_equipment_id" translation="POR">
+            • (a) uma besta leve e um estojo com 20 virotes, ou (b) qualquer arma simples
+            • (a) uma sacola de componentes ou (b) um foco arcano
+            • (a) um kit de aventureiro ou (b) um kit de explorador
+            • Duas adagas
+        </column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_class">
+        <column name="_id" id="true">class_warlock</column>
+        <column name="_name_id" translation="ENG">Warlock</column>
+        <column name="_name_id" translation="POR">Bruxo</column>
+        <column name="_hit_dice">8</column>
+        <column name="_armors_id" translation="ENG">Light armor</column>
+        <column name="_armors_id" translation="POR">Armadura leve</column>
+        <column name="_weapons_id" translation="ENG">Simple weapons</column>
+        <column name="_weapons_id" translation="POR">Armas simples</column>
+        <column name="_tools_id" translation="ENG">None</column>
+        <column name="_tools_id" translation="POR">Nenhum</column>
+        <column name="_saves_id" translation="ENG">Wis, Cha</column>
+        <column name="_saves_id" translation="POR">Sab, Car</column>
+        <column name="_skills_id" translation="ENG">Choose two skills from Arcana, Deception, History, Intimidation, Investigation, Nature, and Religion</column>
+        <column name="_skills_id" translation="POR">Escolha duas dentre: Arcana, Enganação, História, Intimidação, Investigação, Natureza e Religião</column>
+        <column name="_multicl_prer_id" translation="ENG">Cha >= 13</column>
+        <column name="_multicl_prer_id" translation="POR">Car >= 13</column>
+        <column name="_multicl_prof_id" translation="ENG">Light armor, simple weapons</column>
+        <column name="_multicl_prof_id" translation="POR">Armadura leve e armas simples</column>
+        <column name="_money_id" translation="ENG">4d4*10 gp (100)</column>
+        <column name="_money_id" translation="POR">4d4*10 p.o. (100)</column>
+        <column name="_equipment_id" translation="ENG">
+            • (a) a light crossbow and 20 bolts or (b) any simple weapon
+            • (a) a component pouch or (b) an arcane focus
+            • (a) a scholar’s pack or (b) a dungeoneer’s pack
+            • Leather armor, any simple weapon, and two daggers
+        </column>
+        <column name="_equipment_id" translation="POR">
+            • (a) uma besta leve e um estojo com 20 virotes, ou (b) qualquer arma simples
+            • (a) uma sacola de componentes ou (b) um foco arcano
+            • (a) um kit de estudioso ou (b) um kit de aventureiro
+            • Armadura de couro leve, qualquer arma simpĺes e duas adagas
+        </column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_class">
+        <column name="_id" id="true">class_wizard</column>
+        <column name="_name_id" translation="ENG">Wizard</column>
+        <column name="_name_id" translation="POR">Mago</column>
+        <column name="_hit_dice">6</column>
+        <column name="_armors_id" translation="ENG">None</column>
+        <column name="_armors_id" translation="POR">Nenhuma</column>
+        <column name="_weapons_id" translation="ENG">Daggers, darts, slings, quarterstaffs, light crossbows</column>
+        <column name="_weapons_id" translation="POR">Adagas, dardos, fundas, cajados e besta leve</column>
+        <column name="_tools_id" translation="ENG">None</column>
+        <column name="_tools_id" translation="POR">Nenhum</column>
+        <column name="_saves_id" translation="ENG">Int, Wis</column>
+        <column name="_saves_id" translation="POR">Int e Sab</column>
+        <column name="_skills_id" translation="ENG">Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion</column>
+        <column name="_skills_id" translation="POR">Escolha duas dentre: Arcana, História, Intuição, Investigação, Medicina e Religião</column>
+        <column name="_multicl_prer_id" translation="ENG">Int >= 13</column>
+        <column name="_multicl_prer_id" translation="POR">Int >= 13</column>
+        <column name="_multicl_prof_id" translation="ENG">None</column>
+        <column name="_multicl_prof_id" translation="POR">Nenhuma</column>
+        <column name="_money_id" translation="ENG">4d4*10 gp (100)</column>
+        <column name="_money_id" translation="POR">4d4*10 p.o. (100)</column>
+        <column name="_equipment_id" translation="ENG">
+            • (a) a quarterstaff or (b) a dagger
+            • (a) a component pouch or (b) an arcane focus
+            • (a) a scholar’s pack or (b) an explorer’s pack
+            • A spellbook
+        </column>
+        <column name="_equipment_id" translation="POR">
+            • (a) um cajado/bastão ou (b) uma adaga
+            • (a) uma sacola de componentes ou (b) um foco arcano
+            • (a) um kit de estudioso ou (b) um kit de explorador
+            • Um livro de feitiços
+        </column>
+        <column name="_source_id" id="true">source_basic_rules</column>
+    </insert>
+
+</data>

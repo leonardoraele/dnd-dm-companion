@@ -1,0 +1,43 @@
+<data>
+
+    <insert table="_class_option">
+        <column name="_id" id="true">classoption_cleric_life</column>
+        <column name="_name_id" translation="ENG">Life Domain</column>
+        <column name="_name_id" translation="POR">Dominio da Vida</column>
+        <column name="_description_id" translation="ENG">(pending description)</column>
+        <column name="_description_id" translation="POR">(descrição pendente)</column>
+        <column name="_class_id" id="true">class_cleric</column>
+        <column name="_source_id" id="true">source_basic_rules</column>
+    </insert>
+
+    <insert table="_class_option">
+        <column name="_id" id="true">classoption_fighter_champion</column>
+        <column name="_name_id" translation="ENG">Champion</column>
+        <column name="_name_id" translation="POR">Campeão</column>
+        <column name="_description_id" translation="ENG">(pending description)</column>
+        <column name="_description_id" translation="POR">(descrição pendente)</column>
+        <column name="_class_id" id="true">class_fighter</column>
+        <column name="_source_id" id="true">source_basic_rules</column>
+    </insert>
+
+    <insert table="_class_option">
+        <column name="_id" id="true">classoption_rogue_thief</column>
+        <column name="_name_id" translation="ENG">Thief</column>
+        <column name="_name_id" translation="POR">Ladrão</column>
+        <column name="_description_id" translation="ENG">(pending description)</column>
+        <column name="_description_id" translation="POR">(descrição pendente)</column>
+        <column name="_class_id" id="true">class_rogue</column>
+        <column name="_source_id" id="true">source_basic_rules</column>
+    </insert>
+
+    <insert table="_class_option">
+        <column name="_id" id="true">classoption_wizard_evocation</column>
+        <column name="_name_id" translation="ENG">Evocation School</column>
+        <column name="_name_id" translation="POR">Escola da Evocação</column>
+        <column name="_description_id" translation="ENG">(pending description)</column>
+        <column name="_description_id" translation="POR">(descrição pendente)</column>
+        <column name="_class_id" id="true">class_wizard</column>
+        <column name="_source_id" id="true">source_basic_rules</column>
+    </insert>
+
+</data>

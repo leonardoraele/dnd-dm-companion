@@ -2,8 +2,8 @@
 
   <insert table="_source">
     <column name="_id" id="true">source_basic_rules</column>
-    <column name="_description_id" translation="ENG">D&D Basic Rules</column>
-    <column name="_description_id" translation="POR">D&D Regras Básicas</column>
+    <column name="_description_id" translation="ENG">D&amp;D Basic Rules</column>
+    <column name="_description_id" translation="POR">D&amp;D Regras Básicas</column>
   </insert>
 
   <insert table="_source">

@@ -22,6 +22,8 @@ import java.util.Locale;
 
 import raele.dnd_dm_companion.R;
 import raele.dnd_dm_companion.database.DbHelper;
+import raele.util.android.Utils;
+import raele.util.android.log.Log;
 
 /**
  * Created by lpr on 08/10/15.
@@ -44,12 +46,6 @@ public class AbilityCalculatorFragment extends Fragment {
         map.put(15, 9);
         return map;
     }
-
-    private static final String SQL_GET_ALL_SUB_RACES =
-            "SELECT tr_name._text, tr_ability._text " +
-            "FROM _sub_race, _translation tr_name, _translation tr_ability " +
-            "WHERE tr_name._id = _sub_race._name_id AND tr_name._language = ? AND " +
-                  "tr_ability._id = _sub_race._ability_id AND tr_ability._language = ?";
 
     private class Race {
         public String name;
@@ -76,61 +72,39 @@ public class AbilityCalculatorFragment extends Fragment {
         public TextView pointsTextView;
     }
 
-    private ArrayList<Race> mRaces;
     private LinkedList<Ability> mAbilities;
     private TextView mRemainingPointsView;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        String language = Locale.getDefault().getISO3Language().toUpperCase();
-
-        SQLiteDatabase db = new DbHelper(getActivity()).getReadableDatabase();
-        Cursor cursor = db.rawQuery(SQL_GET_ALL_SUB_RACES, new String[] {language, language});
-
-        mRaces = new ArrayList<>(cursor.getCount() + 1);
-        mRaces.add(new Race("--", ""));
-        while (cursor.moveToNext()) {
-            String name = cursor.getString(0);
-            String ability = cursor.getString(1);
-            mRaces.add(new Race(name, ability));
-        }
-
         mAbilities = new LinkedList<>();
     }
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        Log.begin();
+
+        Log.info("Inflating the view...");
         View view = inflater.inflate(R.layout.fragment_ability_calculator, container, false);
 
-        final TextView raceDescription = (TextView) view.findViewById(R.id.calc_description);
-
-        Spinner raceSpinner = (Spinner) view.findViewById(R.id.culc_race_spinner);
-        SpinnerAdapter raceSpinnerAdapter = new ArrayAdapter<Race>(getActivity(), android.R.layout.simple_dropdown_item_1line, mRaces);
-        raceSpinner.setAdapter(raceSpinnerAdapter);
-        raceSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                String ability = mRaces.get(position).ability;
-                raceDescription.setText(ability);
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-            }
-        });
-
+        Log.info("Setting up setting buttons...");
         view.findViewById(R.id.calc_reset).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 reset();
             }
         });
+        view.findViewById(R.id.calc_config).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {config();
+            }
+        });
 
         mRemainingPointsView = (TextView) view.findViewById(R.id.calc_remaining_points);
 
+        Log.info("Setting up abilities views...");
         ViewGroup layout = (ViewGroup) view.findViewById(R.id.calc_abilities_box);
         layout.addView(createAbilityBox(inflater, R.string.calc_ability_str));
         layout.addView(createAbilityBox(inflater, R.string.calc_ability_dex));
@@ -139,21 +113,36 @@ public class AbilityCalculatorFragment extends Fragment {
         layout.addView(createAbilityBox(inflater, R.string.calc_ability_wis));
         layout.addView(createAbilityBox(inflater, R.string.calc_ability_cha));
 
+        Log.end();
+
         return view;
     }
 
+    private void config() {
+        Utils.of(getActivity()).showShortToast("Not implemented yet.");
+    }
+
     private void reset() {
+        Log.begin();
         for (Ability ability : mAbilities) {
             ability.base = sBaseAbility;
             ability.bonus = 0;
             refresh(ability);
         }
+        Log.end();
     }
 
     private View createAbilityBox(LayoutInflater inflater, int abilityNameResource) {
+        Log.begin();
+        Log.info("Creating the ability...");
+
         final Ability ability = new Ability();
         ability.base = sBaseAbility;
         ability.bonus = 0;
+
+        Log.info("Ability created: " + ability.toString());
+
+        Log.info("Setting up ability's views...");
 
         View view = inflater.inflate(R.layout.layout_calc_ability, null);
 
@@ -192,7 +181,8 @@ public class AbilityCalculatorFragment extends Fragment {
                 increaseBonus(ability);
             }
         });
-        
+
+        Log.info("Saving ability's views...");
         ability.baseValueEditText = (EditText) view.findViewById(R.id.calc_base_value);
         ability.bonusValueEditText = (EditText) view.findViewById(R.id.calc_bonus_value);
         ability.totalValueTextView = (TextView) view.findViewById(R.id.calc_total);
@@ -202,71 +192,104 @@ public class AbilityCalculatorFragment extends Fragment {
         ability.baseValueEditText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
+                Log.begin();
+                Log.info("Exiting focus from ability's base value edit text.");
                 int newValue = Integer.valueOf(ability.baseValueEditText.getText().toString()).intValue();
+                Log.info("Data changed from " + ability.bonus + " to " + newValue);
                 ability.base = newValue;
+                Log.info("Refreshing ability views...");
                 refresh(ability);
+                Log.end();
             }
         });
 
         ability.bonusValueEditText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
+                Log.begin();
+                Log.info("Exiting focus from ability's bonus edit text.");
                 int newValue = Integer.valueOf(ability.bonusValueEditText.getText().toString()).intValue();
+                Log.info("Data changed from " + ability.bonus + " to " + newValue);
                 ability.bonus = newValue;
+                Log.info("Refreshing ability views...");
                 refresh(ability);
+                Log.end();
             }
         });
 
+        Log.info("Refreshing ability for the first time...");
         refresh(ability);
+
+        Log.info("Adding the created ability to the list...");
         mAbilities.add(ability);
+
+        Log.end();
 
         return view;
     }
 
     private void increaseBonus(Ability ability) {
+        Log.begin();
+        Log.info("Increasing ability's bonus: " + ability);
         ability.bonus++;
         refresh(ability);
+        Log.end();
     }
 
     private void decreaseBonus(Ability ability) {
+        Log.begin();
+        Log.info("Decreasing ability's bonus: " + ability);
         ability.bonus--;
         refresh(ability);
+        Log.end();
     }
 
     private void increaseBase(Ability ability) {
+        Log.begin();
         if (ability.base < sMaxAbility) {
+            Log.info("Increasing ability's base value: " + ability);
             ability.base++;
             refresh(ability);
         }
+        Log.end();
     }
 
     private void decreaseBase(Ability ability) {
+        Log.begin();
         if (ability.base > sBaseAbility) {
+            Log.info("Decreasing ability's base value: " + ability);
             ability.base--;
             refresh(ability);
         }
+        Log.end();
     }
 
     private void refresh(Ability ability) {
+        Log.begin();
         ability.baseValueEditText.setText("" + ability.base);
         ability.bonusValueEditText.setText("" + ability.bonus);
 
         int total = ability.base + ability.bonus;
         ability.totalValueTextView.setText("" + total);
-        ability.modifierTextView.setText("" + getModifier(total));
+        int modifier = getModifier(total);
+        ability.modifierTextView.setText(modifier > 0 ? "+" + modifier : "" + modifier);
         ability.pointsTextView.setText("" + sCostMap.get(ability.base));
 
         refreshTotalPoints();
+        Log.end();
     }
 
     private void refreshTotalPoints() {
+        Log.begin();
         int pointsSpent = 0;
         for (Ability ability : mAbilities) {
             pointsSpent += sCostMap.get(ability.base);
         }
 
         int remaining = 27 - pointsSpent;
+        Log.info("Remaining points: " + remaining);
         mRemainingPointsView.setText("" + remaining);
+        Log.end();
     }
 
     private int getModifier(int score) {

@@ -10,8 +10,8 @@
     <string name="phb_menu_classes">Classes</string>
     <string name="phb_menu_backgrounds">Backgrounds</string>
     <string name="phb_menu_feats">Feats</string>
-    <string name="phb_menu_equipments"><![CDATA[Equipments &amp; Inventory]]></string>
-    <string name="phb_menu_downtime"><![CDATA[Traveling, Downtime &amp; Services]]></string>
+    <string name="phb_menu_equipments">Equipments</string>
+    <string name="phb_menu_downtime">Traveling, Downtime &amp; Services</string>
     <string name="phb_menu_combat">Combat Rulings</string>
     <string name="phb_menu_spells">Spells</string>
     <string name="phb_menu_experience">Experience Table</string>

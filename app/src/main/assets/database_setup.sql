@@ -104,6 +104,7 @@ CREATE TABLE _racial_trait (
 DROP TABLE IF EXISTS _class;
 CREATE TABLE _class (
     _id INTEGER PRIMARY KEY AUTOINCREMENT,
+    _name_id INTEGER,
     _hit_dice INTEGER,
     _armors_id INTEGER,
     _weapons_id INTEGER,
@@ -115,6 +116,7 @@ CREATE TABLE _class (
     _money_id INTEGER, -- If your DM allows, you can choose to start with this amount of initial wealth. If you do, you doesn't receive any equipment from your class' initial equipment or your background.
     _equipment_id INTEGER,
     _source_id INTEGER,
+    FOREIGN KEY (_name_id) REFERENCES _translation(_id),
     FOREIGN KEY (_armors_id) REFERENCES _translation(_id),
     FOREIGN KEY (_weapons_id) REFERENCES _translation(_id),
     FOREIGN KEY (_tools_id) REFERENCES _translation(_id),
@@ -124,7 +126,7 @@ CREATE TABLE _class (
     FOREIGN KEY (_multicl_prof_id) REFERENCES _translation(_id),
     FOREIGN KEY (_money_id) REFERENCES _translation(_id),
     FOREIGN KEY (_equipment_id) REFERENCES _translation(_id),
-    FOREIGN KEY (_source) REFERENCES _source(_id)
+    FOREIGN KEY (_source_id) REFERENCES _source(_id)
 );
 
 ---- classes
@@ -133,14 +135,15 @@ CREATE TABLE _class (
 --    _id INTEGER PRIMARY KEY AUTOINCREMENT,
 --    _class_id INTEGER,
 --    _cantrips INTEGER, -- Starts with how many cantrips known?
---    _spells INTEGER, -- Starts with how many spells known? (-1 for all; ex: druids, clerics and paladins)
+--    _spells INTEGER, -- Starts with how many spells known? (-1 for all, ex: druids, clerics and paladins)
 --    _list_id INTEGER,
 --    _prepare INTEGER,
 --    _ability_id INTEGER,
 --    _focus_id INTEGER
 --);
 
-DROP TABLE IF EXISTS _class_option (
+DROP TABLE IF EXISTS _class_option;
+CREATE TABLE _class_option (
     _id INTEGER PRIMARY KEY AUTOINCREMENT,
     _name_id INTEGER,
     _description_id INTEGER,
@@ -149,7 +152,7 @@ DROP TABLE IF EXISTS _class_option (
     FOREIGN KEY (_name_id) REFERENCES _translation(_id),
     FOREIGN KEY (_description_id) REFERENCES _translation(_id),
     FOREIGN KEY (_class_id) REFERENCES _class(_id),
-    FOREIGN KEY (_source) REFERENCES _source(_id)
+    FOREIGN KEY (_source_id) REFERENCES _source(_id)
 );
 
 -- N-N table to link classes to their features
@@ -182,7 +185,7 @@ CREATE TABLE _class_feature (
 --    _ac INTEGER, -- provided AC (type determines if it is a bonus or a base value)
 --    _cost INTEGER, -- in copper pieces
 --    _strength INTEGER, -- minimum Str value to use the armor without speed penalty
---    _stealth_dvg INTEGER, -- 1 = disadvantage; 0 = normal
+--    _stealth_dvg INTEGER, -- 1 = disadvantage, 0 = normal
 --    _weight INTEGER, -- in pounds
 --    FOREIGN KEY (_name_id) REFERENCES _translation(_id),
 --    FOREIGN KEY (_type_id) REFERENCES _armor_type(_id),

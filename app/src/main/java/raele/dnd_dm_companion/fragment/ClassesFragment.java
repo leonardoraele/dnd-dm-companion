@@ -97,8 +97,14 @@ public class ClassesFragment extends Fragment {
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-            View view = getActivity().getLayoutInflater().inflate(
-                    R.layout.layout_phb_classes_menu_item, (ViewGroup) convertView, false);
+            View view;
+            if (convertView instanceof ViewGroup) {
+                view = getActivity().getLayoutInflater().inflate(
+                        R.layout.layout_phb_classes_menu_item, (ViewGroup) convertView, false);
+            } else {
+                view = getActivity().getLayoutInflater().inflate(
+                        R.layout.layout_phb_classes_menu_item, null);
+            }
 
             Class clazz = getItem(position);
             TextView nameView = (TextView) view.findViewById(R.id.phb_classes_menu_list_item_name);

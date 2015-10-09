@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="80dp"
+    android:layout_height="wrap_content"
     android:layout_marginLeft="4dp"
     android:layout_marginRight="4dp"
     android:layout_marginTop="8dp"
@@ -89,9 +89,8 @@
 
     <LinearLayout
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_weight="3"
-        android:layout_gravity="center"
         android:gravity="center">
 
         <TextView
@@ -99,26 +98,30 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:textSize="24sp"
-            android:text="9" />
+            android:text="9"
+            android:gravity="center" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:textSize="24sp"
-            android:text="(" />
+            android:text=" ("
+            android:gravity="center" />
 
         <TextView
             android:id="@+id/calc_modifier"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:textSize="24sp"
-            android:text="-1" />
+            android:text="-1"
+            android:gravity="center" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:textSize="24sp"
-            android:text=")" />
+            android:text=")"
+            android:gravity="center" />
 
     </LinearLayout>
 
@@ -129,6 +132,7 @@
         android:layout_weight="2"
         android:gravity="center"
         android:textSize="24sp"
-        android:text="0" />
+        android:text="0"
+        android:visibility="gone"/>
 
 </LinearLayout>
