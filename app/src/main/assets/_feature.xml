@@ -57,11 +57,665 @@
     </insert>
 
     <insert table="_feature">
-      <column name="_id" id="true">feature_mountaindwarf_dwarvenarmortraining</column>
-      <column name="_name_id" translation="ENG">Dwarven Armor Training</column>
-      <column name="_name_id" translation="POR">Treinamento Anão de Armaduras</column>
-      <column name="_description_id" translation="ENG">You have proficiency with light and medium armor.</column>
-      <column name="_description_id" translation="POR">Você tem proficiência com armaduras leves e médias.</column>
+        <column name="_id" id="true">feature_mountaindwarf_dwarvenarmortraining</column>
+        <column name="_name_id" translation="ENG">Dwarven Armor Training</column>
+        <column name="_name_id" translation="POR">Treinamento Anão de Armaduras</column>
+        <column name="_description_id" translation="ENG">You have proficiency with light and medium armor.</column>
+        <column name="_description_id" translation="POR">Você tem proficiência com armaduras leves e médias.</column>
     </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_elf_keensenses</column>
+        <column name="_name_id" translation="ENG">Keen Senses</column>
+        <column name="_name_id" translation="POR">Sentidos Aguçados</column>
+        <column name="_description_id" translation="ENG">You have proficiency in the Perception skill.</column>
+        <column name="_description_id" translation="POR">Você tem proficiência com a habilidade de Percepção.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_elf_feyancestry</column>
+        <column name="_name_id" translation="ENG">Fey Ancestry</column>
+        <column name="_name_id" translation="POR">Herança Fey</column>
+        <column name="_description_id" translation="ENG">You have advantage on saving throws against being charmed, and magic can’t put you to sleep.</column>
+        <column name="_description_id" translation="POR">Você tem vantagem em testes de resistência contra ser enfeitiçado, e magia não pode lhe colocar para dormir.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_elf_trance</column>
+        <column name="_name_id" translation="ENG">Trance</column>
+        <column name="_name_id" translation="POR">Tranze</column>
+        <column name="_description_id" translation="ENG">Elves don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</column>
+        <column name="_description_id" translation="POR">Elfos não precisam dormir. Ao invés disso, eles medidam profundamente, ficando semi-concientes, por 4 horas num dia. (a palavra comum para tral meditaçao é "tranze") Enquanto estiver meditando, você pode sonhar; tais sonhos são, na verdade, exercícios mentais que têm se tornado reflexivos através dos anos de prática. Após rescansar desta maneira, você ganha os mesmos benefícios que um humano com 8 horas de sono.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_elf_elfweapontraining</column>
+        <column name="_name_id" translation="ENG">Elf Weapon Training</column>
+        <column name="_name_id" translation="POR">Treinamento Élfico com Armas</column>
+        <column name="_description_id" translation="ENG">You have proficiency with the longsword, shortsword, shortbow, and longbow.</column>
+        <column name="_description_id" translation="POR">Você tem proficiência com espadas longas, espadas curtas, arcos curtos e arcos longos.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_highelf_cantrip</column>
+        <column name="_name_id" translation="ENG">Cantrip</column>
+        <column name="_name_id" translation="POR">Truque</column>
+        <column name="_description_id" translation="ENG">You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</column>
+        <column name="_description_id" translation="POR">Você conhece um truque de sua escolha da lista de magias do mago. Inteligência é seu atributo mágico para ele.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_woodelf_maskofthewild</column>
+        <column name="_name_id" translation="ENG">Mask of the Wild</column>
+        <column name="_name_id" translation="POR">Máscara da Selva</column>
+        <column name="_description_id" translation="ENG">You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</column>
+        <column name="_description_id" translation="POR">Você pode tentar se esconder mesmo quando você está somente levemente obscurecido por folhagem, chuva forte, neve ou outros fenômenos naturais.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_drow_drowweapontraining</column>
+        <column name="_name_id" translation="ENG">Drow Weapon Training</column>
+        <column name="_name_id" translation="POR">Treinamento Drow de Armas</column>
+        <column name="_description_id" translation="ENG">You have proficiency with rapiers, shortswords, and hand crossbows.</column>
+        <column name="_description_id" translation="POR">Você tem proficiência com floretes, espadas curtas e bestas de mão.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_drow_sunlightsensibility</column>
+        <column name="_name_id" translation="ENG">Sunlight Sensitivity</column>
+        <column name="_name_id" translation="POR">Sensibilidade à Luz</column>
+        <column name="_description_id" translation="ENG">You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</column>
+        <column name="_description_id" translation="POR">Você tem desvantagem em rolagens de ataque e testes de Sabedoria (Percepção) que se baseiam em visão quando você, o alvo do seu ataque ou qualquer o que você tenta perceber está diretamente sob luz solar.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_drow_drowmagic</column>
+        <column name="_name_id" translation="ENG">Drow Magic</column>
+        <column name="_name_id" translation="POR">Magia Drow</column>
+        <column name="_description_id" translation="ENG">You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day. When you reach 5th level, you can also cast the darkness spell once per day. Charisma is your spellcasting ability for these spells.</column>
+        <column name="_description_id" translation="POR">Você conhece o truque luzes dançantes. Quando você alcança 3º nível, você pode conjurar a magia fogo de fada uma vez. Quando você alcança o 5º nível, você também pode conjurar a magia escuridão uma vez. Você recupera os usos desta característica quando você conclui um descanso longo. Carisma é seu atributo mágico para estas magias.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_halfling_luck</column>
+        <column name="_name_id" translation="ENG">Luck</column>
+        <column name="_name_id" translation="POR">Sorte</column>
+        <column name="_description_id" translation="ENG">When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</column>
+        <column name="_description_id" translation="POR">Quando você rola um 1 em um ataque, teste ou saving throw, você pode rerolar o dado e precisa usar o novo rolamento.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_halfling_brave</column>
+        <column name="_name_id" translation="ENG">Brave</column>
+        <column name="_name_id" translation="POR">Bravura</column>
+        <column name="_description_id" translation="ENG">You have advantage on saving throws against being frightened.</column>
+        <column name="_description_id" translation="POR">Você tem vantagem em saving throws contra ficar amedrontado.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_haflling_nimbless</column>
+        <column name="_name_id" translation="ENG">Haflling Nimbless</column>
+        <column name="_name_id" translation="POR">Agilidade Halfling</column>
+        <column name="_description_id" translation="ENG">You can move through the space of any creature that is of a size larger than yours.</column>
+        <column name="_description_id" translation="POR">Voce pode se mover atraves do espaço de qualquer criatura que seja de um tamanho maior do que o seu.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_haflling_naturallystealthy</column>
+        <column name="_name_id" translation="ENG">Naturally Stealthy</column>
+        <column name="_name_id" translation="POR">Naturalmente Furtivo</column>
+        <column name="_description_id" translation="ENG">You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.</column>
+        <column name="_description_id" translation="POR">Voce pode tentar esconder-se quando você é obscurecido por uma criatura que é pelo menos um tamanho maior que você.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_haflling_stoutresillience</column>
+        <column name="_name_id" translation="ENG">Stout Resillience</column>
+        <column name="_name_id" translation="POR">Resiliência Robusta</column>
+        <column name="_description_id" translation="ENG">You have advantage on saving throws against poison, and you have resistance against poison damage.</column>
+        <column name="_description_id" translation="POR">Você tem vantagem em saving throws contra veneno, e você tem resistência contra dano de veneno.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_dragonborn_draconicancestry</column>
+        <column name="_name_id" translation="ENG">Draconic Ancestry</column>
+        <column name="_name_id" translation="POR">Linhagem Draconiana</column>
+        <column name="_description_id" translation="ENG">You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as show n in the table.
++--------------------------------------------------+
+|                Dragon Ancestry                   |
++--------+-------------+---------------------------+
+| Dragon | Damage Type | Breath Weapon             |
++--------+-------------+---------------------------+
+| Black  | Acid        | 5-30 ft. line (Dex. save) |
+| Blue   | Lighting    | 5-30 ft. line (Dex. save) |
+| Brass  | Fire        | 5-30 ft. line (Dex. save) |
+| Bronze | Lighting    | 5-30 ft. line (Dex. save) |
+| Copper | Acid        | 5-30 ft. line (Dex. save) |
+| Gold   | Fire        | 15 ft. cone (Dex. save)   |
+| Green  | Poison      | 15 ft. cone (Con. save)   |
+| Red    | Fire        | 15 ft. cone (Dex. save)   |
+| Silver | Cold        | 15 ft. cone (Con. save)   |
+| White  | Cold        | 15 ft. cone (Con. save)   |
++--------+-------------+---------------------------+
+        </column>
+        <column name="_description_id" translation="POR">Você faz parte de uma linhagem draconiana. Escolha um tipo de dragão da tabela de Linhagem Draconiana. Sua arma de baforada e resistência à danos são determinadas pelo tipo de dragão, como demonstrado na tabela.
++------------------------------------------------------------+
+|                    Linhagem Draconiana                     |
++----------+--------------+----------------------------------+
+| Dragão   | Tipo de Dano | Arma de Baforada                 |
++----------+--------------+----------------------------------+
+| Negro    | Ácido        | Linha de 5-30 ft. (save de Des.) |
+| Azul     | Elétrico     | Linha de 5-30 ft. (save de Des.) |
+| Latão    | Fogo         | Linha de 5-30 ft. (save de Des.) |
+| Bronze   | Elétrico     | Linha de 5-30 ft. (save de Des.) |
+| Cobre    | Ácido        | Linha de 5-30 ft. (save de Des.) |
+| Ouro     | Fogo         | Cone de 15 ft. (save de Des.)    |
+| Verde    | Veneno       | Cone de 15 ft. (save de Con.)    |
+| Vermelho | Fogo         | Cone de 15 ft. (save de Dex.)    |
+| Prata    | Frio         | Cone de 15 ft. (save de Con.)    |
+| Branco   | Frio         | Cone de 15 ft. (save de Con.)    |
++----------+--------------+----------------------------------+
+        </column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_dragonborn_breathweapon</column>
+        <column name="_name_id" translation="ENG">Breath Weapon</column>
+        <column name="_name_id" translation="POR">Arma de Baforada</column>
+        <column name="_description_id" translation="ENG">You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can’t use it again until you complete a short or long rest.</column>
+        <column name="_description_id" translation="POR">Você pode usar sua ação para exalar energia destrutiva. Sua linhagem draconiana determina o tamanho, forma e tipo de dano exalado. Quando você usa sua arma de baforada, cada criatura dentro da área de efeito precisa fazer um saving throw, do tipo determinado pela sua linhagem draconiana. O DC deste saving throw é igual a 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura recebe 2d6 de dano em caso de falha, e metade deste dano em caso de sucesso. O dano aumenta para 3d6 quando você alcança o 6º nível, 4d6 no 11º nível, e 5d6 no 16º nível. Depois que você usa sua arma de baforada, você não pode usar novamente até que você conclua um descanso curto ou longo.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_dragonborn_damageresistence</column>
+        <column name="_name_id" translation="ENG">Damage Resistence</column>
+        <column name="_name_id" translation="POR">Resistência à Dano</column>
+        <column name="_description_id" translation="ENG">You have resistance to the damage type associated with our draconic ancestry.</column>
+        <column name="_description_id" translation="POR">Você tem resistência contra danos do tipo associado à sua linhagem draconiana.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_gnome_gnomecunning</column>
+        <column name="_name_id" translation="ENG">Gnome Cunning</column>
+        <column name="_name_id" translation="POR">Astúcia Gnômica</column>
+        <column name="_description_id" translation="ENG">You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</column>
+        <column name="_description_id" translation="POR">Você tem vantagem em qualquer saving throw de Inteligência, Sabedoria e Carisma contra magia.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_forestgnome_naturalillusionist</column>
+        <column name="_name_id" translation="ENG">Natural Illusionist</column>
+        <column name="_name_id" translation="POR">Ilusionista Natural</column>
+        <column name="_description_id" translation="ENG">You know the minor illusion cantrip. Intelligence is your spellcasting ability for it.</column>
+        <column name="_description_id" translation="POR">Voce conhece o truque ilusão menor. Inteligência é seu atributo mágico para ele.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_forestgnome_speakwithsmallbeast</column>
+        <column name="_name_id" translation="ENG">Speak with Small Beast</column>
+        <column name="_name_id" translation="POR">Falar com Pequenos Animais</column>
+        <column name="_description_id" translation="ENG">Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets.</column>
+        <column name="_description_id" translation="POR">Por sons e gestos, você pode comunicar ideas simples com animais(feras) de tamanho Pequeno ou menor. Gnomos da Floresta amam animais e frequentemente mantêm esquilos, texugos, lebres, toupeiras, pica-paus, e outras criatuas como amados mascotes.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_rockgnome_artificerslore</column>
+        <column name="_name_id" translation="ENG">Artificer's Lore</column>
+        <column name="_name_id" translation="POR">Saber do Artífice</column>
+        <column name="_description_id" translation="ENG">Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.</column>
+        <column name="_description_id" translation="POR">Sempre que você fizer um teste de Inteligência (História) relacionado à itens mágicos, objetos alquímicos ou dispositivos tecnológicos, você pode adicionar duas vezes seu bônus de proficiência, ao invés de qualquer bônus de proficiência que você aplicaria normalmente.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_rockgnome_tinker</column>
+        <column name="_name_id" translation="ENG">Tinker</column>
+        <column name="_name_id" translation="POR">Tinker</column>
+        <column name="_description_id" translation="ENG">You have proficiency with artisan’s tools (tinker’s tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clock work device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time. When you create a device, choose one of the following options:
+* Clockwork Toy. This toy is a clock work animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.
+* Fire Starter. The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.
+* Music Box. When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song’s end or when it is closed.
+        </column>
+        <column name="_description_id" translation="POR">Você tem proficiência com ferramentas de artesão (tinker). Usando estas ferramentas, você pode investir 1 hora e materiais no valor de 10 p.o. para construir um dispositivo de corda Minúsculo (CA 5, 1 HP). O dispositivo pára de funcionar após 24 hroas (a menos que você invista mais 1 hora fazendo a manutenção para mantê-lo funcionando), ou quando você usa sua ação para desmontá-lo; neste momento, você pode recuperar os materiais usado para criá-lo. Você pode ter até no máximo três destes dispositivos ativos ao mesmo tempo. Quando você cria o dispositivo, escolha uma das seguintes opções:
+* Brinquedo de Corda. Este brinquedo é um animal, monstro ou pessoa, como um sapo, rato, pássaro, dragão ou soldado. Quando colocado no chão, o brinquedo se move 5 ft. em cada um de seus turnos em uma direção aleatória. Ele faz barulhos apropriados à criatura que representa.
+* Incendiário. Este dispositivo produz pequenas chamas, que você pode usar para acender uma vela, torcha ou fogueira. Usar este dispositivo requer sua ação.
+* Caixa de Música. Quando aberta, esta caixinha toca uma música em um volume moderado. A caixinha pára de tocar quando a música acabar ou quando for fechada.
+        </column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_halfelf_skillversality</column>
+        <column name="_name_id" translation="ENG">Skill Versatility</column>
+        <column name="_name_id" translation="POR">Versatilidade em Habilidades</column>
+        <column name="_description_id" translation="ENG">You gain proficiency in two skills of your choice.</column>
+        <column name="_description_id" translation="POR">Você ganha proficiência em duas habilidades à sua escolha.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_halforc_menacing</column>
+        <column name="_name_id" translation="ENG">Menacing</column>
+        <column name="_name_id" translation="POR">Ameaçador</column>
+        <column name="_description_id" translation="ENG">You gain proficiency in the Intimidation skill.</column>
+        <column name="_description_id" translation="POR">Voce ganha proficiencia com a habilidade de Intimidaçao.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_halforc_relentlessendurance</column>
+        <column name="_name_id" translation="ENG">Relentless Endurance</column>
+        <column name="_name_id" translation="POR">Fortitude Implacável</column>
+        <column name="_description_id" translation="ENG">When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest.</column>
+        <column name="_description_id" translation="POR">Quando você é reduzido à 0 HP mas não é morto imediatamente, você pode cair para 1 HP ao invés disso. Você não pode usar esta característica novamente até concluir o próximo descanso longo.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_halforc_savageattacks</column>
+        <column name="_name_id" translation="ENG">Savage Attacks</column>
+        <column name="_name_id" translation="POR">Ataques Ferozes</column>
+        <column name="_description_id" translation="ENG">When you score a critical hit with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.</column>
+        <column name="_description_id" translation="POR">Quando você causa um acerto crítico com um ataque armado de curto alcance, você pode rolar um dos dados de dano da arma uma vez a mais e adicioná-lo ao dano extra do acerto crítico.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_tielfling_hellishresistance</column>
+        <column name="_name_id" translation="ENG">Hellish Resistance</column>
+        <column name="_name_id" translation="POR">Resistência Infernal</column>
+        <column name="_description_id" translation="ENG">You have resistance to fire damage.</column>
+        <column name="_description_id" translation="POR">Você tem resistência com dano de fogo.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_tielfling_infernallegacy</column>
+        <column name="_name_id" translation="ENG">Infernal Legacy</column>
+        <column name="_name_id" translation="POR">Legado Infernal</column>
+        <column name="_description_id" translation="ENG">You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the hellish rebuke spell once per day as a 2nd-level spell. Once you reach 5th level, you can also cast the darkness spell once per day. Charisma is your spellcasting ability for these spells.</column>
+        <column name="_description_id" translation="POR">Voce conhece o truque taumaturgia. Quando voce alcança 3º nivel, voce pode conjurar a magia repreensão infernal (hellish rebuke) uma vez como uma magia de 2º nível. Quando você alcança 5º nível, você também pode conjurar a magia escuridão (darkness) uma vez. Você recupera todos os usos desta característica quando você conclui um descanso longo. Carisma é seu atributo mágico para estas magias.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_eladrin_feystep</column>
+        <column name="_name_id" translation="ENG">Eladrin</column>
+        <column name="_name_id" translation="POR">Eladrin</column>
+        <column name="_description_id" translation="ENG">You can cast misty step once using this trait. You regain the ability to do so when you finish a short or long rest.</column>
+        <column name="_description_id" translation="POR">Você pode conjurar a magia passo enevoado (misty step) uma vez. Você recupera o uso desta característica quando você conclui um descanso curto ou longo.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_aasimar_celestialresistance</column>
+        <column name="_name_id" translation="ENG">Celestial Resistance</column>
+        <column name="_name_id" translation="POR">Resistência Celestial</column>
+        <column name="_description_id" translation="ENG">You have resistance to necrotic damage and radiant damage.</column>
+        <column name="_description_id" translation="POR">Você tem resistência contra danos necróticos e radiantes.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_aasimar_celestiallegacy</column>
+        <column name="_name_id" translation="ENG">Celestial Legacy</column>
+        <column name="_name_id" translation="POR">Legado Celestial</column>
+        <column name="_description_id" translation="ENG">You know the light cantrip. Once you reach 3rd level, you can cast lesser restoration spell once with this trait, and you regain the ability to do so when you finish a long rest. Once you reach 5th level, you can cast the daylight spell once using this trait as a 3rd level spell, and you regain the ability to do so when you finish a long rest. Charisma is you spellcasting ability for these spells.</column>
+        <column name="_description_id" translation="POR">Você conhece o truque luz (light). Quando você alcança 3º nível, você pode conjurar a magia restauração menor (lesser restoration) uma vez como uma magia de 2º nível. Quando você alcança o 5º nível, você pode conjurar a magia luz solar (daylight) uma vez como uma magia de 3º nível. Você recupera todos os usos desta característica quando você conclui um descanso longo. Carisma é seu atributo mágico para estas magias.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_aarakokra_flight</column>
+        <column name="_name_id" translation="ENG">Flight</column>
+        <column name="_name_id" translation="POR">Vôo</column>
+        <column name="_description_id" translation="ENG">You have a flying speed of 50 feet. To use this speed, you can’t be wearing medium or heavy armor.</column>
+        <column name="_description_id" translation="POR">Você tem uma velocidade de vôo de 50 ft.. Para usar esta velocidade, você não pode estar vestindo armadura média ou pesada.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_aarakokra_taloons</column>
+        <column name="_name_id" translation="ENG">Taloons</column>
+        <column name="_name_id" translation="POR">Garras</column>
+        <column name="_description_id" translation="ENG">You are proficient with your unarmed strikes, which deal 1d4 slashing damage on a hit.</column>
+        <column name="_description_id" translation="POR">Você é proficiente com seus ataques desarmados, que fazem 1d4 de dano cortante no acerto.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_deepgnome_stonecamouflage</column>
+        <column name="_name_id" translation="ENG">Stone Camouflage</column>
+        <column name="_name_id" translation="POR">Camuflagem de Pedra</column>
+        <column name="_description_id" translation="ENG">You have advantage on Dexterity (stealth) checks to hide in rocky terrain.</column>
+        <column name="_description_id" translation="POR">Você tem vantagem em testes de Destreza (Furtividade) que faz para se esconder em terreno rochoso.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_airgenasi_unendingbreath</column>
+        <column name="_name_id" translation="ENG">Unending Breath</column>
+        <column name="_name_id" translation="POR">Fôlego Inacabável</column>
+        <column name="_description_id" translation="ENG">You can hold your breath indefinitely while you’re not incapacitated.</column>
+        <column name="_description_id" translation="POR">Você pode segurar seu fôlego indefinidamente enquanto você não estiver incapacitado.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_airgenasi_minglewiththewind</column>
+        <column name="_name_id" translation="ENG">Mingle with the Wind</column>
+        <column name="_name_id" translation="POR">Mesclar-se com o Vento</column>
+        <column name="_description_id" translation="ENG">You can cast the levitate spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.</column>
+        <column name="_description_id" translation="POR">Voce pode conjurar a magia levitar (levitate) uma vez, sem precisar prover os componentes materiais uma vez. Você recupera a capacidade de conjurar esta magia novamente quando você conclui um descanso longo. Constituição é seu atributo mágico para esta magia.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_earthgenasi_earthwalk</column>
+        <column name="_name_id" translation="ENG">Earth Walk</column>
+        <column name="_name_id" translation="POR">Andar na Terra</column>
+        <column name="_description_id" translation="ENG">You can move across difficult terrain made of earth or stone without expending extra movement.</column>
+        <column name="_description_id" translation="POR">Você pode se mover em terreno difícil feito de terra ou pedra sem gastar movimento extra.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_earthgenasi_mergewithstone</column>
+        <column name="_name_id" translation="ENG">Merge with Stone</column>
+        <column name="_name_id" translation="POR">Mescar-se com a Pedra</column>
+        <column name="_description_id" translation="ENG">You can cast the pass without trace spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.</column>
+        <column name="_description_id" translation="POR">Você pode conjurar a magia passar sem deixar rastro (pass without trace), sem precisar prover os componentes materiais uma vez. Você recupera a capacidade de conjurar esta magia novamente quando você conclui um descanso longo. Constituição é seu atributo mágico para esta magia.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_firegenasi_fireresistance</column>
+        <column name="_name_id" translation="ENG">Fire Resistance</column>
+        <column name="_name_id" translation="POR">Resistência à Fogo</column>
+        <column name="_description_id" translation="ENG">You have resistance to fire damage.</column>
+        <column name="_description_id" translation="POR">Você tem resistência contra dano de fogo.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_firegenasi_reachtotheblaze</column>
+        <column name="_name_id" translation="ENG">Reach to the Blaze</column>
+        <column name="_name_id" translation="POR">Alcançar a Labareda</column>
+        <column name="_description_id" translation="ENG">You know the produce flame cantrip. Once you reach 3rd level, you can cast the burning hands spell once with this trait as a 1st-level spell, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.</column>
+        <column name="_description_id" translation="POR">Você conhece o truque produzir chama (produce flame). Quando você alcança o 3º nível, você pode conjurar a magia mãos flamejantes (burning hands) uma vez como uma magia de 1º nível. Você recupera a capacidade de conjurar esta magia novamente quando você conclui um descanso longo. Constituição é seu atributo mágico para esta magia.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_watergenasi_acidresistance</column>
+        <column name="_name_id" translation="ENG">Acid Resistance</column>
+        <column name="_name_id" translation="POR">Resistência à Ácido</column>
+        <column name="_description_id" translation="ENG">You have resistance to acid damage.</column>
+        <column name="_description_id" translation="POR">Você tem resistência contra dano de ácido.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_watergenasi_amphibious</column>
+        <column name="_name_id" translation="ENG">Amphibious</column>
+        <column name="_name_id" translation="POR">Anfíbio</column>
+        <column name="_description_id" translation="ENG">You can breathe air and water.</column>
+        <column name="_description_id" translation="POR">Você pode respirar ar ou água.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_watergenasi_swim</column>
+        <column name="_name_id" translation="ENG">Swim</column>
+        <column name="_name_id" translation="POR">Nadar</column>
+        <column name="_description_id" translation="ENG">You have a swimming speed of 30 feet.</column>
+        <column name="_description_id" translation="POR">Você tem uma velocidade de natação de 30 ft..</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_watergenasi_calltothewave</column>
+        <column name="_name_id" translation="ENG">Call to the Wave</column>
+        <column name="_name_id" translation="POR">O Chamado da Onda</column>
+        <column name="_description_id" translation="ENG">You know the shape water cantrip (see chapter 2). When you reach 3rd level, you can cast the create or destroy water spell as a 2nd-level spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.</column>
+        <column name="_description_id" translation="POR">Você conhece o truque moldar água (shape water). Quando você alcança o 3º nível, você pode conjurar a magia criar ou destruir água (create or destroy water) cmo uma magia de 2º nível. Você recupera a capacidade de usar esta magia novamente quando você conclui um descanso longo. Constituição é seu atributo mágico para estas magias.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_goliath_naturalathelete</column>
+        <column name="_name_id" translation="ENG">Natural Athlete</column>
+        <column name="_name_id" translation="POR">Naturalmente Atlético</column>
+        <column name="_description_id" translation="ENG">You have proficiency in the Athletics skill.</column>
+        <column name="_description_id" translation="POR">Você tem proficiência com a habilidade de Atletismo.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_goliath_stonesendurance</column>
+        <column name="_name_id" translation="ENG">Stone's Endurance</column>
+        <column name="_name_id" translation="POR">Resistência de Pedra</column>
+        <column name="_description_id" translation="ENG">You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can’t use it again until you finish a short or long rest.</column>
+        <column name="_description_id" translation="POR">Você pode ocasionalmente focar em livrar-se de injúria. Quando você recebe dano, você pode usar sua reação para rolar um d12. Se o fizer, adicione seu modificador de Constituição ao número rolalo e reduza o dano recebido deste total Depois que você faz isso, você só pode fazer novamente após concluir um descanso curto ou longo.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_goliath_powerfulbuild</column>
+        <column name="_name_id" translation="ENG">Powerful Build</column>
+        <column name="_name_id" translation="POR">Construção Poderosa</column>
+        <column name="_description_id" translation="ENG">You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</column>
+        <column name="_description_id" translation="POR">Você conta como um tamanho maior para determinar sua capacidade de carga e o peso que você pode puchar, empurrar ou levantar.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_goliath_mountainborn</column>
+        <column name="_name_id" translation="ENG">Mountain Born</column>
+        <column name="_name_id" translation="POR">Nascido da Montanha</column>
+        <column name="_description_id" translation="ENG">You’re acclimated to high altitude, including elevations above 20,000 feet. You’re also naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master’s Guide.</column>
+        <column name="_description_id" translation="POR">Você é acostumado à altitudes elevadas, incluindo acima de 6 Km. Você também é adaptado naturalmente à climas de frio, como descrito no capítulo 5 do Livro do Mestre.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_abilityscoreimprovement</column>
+        <column name="_name_id" translation="ENG">Ability Score Improvement</column>
+        <column name="_name_id" translation="POR">Aprimoramento de Atributos</column>
+        <column name="_description_id" translation="ENG">You receive a bonus +2 on one ability score of your choise or +1 on two ability scores of your choise. Alternatively, you can choose one feat if your DM allows the feats variant rule.</column>
+        <column name="_description_id" translation="POR">Você recebe um bonus de +2 em um atributo de sua escolha ou +1 em dois atributos de sua escolha. Alternativamente, você pode escolher um talento à sua escolha, se seu Mestre permitir a regra alternativa de talentos.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_extraattack</column>
+        <column name="_name_id" translation="ENG">Extra Attack</column>
+        <column name="_name_id" translation="POR">Ataque Extra</column>
+        <column name="_description_id" translation="ENG">Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</column>
+        <column name="_description_id" translation="POR">A partir do 5º nível, você pode atacar duas vezes, ao invés de uma, sempre que você tomar uma ação de Atacar no seu turno.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_barbarian_rage</column>
+        <column name="_name_id" translation="ENG">Rage</column>
+        <column name="_name_id" translation="POR">Fúria</column>
+        <column name="_description_id" translation="ENG">
+In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.
+While raging, you gain the following benefits if you aren’t wearing heavy armor:
+
+• You have advantage on Strength checks and Strength saving throws.
+• When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a barbarian, as shown in the Rage Damage column of the Barbarian table.
+• You have resistance to bludgeoning, piercing, and slashing damage.
+
+If you are able to cast spells, you can’t cast them or concentrate on them while raging.
+Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven’t attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.
+Once you have raged the number of times shown for your barbarian level in the Rages column of the Barbarian table, you must finish a long rest before you can rage again.
+        </column>
+        <column name="_description_id" translation="POR">
+Em batalha, você luta com ferocidade primitiva. No seu turno, você pode entrar em fúria como uma ação bônus.
+Enquanto estiver em fúria, você ganha os seguintes benefícios se você não estiver usando armadura pesada:
+
+• Você tem vantagem em testes de Força e saving throws de Força.
+• Quando você faz um ataque armado de curto alcance usando Força, você ganha um bônus na rolagem de dano que aumenta a medida que você ganha níveis como bárbaro, como mostra a coluna Dano da Fúria na tabela do Bárbaro.
+• Você tem resistência em dano contundente, perfurante e cortante.
+
+Se você está apto à conjurar magias, você não pode conjurá-las ou se concentrar nelas enquanto estiver em fúria.
+Sua fúria dura 1 minuto, mas pode acabar antecipadamente se você ficar inconciente ou se seu turno acabar e você não atacou uma criatura hostil desde o seu último turno ou não recebeu dano desde seu último turno. Você também pode acabar sua fúria como como uma ação bônus.
+Uma vez que você tenha entrado em fúria a quantidade de vezes mostrada na coluna Fúria da tabela do Bárbaro, você deve concluir um descanso longo antes que você possa entrar em fúria novamente.
+        </column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_barbarian_unarmoreddefense</column>
+        <column name="_name_id" translation="ENG">Unarmored Defense</column>
+        <column name="_name_id" translation="POR">Defesa Desarmada</column>
+        <column name="_description_id" translation="ENG">While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.</column>
+        <column name="_description_id" translation="POR">Enquanto você não estiver vestindo nenhuma armadura, sua Classe de Armadura é igual a 10 + seu modificador de Destreza + seu modificador de Constituição. Você pode usar um escudo e ainda obter os benefícios desta característica.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_fighter_fightingstyle</column>
+        <column name="_name_id" translation="ENG">Fighting Style</column>
+        <column name="_name_id" translation="POR">Estilo de Luta</column>
+        <column name="_description_id" translation="ENG">
+You adopt a particular style of fighting as your specialty.
+Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.
+
+Archery
+You gain a +2 bonus to attack rolls you make with ranged weapons.
+
+Defense
+While you are wearing armor, you gain a +1 bonus to AC.
+
+Dueling
+When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
+
+Great Weapon Fighting
+When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
+
+Protection
+When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.
+
+Two-Weapon Fighting
+When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.
+        </column>
+        <column name="_description_id" translation="POR">
+Você adota um estilo particular de luta como sua especialidade.
+Escolha uma das seguintes opções. Você não pode escolher uma opção de Estilo de Luta mais de uma vez, mesmo que você tenha de escolher novamente mais tarde.
+
+Arqueiria
+Você ganha um bônus de +2 em rolagens de ataque que você faz com armas de longo alcance.
+
+Defensivo
+Enquanto você estiver vestindo armadura, você ganha um bônus de +1 de CA.
+
+Duelista
+Enquanto você está usando armas de curto alcance em uma mão e nenhuma outra arma, você ganha um bônus de +2 em rolagens de dano com aquela arma.
+
+Luta com Armas Grandes
+Quando você rola um 1 ou 2 em um dado de dano para um ataque feito com uma arma de curto alcance que você está usando com as duas mãos, você pode rerolar o dado e deve usar a nova rolagem, mesmo que seja um 1 ou 2. A arma precisa ter a propriedade de duas-mãos ou versátil para você ganhar este benefício.
+
+Proteção
+Quando uma criatura que você pode ver ataca um outro alvo que esteja em até 5 ft. de você, você pode usar sua reação para impor desvantagem no rolamento de ataque. Você precisa estar usando um escudo.
+
+Luta com Duas Armas
+Quando você engaja em uma luta usando duas armas, você pode adicionar seu modificador de atributo ao dano do segundo ataque.
+        </column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_fighter_secondwind</column>
+        <column name="_name_id" translation="ENG">Second Wind</column>
+        <column name="_name_id" translation="POR">Retomar Fôlego</column>
+        <column name="_description_id" translation="ENG">You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again.</column>
+        <column name="_description_id" translation="POR">Você tem uma carga limitada de vigor que você pode usar para se proteger de ferimentos. No seu turno, você pode usar uma ação bônus para recuperar uma quantidade de HP igual a 1d10 + seu nível de lutador. Após fazer isto, você só pode usar esta característica novamente após concluir um descanso curto ou longo.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_fighter_actionsurge</column>
+        <column name="_name_id" translation="ENG">Action Surge</column>
+        <column name="_name_id" translation="POR">Pulso de Ação</column>
+        <column name="_description_id" translation="ENG">Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action. Once you use this feature, you must finish a short or long rest before you can use it again.</column>
+        <column name="_description_id" translation="POR">A partir do 2º nível, você pode exceder seus limites comuns por um breve momento. No seu turno, você pode tomar uma ação adicional além de seua ação regular e uma possível ação bônus. Uma vez que você use esta característica, você deve concluir um descanso curto ou longo antes de usá-la novamente.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_fighter_martialarchetype</column>
+        <column name="_name_id" translation="ENG">Martial Archetype</column>
+        <column name="_name_id" translation="POR">Arquetipo Marcial</column>
+        <column name="_description_id" translation="ENG">At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. Choose Champion, Battle Master, or Eldritch Knight. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.</column>
+        <column name="_description_id" translation="POR">No 3º nível, você escolhe um arquétipo que você se esforça para imitar em seus estilos de combate e técnicas. Escolha entre o Campeão, Mestre de Batalhas ou Cavaleiro Sobrenatural. O arquétipo que você escolhe, lhe concede características exclusivas no 3º nível e novamente no 7º, 10º, 15º e 18º níveis.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_fighterchampion_improvedcritical</column>
+        <column name="_name_id" translation="ENG">Improved Critical</column>
+        <column name="_name_id" translation="POR">Crítico Melhorado</column>
+        <column name="_description_id" translation="ENG">Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20.</column>
+        <column name="_description_id" translation="POR">A partir de quando você escolhe este arquétipo no 3º nível, seus ataques armados causam um acerto crítico nos rolamentos de 19 ou 20.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_fighterchampion_remarkableathlete</column>
+        <column name="_name_id" translation="ENG">Remarkable Athlete</column>
+        <column name="_name_id" translation="POR">Atletismo Notável</column>
+        <column name="_description_id" translation="ENG">Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn’t already use your proficiency bonus. In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier.</column>
+        <column name="_description_id" translation="POR">A partir do 7º nível, você pode adicionar metade do seu bônus de proficiência (arredondado para cima) em qualquer teste de Força, Destreza ou Constituição que você fizer que você já não possa adicionar seu bônus de proficiência. Além disso, quando você faz um pulo corrido, a distância que você cobre aumenta em um número de pés igual ao seu modificador de Força.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_fighter_indomable</column>
+        <column name="_name_id" translation="ENG">Indomitable</column>
+        <column name="_name_id" translation="POR">Indomável</column>
+        <column name="_description_id" translation="ENG">Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can’t use this feature again until you finish a long rest.</column>
+        <column name="_description_id" translation="POR">A partir do 9º nível, você pode rerolar um saving throw que você falhe. Se você fizer isso, você pode deve usar o novo rolamento, e você não pode fazer isto novamente até concluir um descanso longo.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_fighterchampion_additionalfightingstyle</column>
+        <column name="_name_id" translation="ENG">Additional Fighting Style</column>
+        <column name="_name_id" translation="POR">Estilo de Luta Adicional</column>
+        <column name="_description_id" translation="ENG">At 10th level, you can choose a second option from the Fighting Style class feature.</column>
+        <column name="_description_id" translation="POR">No 10º nível, você pode escolher uma segunda opção da característica Estilo de Luta.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_fighter_threeattacks</column>
+        <column name="_name_id" translation="ENG">Extra Attack (three attacks)</column>
+        <column name="_name_id" translation="POR">Ataque Extra (four attacks)</column>
+        <column name="_description_id" translation="ENG">The number of attacks increases to three whenever you take the Attack action on your turn when you reach 11th level in this class.</column>
+        <column name="_description_id" translation="POR">O número de ataques aumenta para três sempre que você tomar a ação de Ataque no seu turno quando você alcança o 11º nível de lutador.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_fighter_indomitable2</column>
+        <column name="_name_id" translation="ENG">Indomitable (two uses)</column>
+        <column name="_name_id" translation="POR">Indomável (dois usos)</column>
+        <column name="_description_id" translation="ENG">You can use your Indomitable feature twice between long rests starting at 13th level.</column>
+        <column name="_description_id" translation="POR">Você pode usar sua característica de Indomável duas vezes entre descansos longos a partir do 13º nível.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_fighterchampion_superiorcritical</column>
+        <column name="_name_id" translation="ENG">Superior Critical</column>
+        <column name="_name_id" translation="POR">Crítico Superior</column>
+        <column name="_description_id" translation="ENG">Starting at 15th level, your weapon attacks score a critical hit on a roll of 18-20.</column>
+        <column name="_description_id" translation="POR">A partir do 15º nível, seus ataques desarmados causam um acerto crítico num rolamento de 18-20.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_fighter_actionsurge2</column>
+        <column name="_name_id" translation="ENG">Action Surge (two uses)</column>
+        <column name="_name_id" translation="POR">Pulso de Ação (dois usos)</column>
+        <column name="_description_id" translation="ENG">Starting at 17th level, you can use your Action Surge feature twice before a rest, but only once on the same turn.</column>
+        <column name="_description_id" translation="POR">A partir do 17º nível, você pode usar sua característica de Pulso de Ação até duas vezes antes de precisar descansar para usá-la novamente, mas somente uma vez por turno.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_fighter_indomitable3</column>
+        <column name="_name_id" translation="ENG">Indomitable (three uses)</column>
+        <column name="_name_id" translation="POR">Indomável (três usos)</column>
+        <column name="_description_id" translation="ENG">You can use your Indomitable feature three times between long rests starting at 17th level.</column>
+        <column name="_description_id" translation="POR">Você pode usar sua característica de Indomável três vezes entre descansos longos a partir do 17º nível.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_fighterchampion_survivor</column>
+        <column name="_name_id" translation="ENG">Survivor</column>
+        <column name="_name_id" translation="POR">Sobrevivente</column>
+        <column name="_description_id" translation="ENG">At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don’t gain this benefit if you have 0 hit points.</column>
+        <column name="_description_id" translation="POR">No 18º nível, você atinge o auge da resiliência em batalha. No início de cada um dos seus turnos, você recupera uma quantidade de HP igual à 5 + seu modificador de Constituição se você tem não mais do que metade do seu HP restante. Você não ganha este benefício se você tem 0 de HP.</column>
+    </insert>
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_fighter_fourattacks</column>
+        <column name="_name_id" translation="ENG">Extra Attack (four attacks)</column>
+        <column name="_name_id" translation="POR">Ataque Extra (quatro ataques)</column>
+        <column name="_description_id" translation="ENG">The number of attacks increases to four whenever you take the Attack action on your turn when you reach 20th level in this class.</column>
+        <column name="_description_id" translation="POR">O número de ataques que você pode fazer quando você toma a ação de Ataque no seu turno aumenta para quatro quando você alcança o 20º nível de lutador.</column>
+    </insert>
+
+    <!--
+
+    <insert table="_feature">
+        <column name="_id" id="true">feature_</column>
+        <column name="_name_id" translation="ENG"></column>
+        <column name="_name_id" translation="POR"></column>
+        <column name="_description_id" translation="ENG"></column>
+        <column name="_description_id" translation="POR"></column>
+    </insert>
+
+    -->
 
 </data>

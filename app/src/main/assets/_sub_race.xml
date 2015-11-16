@@ -365,7 +365,7 @@
   </insert>
 
   <insert table="_sub_race">
-    <column name="_id" id="true">subrace_tielflinf</column>
+    <column name="_id" id="true">subrace_tielfling</column>
     <column name="_super_race_id" id="true">superrace_tielfling</column>
     <column name="_size_id" id="true">size_medium</column>
     <column name="_source_id" id="true">source_playershandbook</column>
@@ -414,6 +414,214 @@
 
     <column name="_speed">30 ft.</column>
     <column name="_darkvision">60 ft.</column>
+  </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_aasimar</column>
+    <column name="_super_race_id" id="true">superrace_aasimar</column>
+    <column name="_size_id" id="true">size_medium</column>
+    <column name="_source_id" id="true">source_dungeonmastersguide</column>
+
+    <column name="_name_id" translation="ENG">Aasimar</column>
+    <column name="_name_id" translation="POR">Aasimar</column>
+    <column name="_adult_age_id" translation="ENG">18 ~ 20</column>
+    <column name="_adult_age_id" translation="POR">18 ~ 20</column>
+    <column name="_max_age_id" translation="ENG">70 ~ 80</column>
+    <column name="_max_age_id" translation="POR">70 ~ 80</column>
+    <column name="_alignment_id" translation="ENG">LG, NG, CG</column>
+    <column name="_alignment_id" translation="POR">LB, NB, CB</column>
+    <column name="_ability_id" translation="ENG">Wis+1; Cha+2</column>
+    <column name="_ability_id" translation="POR">Sab+1; Car+2</column>
+    <column name="_languages_id" translation="ENG">Common and Celestial</column>
+    <column name="_languages_id" translation="POR">Comum e Celestial</column>
+
+    <column name="_height">5-6 ft.</column>
+    <column name="_weight">120-240 lb.</column>
+
+    <column name="_speed">30 ft.</column>
+    <column name="_darkvision">60 ft.</column>
+  </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_aarakokra</column>
+    <column name="_super_race_id" id="true">superrace_aarakokra</column>
+    <column name="_size_id" id="true">size_medium</column>
+    <column name="_source_id" id="true">source_elementalevilplayerscompanion</column>
+
+    <column name="_name_id" translation="ENG">Aarakokra</column>
+    <column name="_name_id" translation="POR">Aarakokra</column>
+    <column name="_adult_age_id" translation="ENG">3</column>
+    <column name="_adult_age_id" translation="POR">3</column>
+    <column name="_max_age_id" translation="ENG">30</column>
+    <column name="_max_age_id" translation="POR">30</column>
+    <column name="_alignment_id" translation="ENG">NG / LG, CG</column>
+    <column name="_alignment_id" translation="POR">NB / LB, CB</column>
+    <column name="_ability_id" translation="ENG">Dex+2; Wis+1</column>
+    <column name="_ability_id" translation="POR">Des+2; Sab+1</column>
+    <column name="_languages_id" translation="ENG">Common, Aarakokra and Auran</column>
+    <column name="_languages_id" translation="POR">Comum, Aarakokra e Auran</column>
+
+    <column name="_height">5 ft.</column>
+    <column name="_weight">80-100 lb.</column>
+
+    <column name="_speed">25 ft.</column>
+    <column name="_darkvision">0 ft.</column>
+  </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_deepgnome</column>
+    <column name="_super_race_id" id="true">superrace_gnome</column>
+    <column name="_size_id" id="true">size_small</column>
+    <column name="_source_id" id="true">source_elementalevilplayerscompanion</column>
+
+    <column name="_name_id" translation="ENG">Deep Gnome</column>
+    <column name="_name_id" translation="POR">Gnomo das Profundezas</column>
+    <column name="_adult_age_id" translation="ENG">18-20 (25)</column>
+    <column name="_adult_age_id" translation="POR">18-20 (25)</column>
+    <column name="_max_age_id" translation="ENG">200-250</column>
+    <column name="_max_age_id" translation="POR">200-250</column>
+    <column name="_alignment_id" translation="ENG">N</column>
+    <column name="_alignment_id" translation="POR">N</column>
+    <column name="_ability_id" translation="ENG">Int+2; Dex+1</column>
+    <column name="_ability_id" translation="POR">Int+2; Des+1</column>
+    <column name="_languages_id" translation="ENG">Common, Gnomish and Undercommon</column>
+    <column name="_languages_id" translation="POR">Comum, Gnômico e Comum Inferior</column>
+
+    <column name="_height">3-4 ft.</column>
+    <column name="_weight">80-120 lb.</column>
+
+    <column name="_speed">25 ft.</column>
+    <column name="_darkvision">120 ft.</column>
+  </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_airgenasi</column>
+    <column name="_super_race_id" id="true">superrace_genasi</column>
+    <column name="_size_id" id="true">size_medium</column>
+    <column name="_source_id" id="true">source_elementalevilplayerscompanion</column>
+
+    <column name="_name_id" translation="ENG">Air Genasi</column>
+    <column name="_name_id" translation="POR">Genasi do Ar</column>
+    <column name="_adult_age_id" translation="ENG">18-20</column>
+    <column name="_adult_age_id" translation="POR">18-20</column>
+    <column name="_max_age_id" translation="ENG">120</column>
+    <column name="_max_age_id" translation="POR">120</column>
+    <column name="_alignment_id" translation="ENG">N</column>
+    <column name="_alignment_id" translation="POR">N</column>
+    <column name="_ability_id" translation="ENG">Con+2; Dex+1</column>
+    <column name="_ability_id" translation="POR">Con+2; Des+1</column>
+    <column name="_languages_id" translation="ENG">Common and Primordial</column>
+    <column name="_languages_id" translation="POR">Comum e Primordial</column>
+
+    <column name="_height">5-6 ft.</column>
+    <column name="_weight">?</column>
+
+    <column name="_speed">30 ft.</column>
+    <column name="_darkvision">0 ft.</column>
+  </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_earthgenasi</column>
+    <column name="_super_race_id" id="true">superrace_genasi</column>
+    <column name="_size_id" id="true">size_medium</column>
+    <column name="_source_id" id="true">source_elementalevilplayerscompanion</column>
+
+    <column name="_name_id" translation="ENG">Earth Genasi</column>
+    <column name="_name_id" translation="POR">Genasi da Terra</column>
+    <column name="_adult_age_id" translation="ENG">18-20</column>
+    <column name="_adult_age_id" translation="POR">18-20</column>
+    <column name="_max_age_id" translation="ENG">120</column>
+    <column name="_max_age_id" translation="POR">120</column>
+    <column name="_alignment_id" translation="ENG">N</column>
+    <column name="_alignment_id" translation="POR">N</column>
+    <column name="_ability_id" translation="ENG">Con+2; Str+1</column>
+    <column name="_ability_id" translation="POR">Con+2; For+1</column>
+    <column name="_languages_id" translation="ENG">Common and Primordial</column>
+    <column name="_languages_id" translation="POR">Comum e Primordial</column>
+
+    <column name="_height">5-6 ft.</column>
+    <column name="_weight">?</column>
+
+    <column name="_speed">30 ft.</column>
+    <column name="_darkvision">0 ft.</column>
+  </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_firegenasi</column>
+    <column name="_super_race_id" id="true">superrace_genasi</column>
+    <column name="_size_id" id="true">size_medium</column>
+    <column name="_source_id" id="true">source_elementalevilplayerscompanion</column>
+
+    <column name="_name_id" translation="ENG">Fire Genasi</column>
+    <column name="_name_id" translation="POR">Genasi do Fogo</column>
+    <column name="_adult_age_id" translation="ENG">18-20</column>
+    <column name="_adult_age_id" translation="POR">18-20</column>
+    <column name="_max_age_id" translation="ENG">120</column>
+    <column name="_max_age_id" translation="POR">120</column>
+    <column name="_alignment_id" translation="ENG">N</column>
+    <column name="_alignment_id" translation="POR">N</column>
+    <column name="_ability_id" translation="ENG">Con+2; Int+1</column>
+    <column name="_ability_id" translation="POR">Con+2; Int+1</column>
+    <column name="_languages_id" translation="ENG">Common and Primordial</column>
+    <column name="_languages_id" translation="POR">Comum e Primordial</column>
+
+    <column name="_height">5-6 ft.</column>
+    <column name="_weight">?</column>
+
+    <column name="_speed">30 ft.</column>
+    <column name="_darkvision">60 ft.</column>
+  </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_watergenasi</column>
+    <column name="_super_race_id" id="true">superrace_genasi</column>
+    <column name="_size_id" id="true">size_medium</column>
+    <column name="_source_id" id="true">source_elementalevilplayerscompanion</column>
+
+    <column name="_name_id" translation="ENG">Water Genasi</column>
+    <column name="_name_id" translation="POR">Genasi da Água</column>
+    <column name="_adult_age_id" translation="ENG">18-20</column>
+    <column name="_adult_age_id" translation="POR">18-20</column>
+    <column name="_max_age_id" translation="ENG">120</column>
+    <column name="_max_age_id" translation="POR">120</column>
+    <column name="_alignment_id" translation="ENG">N</column>
+    <column name="_alignment_id" translation="POR">N</column>
+    <column name="_ability_id" translation="ENG">Con+2; Wis+1</column>
+    <column name="_ability_id" translation="POR">Con+2; Sab+1</column>
+    <column name="_languages_id" translation="ENG">Common and Primordial</column>
+    <column name="_languages_id" translation="POR">Comum e Primordial</column>
+
+    <column name="_height">5-6 ft.</column>
+    <column name="_weight">?</column>
+
+    <column name="_speed">30 ft.</column>
+    <column name="_darkvision">0 ft.</column>
+  </insert>
+
+  <insert table="_sub_race">
+    <column name="_id" id="true">subrace_goliath</column>
+    <column name="_super_race_id" id="true">superrace_goliath</column>
+    <column name="_size_id" id="true">size_medium</column>
+    <column name="_source_id" id="true">source_elementalevilplayerscompanion</column>
+
+    <column name="_name_id" translation="ENG">Goliath</column>
+    <column name="_name_id" translation="POR">Golias</column>
+    <column name="_adult_age_id" translation="ENG">18-20</column>
+    <column name="_adult_age_id" translation="POR">18-20</column>
+    <column name="_max_age_id" translation="ENG">80-90</column>
+    <column name="_max_age_id" translation="POR">80-90</column>
+    <column name="_alignment_id" translation="ENG">LN / LG, LE</column>
+    <column name="_alignment_id" translation="POR">LN / LB, LM</column>
+    <column name="_ability_id" translation="ENG">Str+2; Con+1</column>
+    <column name="_ability_id" translation="POR">For+2; Con+1</column>
+    <column name="_languages_id" translation="ENG">Common and Giant</column>
+    <column name="_languages_id" translation="POR">Comum e Gigante</column>
+
+    <column name="_height">5-6 ft.</column>
+    <column name="_weight">?</column>
+
+    <column name="_speed">30 ft.</column>
+    <column name="_darkvision">0 ft.</column>
   </insert>
 
   <!-- TEMPLATE:

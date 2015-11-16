@@ -98,4 +98,9 @@
     <string name="calc_ability_wis">Wis</string>
     <string name="calc_ability_cha">Cha</string>
     <string name="calc_points_remain">Remaining Points:</string>
+    <string name="phb_class_details_title">The %s</string>
+    <string name="phb_class_details_features">%s Features</string>
+    <string name="phb_class_details_table_txt">%s Table</string>
+    <string name="phb_class_details_table_btn">Read</string>
+    <string name="phb_class_details_level_title">%sth Level</string>
 </resources>

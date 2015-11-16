@@ -1,0 +1,916 @@
+<data>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_1</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A mummified goblin hand</column>
+        <column name="_description_id" translation="POR">Uma mão de goblin mumificada</column>
+        <column name="_range_from">1</column>
+        <column name="_range_to">1</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_2</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A piece of crystal that faintly glows in the moonlight</column>
+        <column name="_description_id" translation="POR">Uma peça de cristal que brilha levemente à luz da lua</column>
+        <column name="_range_from">2</column>
+        <column name="_range_to">2</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_3</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A gold coin minted in an unknown land</column>
+        <column name="_description_id" translation="POR">Uma moeda de ouro confeccionada em uma terra desconhecida</column>
+        <column name="_range_from">3</column>
+        <column name="_range_to">3</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_4</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A diary written in a language you don’t know</column>
+        <column name="_description_id" translation="POR">Um diário escrito em uma língua que você não conhece</column>
+        <column name="_range_from">4</column>
+        <column name="_range_to">4</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_5</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A brass ring that never tarnishes</column>
+        <column name="_description_id" translation="POR">Um anel de bronze que nunca mancha</column>
+        <column name="_range_from">5</column>
+        <column name="_range_to">5</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_6</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">An old chess piece made from glass</column>
+        <column name="_description_id" translation="POR">Uma peça velha de chadrêz feita de vidro</column>
+        <column name="_range_from">6</column>
+        <column name="_range_to">6</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_7</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A pair of knucklebone dice, each with a skull symbol on the side that would normally show six pips</column>
+        <column name="_description_id" translation="POR">Um par de dados de (knucklebone), cada um com um simbolo de uma caveira no lugar da face do 6</column>
+        <column name="_range_from">7</column>
+        <column name="_range_to">7</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_8</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A small idol depicting a nightmarish creature that gives you unsettling dreams when you sleep near it</column>
+        <column name="_description_id" translation="POR">Um pequeno (idol) retratando uma criatura de pesadelo que lhe causa pesadelos quando você dorme perto dele</column>
+        <column name="_range_from">8</column>
+        <column name="_range_to">8</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_9</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A rope necklace from which dangles four mummified elf fingers</column>
+        <column name="_description_id" translation="POR">Um colar de corda com quatro dedos élficos mumificados pendurados</column>
+        <column name="_range_from">9</column>
+        <column name="_range_to">9</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_10</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">The deed for a parcel of land in a realm unknown to you</column>
+        <column name="_description_id" translation="POR">Uma carta vinda de um reino que você não conhece</column>
+        <column name="_range_from">10</column>
+        <column name="_range_to">10</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_11</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A 1-ounce block made from an unknown material</column>
+        <column name="_description_id" translation="POR">(tradução pendente)</column>
+        <column name="_range_from">11</column>
+        <column name="_range_to">11</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_12</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A small cloth doll skewered with needles</column>
+        <column name="_description_id" translation="POR">Uma boneca de pano coberta por agulhas</column>
+        <column name="_range_from">12</column>
+        <column name="_range_to">12</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_13</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A tooth from an unknown beast</column>
+        <column name="_description_id" translation="POR">As presas de uma fera desconhecida</column>
+        <column name="_range_from">13</column>
+        <column name="_range_to">13</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_14</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">An enormous scale, perhaps from a dragon</column>
+        <column name="_description_id" translation="POR">Uma escama enorme, provavelmente de um dragão</column>
+        <column name="_range_from">14</column>
+        <column name="_range_to">14</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_15</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A bright green feather</column>
+        <column name="_description_id" translation="POR">Uma pena em um vívido tom de verde-claro</column>
+        <column name="_range_from">15</column>
+        <column name="_range_to">15</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_16</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">An old divination card bearing your likeness</column>
+        <column name="_description_id" translation="POR">Uma carta de baralho cigano com uma imagem extremamente semelhante à você</column>
+        <column name="_range_from">16</column>
+        <column name="_range_to">16</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_17</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A glass orb filled with moving smoke</column>
+        <column name="_description_id" translation="POR">Um orbe de vidro preenchido com uma fumaça sempre em movimento</column>
+        <column name="_range_from">17</column>
+        <column name="_range_to">17</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_18</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A 1-pound egg with a bright red shell</column>
+        <column name="_description_id" translation="POR">Um ovo de meio quilo com uma casca vermelha brilhosa</column>
+        <column name="_range_from">18</column>
+        <column name="_range_to">18</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_19</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A pipe that blows bubbles</column>
+        <column name="_description_id" translation="POR">Um cachimbo que solta bolhas</column>
+        <column name="_range_from">19</column>
+        <column name="_range_to">19</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_20</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A glass jar containing a weird bit of flesh floating in pickling fluid</column>
+        <column name="_description_id" translation="POR">Um vaso de vidro contendo um pedaço de carne estranho flutuando em um líquido conservante</column>
+        <column name="_range_from">20</column>
+        <column name="_range_to">20</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_21</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A tiny gnome-crafted music box that plays a song you dimly remember from your childhood</column>
+        <column name="_description_id" translation="POR">Uma caixinha de música gnômica que produz uma música que lhe lembra de sua infância</column>
+        <column name="_range_from">21</column>
+        <column name="_range_to">21</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_22</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A small wooden statuette of a smug halfling</column>
+        <column name="_description_id" translation="POR">Uma pequena estatueta de madeira de um halfling presunçoso</column>
+        <column name="_range_from">22</column>
+        <column name="_range_to">22</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_23</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A brass orb etched with strange runes</column>
+        <column name="_description_id" translation="POR">Um orbe de bronze gravado com runas estranhas</column>
+        <column name="_range_from">23</column>
+        <column name="_range_to">23</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_24</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A multicolored stone disk</column>
+        <column name="_description_id" translation="POR">Uma pedra multicolorida em forma de disco</column>
+        <column name="_range_from">24</column>
+        <column name="_range_to">24</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_25</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A tiny silver icon of a raven</column>
+        <column name="_description_id" translation="POR">Um pequeno (icon) de prata de um corvo</column>
+        <column name="_range_from">25</column>
+        <column name="_range_to">25</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_26</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A bag containing forty-seven humanoid teeth, one of which is rotten</column>
+        <column name="_description_id" translation="POR">Uma bolsa contendo 47 dentes humanoides; e um deles está apodrecendo</column>
+        <column name="_range_from">26</column>
+        <column name="_range_to">26</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_27</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A shard of obsidian that always feels warm to the touch</column>
+        <column name="_description_id" translation="POR">Um caco de obsidiana que sempre está aquecida</column>
+        <column name="_range_from">27</column>
+        <column name="_range_to">27</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_28</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A dragon's bony talon hanging from a plain leather necklace</column>
+        <column name="_description_id" translation="POR">A garra de dragão pendurada em um colar de couro</column>
+        <column name="_range_from">28</column>
+        <column name="_range_to">28</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_29</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A pair of old socks</column>
+        <column name="_description_id" translation="POR">Um par de meias velhas</column>
+        <column name="_range_from">29</column>
+        <column name="_range_to">29</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_30</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A blank book whose pages refuse to hold ink, chalk, graphite, or any other substance or marking</column>
+        <column name="_description_id" translation="POR">Um livro em branco cujas páginas se recusam à conter tinta, giz, grafite ou qualquer outra substância de escrita</column>
+        <column name="_range_from">30</column>
+        <column name="_range_to">30</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_31</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A silver badge in the shape of a five-pointed star</column>
+        <column name="_description_id" translation="POR">Uma insígnia de prata na forma de uma estrela de cinco pontas</column>
+        <column name="_range_from">31</column>
+        <column name="_range_to">31</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_32</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A knife that belonged to a relative</column>
+        <column name="_description_id" translation="POR">Uma faca que pertence à um parente</column>
+        <column name="_range_from">32</column>
+        <column name="_range_to">32</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_33</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A glass vial filled with nail clippings</column>
+        <column name="_description_id" translation="POR">Um pote de vidro com unhas aparadas</column>
+        <column name="_range_from">33</column>
+        <column name="_range_to">33</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_34</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A rectangular metal device with two tiny metal cups on one end that throws sparks when wet</column>
+        <column name="_description_id" translation="POR">Um dispositivo retangular de metal com dois copos de metal em uma extremidade que fagulham quando molhados</column>
+        <column name="_range_from">34</column>
+        <column name="_range_to">34</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_35</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A white, sequined glove sized for a human</column>
+        <column name="_description_id" translation="POR">Uma luva branca com lantejoulas</column>
+        <column name="_range_from">35</column>
+        <column name="_range_to">35</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_36</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A vest with one hundred tiny pockets</column>
+        <column name="_description_id" translation="POR">Uma veste com 100 bolsos</column>
+        <column name="_range_from">36</column>
+        <column name="_range_to">36</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_37</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A small, weightless stone block</column>
+        <column name="_description_id" translation="POR">Um pequeno bloco de pedra sem peso</column>
+        <column name="_range_from">37</column>
+        <column name="_range_to">37</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_38</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A tiny sketch portrait of a goblin</column>
+        <column name="_description_id" translation="POR">Um pequeno retrato de um goblin</column>
+        <column name="_range_from">38</column>
+        <column name="_range_to">38</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_39</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">An empty glass vial that smells of perfume when opened</column>
+        <column name="_description_id" translation="POR">Um frasco de vidro vazio mas que exala um cheiro de perfume quando aberto</column>
+        <column name="_range_from">39</column>
+        <column name="_range_to">39</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_40</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A gemstone that looks like a lump of coal when examined by anyone but you</column>
+        <column name="_description_id" translation="POR">Uma pedra preciosa que mais se parece com um pedaço de carvão quando examinado por alguém além de você</column>
+        <column name="_range_from">40</column>
+        <column name="_range_to">40</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_41</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A scrap of cloth from an old banner</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">41</column>
+        <column name="_range_to">41</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_42</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A rank insignia from a lost legionnaire</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">42</column>
+        <column name="_range_to">42</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_43</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A tiny silver bell without a clapper</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">43</column>
+        <column name="_range_to">43</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_44</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A mechanical canary inside a gnome-crafted lamp</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">44</column>
+        <column name="_range_to">44</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_45</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A tiny chest carved to look like it has numerous feet on the bottom</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">45</column>
+        <column name="_range_to">45</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_46</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A dead sprite inside a clear glass bottle</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">46</column>
+        <column name="_range_to">46</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_47</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A metal can that has no opening but sounds as if it is filled with liquid, sand, spiders, or broken glass (your choice)</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">47</column>
+        <column name="_range_to">47</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_48</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A glass orb filled with water, in which swims a clockwork goldfish</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">48</column>
+        <column name="_range_to">48</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_49</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A silver spoon with an M engraved on the handle</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">49</column>
+        <column name="_range_to">49</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_50</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A whistle made from gold-colored wood</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">50</column>
+        <column name="_range_to">50</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_51</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A dead scarab beetle the size of your hand</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">51</column>
+        <column name="_range_to">51</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_52</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">Two toy soldiers, one with a missing head</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">52</column>
+        <column name="_range_to">52</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_53</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A small box filled with different-sized buttons</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">53</column>
+        <column name="_range_to">53</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_54</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A candle that can’t be lit</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">54</column>
+        <column name="_range_to">54</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_55</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A tiny cage with no door</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">55</column>
+        <column name="_range_to">55</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_56</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">An old key</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">56</column>
+        <column name="_range_to">56</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_57</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">An indecipherable treasure map</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">57</column>
+        <column name="_range_to">57</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_58</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A hilt from a broken sword</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">58</column>
+        <column name="_range_to">58</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_59</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A rabbit’s foot</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">59</column>
+        <column name="_range_to">59</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_60</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A glass eye</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">60</column>
+        <column name="_range_to">60</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_61</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A cameo carved in the likeness of a hideous person</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">61</column>
+        <column name="_range_to">61</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_62</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A silver skull the size of a coin</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">62</column>
+        <column name="_range_to">62</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_63</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">An alabaster mask</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">63</column>
+        <column name="_range_to">63</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_64</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A pyramid of sticky black incense that smells very bad</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">64</column>
+        <column name="_range_to">64</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_65</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A nightcap that, when worn, gives you pleasant dreams</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">65</column>
+        <column name="_range_to">65</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_66</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A single caltrop made from bone</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">66</column>
+        <column name="_range_to">66</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_67</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A gold monocle frame without the lens</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">67</column>
+        <column name="_range_to">67</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_68</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A 1-inch cube, each side painted a different color</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">68</column>
+        <column name="_range_to">68</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_69</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A crystal knob from a door</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">69</column>
+        <column name="_range_to">69</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_70</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A small packet filled with pink dust</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">70</column>
+        <column name="_range_to">70</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_71</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A fragment of a beautiful song, written as musical notes on two pieces of parchment</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">71</column>
+        <column name="_range_to">71</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_72</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A silver teardrop earring made from a real teardrop</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">72</column>
+        <column name="_range_to">72</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_73</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">The shell of an egg painted with scenes of human misery in disturbing detail</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">73</column>
+        <column name="_range_to">73</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_74</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A fan that, when unfolded, shows a sleeping cat</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">74</column>
+        <column name="_range_to">74</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_75</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A set of bone pipes</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">75</column>
+        <column name="_range_to">75</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_76</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A four-leaf clover pressed inside a book discussing manners and etiquette</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">76</column>
+        <column name="_range_to">76</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_77</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A sheet of parchment upon which is drawn a complex mechanical contraption</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">77</column>
+        <column name="_range_to">77</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_78</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">An ornate scabbard that fits no blade you have found so far</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">78</column>
+        <column name="_range_to">78</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_79</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">An invitation to a party where a murder happened</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">79</column>
+        <column name="_range_to">79</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_80</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A bronze pentacle with an etching of a rat's head in its center</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">80</column>
+        <column name="_range_to">80</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_81</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A purple handkerchief embroidered with the name of a powerful archmage</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">81</column>
+        <column name="_range_to">81</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_82</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">Half of a floorplan for a temple, castle, or some other structure</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">82</column>
+        <column name="_range_to">82</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_83</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A bit of folded cloth that, when unfolded, turns into a stylish cap</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">83</column>
+        <column name="_range_to">83</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_84</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A receipt of deposit at a bank in a far-flung city</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">84</column>
+        <column name="_range_to">84</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_85</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A diary with seven missing pages</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">85</column>
+        <column name="_range_to">85</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_86</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">An empty silver snuffbox bearing an inscription on the surface that says “dreams”</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">86</column>
+        <column name="_range_to">86</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_87</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">An iron holy symbol devoted to an unknown god</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">87</column>
+        <column name="_range_to">87</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_88</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A book that tells the story of a legendary hero's rise and fall, with the last chapter missing</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">88</column>
+        <column name="_range_to">88</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_89</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A vial of dragon blood</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">89</column>
+        <column name="_range_to">89</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_90</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">An ancient arrow of elven design</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">90</column>
+        <column name="_range_to">90</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_91</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A needle that never bends</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">91</column>
+        <column name="_range_to">91</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_92</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">An ornate brooch of dwarven design</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">92</column>
+        <column name="_range_to">92</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_93</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">An empty wine bottle a pretty labbearing el that says, “The Wizard of Wines Winery, Red Dragon Crush, 331422-W”</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">93</column>
+        <column name="_range_to">93</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_94</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A mosaic tile with a multicolored, glazed surface</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">94</column>
+        <column name="_range_to">94</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_95</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A petrified mouse</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">95</column>
+        <column name="_range_to">95</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_96</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A black pirate flag adorned with a dragon's skull and crossbones</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">96</column>
+        <column name="_range_to">96</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_97</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A tiny mechanical crab or spider that moves about when it’s not being observed</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">97</column>
+        <column name="_range_to">97</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_98</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A glass jar containing lard with a label that reads, “Griffon Grease”</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">98</column>
+        <column name="_range_to">98</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_99</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A wooden box with a ceramic bottom that holds a living worm with a head on each end of its body</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">99</column>
+        <column name="_range_to">99</column>
+    </insert>
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true">trinketitem_phb_100</column>
+        <column name="_table_id" id="true">trinkettable_phb</column>
+        <column name="_description_id" translation="ENG">A metal urn containing the ashes of a hero</column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from">100</column>
+        <column name="_range_to">100</column>
+    </insert>
+
+    <!--
+
+    <insert table="_trinket_item">
+        <column name="_id" id="true"></column>
+        <column name="_table_id" id="true"></column>
+        <column name="_description_id" translation="ENG"></column>
+        <column name="_description_id" translation="POR"></column>
+        <column name="_range_from"></column>
+        <column name="_range_to"></column>
+    </insert>
+
+    -->
+
+</data>

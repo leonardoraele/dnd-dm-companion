@@ -6,8 +6,8 @@ import android.support.v4.app.FragmentManager;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 
-import raele.dnd_dm_companion.fragment.AbilityCalculatorFragment;
-import raele.dnd_dm_companion.fragment.PlayersHandbookFragment;
+import raele.dnd_dm_companion.fragment.calc.AbilityCalculatorFragment;
+import raele.dnd_dm_companion.fragment.phb.PlayersHandbookFragment;
 import raele.util.android.log.Log;
 
 /**

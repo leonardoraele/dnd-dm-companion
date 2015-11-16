@@ -22,14 +22,14 @@
         <column name="_money_id" translation="ENG">2d4*10 gp (50)</column>
         <column name="_money_id" translation="POR">2d4*10 p.o. (50)</column>
         <column name="_equipment_id" translation="ENG">
-            • (a) a greataxe or (b) any martial melee weapon;
-            • (a) two handaxes or (b) any simple weapon;
-            • An explorer’s pack and four javelins.
+• (a) a greataxe or (b) any martial melee weapon;
+• (a) two handaxes or (b) any simple weapon;
+• An explorer’s pack and four javelins.
         </column>
         <column name="_equipment_id" translation="POR">
-            • (a) um machado de duas mãos ou (b) qualquer arma marcial de curto alcance;
-            • (a) duas machadinhas (b) qualquer arma simples;
-            • Um kit de explorador e quatro azagaias.
+• (a) um machado de duas mãos ou (b) qualquer arma marcial de curto alcance;
+• (a) duas machadinhas (b) qualquer arma simples;
+• Um kit de explorador e quatro azagaias.
         </column>
         <column name="_source_id" id="true">source_playershandbook</column>
     </insert>
@@ -56,16 +56,16 @@
         <column name="_money_id" translation="ENG">5d4*10 gp (125)</column>
         <column name="_money_id" translation="POR">5d4*10 p.o. (125)</column>
         <column name="_equipment_id" translation="ENG">
-            • (a) a rapier, (b) a longsword, or (c) any simple weapon
-            • (a) a lute or (b) any other musical instrument
-            • (a) a diplomat’s pack or (b) an entertainer's pack
-            • Leather armor and a dagger.
+• (a) a rapier, (b) a longsword, or (c) any simple weapon;
+• (a) a lute or (b) any other musical instrument;
+• (a) a diplomat’s pack or (b) an entertainer's pack;
+• Leather armor and a dagger.
         </column>
         <column name="_equipment_id" translation="POR">
-            • (a) um florete, (b) uma espada longa ou (c) qualquer arma simples
-            • (a) uma flauta ou (b) qualquer instrumento musical
-            • (a) um kit de diplomata ou (b) um kit de artista
-            • Armadura de couro leve e uma adaga.
+• (a) um florete, (b) uma espada longa ou (c) qualquer arma simples;
+• (a) uma flauta ou (b) qualquer instrumento musical;
+• (a) um kit de diplomata ou (b) um kit de artista;
+• Armadura de couro leve e uma adaga.
         </column>
         <column name="_source_id" id="true">source_playershandbook</column>
     </insert>
@@ -92,18 +92,18 @@
         <column name="_money_id" translation="ENG">5d4*10 gp (125)</column>
         <column name="_money_id" translation="POR">5d4*10 p.o. (125)</column>
         <column name="_equipment_id" translation="ENG">
-            • (a) a mace or (b) a warhammer (if proficient)
-            • (a) a light crossbow and 20 bolts or (b) any simple weapon
-            • (a) scale mail, (b) leather armor, or (c) chain mail (if proficient)
-            • (a) a priest’s pack or (b) an explorer’s pack
-            • A shield and a holy symbol
+• (a) a mace or (b) a warhammer (if proficient);
+• (a) a light crossbow and 20 bolts or (b) any simple weapon;
+• (a) scale mail, (b) leather armor, or (c) chain mail (if proficient);
+• (a) a priest’s pack or (b) an explorer’s pack;
+• A shield and a holy symbol.
         </column>
         <column name="_equipment_id" translation="POR">
-            • (a) uma maça ou (b) um martelo de guerra (se for proficiente)
-            • (a) uma besta leve e um estojo com 20 virotes ou (b) qualquer arma simples
-            • (a) armadura de escamas, (b) armadura de couro leve, ou (c) cota de malha (se for proficiente)
-            • (a) um kit de sacerdote ou (b) um kit de explorador
-            • Um escudo e um simbolo sagrado
+• (a) uma maça ou (b) um martelo de guerra (se for proficiente);
+• (a) uma besta leve e um estojo com 20 virotes ou (b) qualquer arma simples;
+• (a) armadura de escamas, (b) armadura de couro leve, ou (c) cota de malha (se for proficiente);
+• (a) um kit de sacerdote ou (b) um kit de explorador;
+• Um escudo e um simbolo sagrado.
         </column>
         <column name="_source_id" id="true">source_basic_rules</column>
     </insert>
@@ -130,14 +130,14 @@
         <column name="_money_id" translation="ENG">2d4*10 gp (50)</column>
         <column name="_money_id" translation="POR">2d4*10 p.o. (50)</column>
         <column name="_equipment_id" translation="ENG">
-            • (a) a wooden shield or (b) any simple weapon
-            • (a) a scimitar or (b) any simple melee weapon
-            • Leather armor, an explorer’s pack, and a druidic focus
+• (a) a wooden shield or (b) any simple weapon;
+• (a) a scimitar or (b) any simple melee weapon;
+• Leather armor, an explorer’s pack, and a druidic focus.
         </column>
         <column name="_equipment_id" translation="POR">
-            • (a) um escudo de madeira or (b) qualquer arma simples
-            • (a) uma cimitarra ou (b) qualquer arma simples de curto alcance
-            • Armadura de couro leve, um kit de explorador e um foco druídico
+• (a) um escudo de madeira or (b) qualquer arma simples;
+• (a) uma cimitarra ou (b) qualquer arma simples de curto alcance;
+• Armadura de couro leve, um kit de explorador e um foco druídico.
         </column>
         <column name="_source_id" id="true">source_playershandbook</column>
     </insert>
@@ -164,16 +164,16 @@
         <column name="_money_id" translation="ENG">5d4*10 gp (125)</column>
         <column name="_money_id" translation="POR">5d4*10 p.o. (125)</column>
         <column name="_equipment_id" translation="ENG">
-            • (a) a martial weapon and a shield or (b) two martial weapons
-            • (a) a light crossbow and 20 bolts or (b) two handaxes
-            • (a) chain mail or (b) leather, longbow, and 20 arrows
-            • (a) a dungeoneer’s pack or (b) an explorer’s pack
+• (a) a martial weapon and a shield or (b) two martial weapons;
+• (a) a light crossbow and 20 bolts or (b) two handaxes;
+• (a) chain mail or (b) leather, longbow, and 20 arrows;
+• (a) a dungeoneer’s pack or (b) an explorer’s pack.
         </column>
         <column name="_equipment_id" translation="POR">
-            • (a) uma arma marcial e um escudo, ou (b) duas armas marciais
-            • (a) uma besta leve e um estojo com 20 virotes, ou (b) duas machadinhas
-            • (a) cota de malha ou (b) armadura de couro leve, um arco longo e uma aljava com 20 flechas
-            • (a) um kit de aventureiro ou (b) um kit de explorador
+• (a) uma arma marcial e um escudo, ou (b) duas armas marciais;
+• (a) uma besta leve e um estojo com 20 virotes, ou (b) duas machadinhas;
+• (a) cota de malha ou (b) armadura de couro leve, um arco longo e uma aljava com 20 flechas;
+• (a) um kit de aventureiro ou (b) um kit de explorador.
         </column>
         <column name="_source_id" id="true">source_basic_rules</column>
     </insert>
@@ -200,14 +200,14 @@
         <column name="_money_id" translation="ENG">5d4 gp (12)</column>
         <column name="_money_id" translation="POR">5d4 p.o. (12)</column>
         <column name="_equipment_id" translation="ENG">
-            • (a) a shortsword or (b) any simple weapon
-            • (a) a dungeoneer’s pack or (b) an explorer’s pack
-            • 10 darts
+• (a) a shortsword or (b) any simple weapon;
+• (a) a dungeoneer’s pack or (b) an explorer’s pack;
+• 10 darts.
         </column>
         <column name="_equipment_id" translation="POR">
-            • (a) uma espada curta ou (b) qualquer arma simples
-            • (a) um kit de aventureiro ou (b) um kit de explorador
-            • 10 dardos
+• (a) uma espada curta ou (b) qualquer arma simples;
+• (a) um kit de aventureiro ou (b) um kit de explorador;
+• 10 dardos.
         </column>
         <column name="_source_id" id="true">source_playershandbook</column>
     </insert>
@@ -234,16 +234,16 @@
         <column name="_money_id" translation="ENG">5d4*10 gp (125)</column>
         <column name="_money_id" translation="POR">5d4*10 p.o. (125)</column>
         <column name="_equipment_id" translation="ENG">
-            • (a) a martial weapon and a shield or (b) two martial weapons
-            • (a) five javelins or (b) any simple melee weapon
-            • (a) a priest’s pack or (b) an explorer’s pack
-            • Chain mail and a holy symbol
+• (a) a martial weapon and a shield or (b) two martial weapons;
+• (a) five javelins or (b) any simple melee weapon;
+• (a) a priest’s pack or (b) an explorer’s pack;
+• Chain mail and a holy symbol.
         </column>
         <column name="_equipment_id" translation="POR">
-            • (a) uma arma marcial e um escudo, ou (b) duas armas marciais
-            • (a) cinco azagaias ou (b) qualquer arma simples
-            • (a) um kit de sacerdote ou (b) um kit de explorador
-            • Cota de malha e um símbolo sagrado
+• (a) uma arma marcial e um escudo, ou (b) duas armas marciais;
+• (a) cinco azagaias ou (b) qualquer arma simples;
+• (a) um kit de sacerdote ou (b) um kit de explorador;
+• Cota de malha e um símbolo sagrado.
         </column>
         <column name="_source_id" id="true">source_playershandbook</column>
     </insert>
@@ -270,16 +270,16 @@
         <column name="_money_id" translation="ENG">5d4*10 gp (125)</column>
         <column name="_money_id" translation="POR">5d4*10 p.o. (125)</column>
         <column name="_equipment_id" translation="ENG">
-            • (a) two shortswords or (b) two simple melee weapons
-            • (a) scale mail or (b) leather armor
-            • (a) a dungeoneer’s pack or (b) an explorer’s pack
-            • A longbow and a quiver of 20 arrows
+• (a) two shortswords or (b) two simple melee weapons;
+• (a) scale mail or (b) leather armor;
+• (a) a dungeoneer’s pack or (b) an explorer’s pack;
+• A longbow and a quiver of 20 arrows.
         </column>
         <column name="_equipment_id" translation="POR">
-            • (a) duas espadas curtas ou (b) duas armas simples de curto alcance
-            • (a) armadura de escamas ou (b) armadura de couro leve
-            • (a) um kit de aventureiro ou (b) um kit de explorador
-            • Um arco longo e uma aljava com 20 flechas
+• (a) duas espadas curtas ou (b) duas armas simples de curto alcance;
+• (a) armadura de escamas ou (b) armadura de couro leve;
+• (a) um kit de aventureiro ou (b) um kit de explorador;
+• Um arco longo e uma aljava com 20 flechas.
         </column>
         <column name="_source_id" id="true">source_playershandbook</column>
     </insert>
@@ -306,16 +306,16 @@
         <column name="_money_id" translation="ENG">4d4*10 gp (100)</column>
         <column name="_money_id" translation="POR">4d4*10 p.o. (100)</column>
         <column name="_equipment_id" translation="ENG">
-            • (a) a rapier or (b) a shortsword
-            • (a) a shortbow and quiver of 20 arrows or (b) a shortsword
-            • (a) a burglar’s pack, (b) a dungeoneer’s pack, or (c) an explorer’s pack
-            • Leather armor, two daggers, and thieves’ tools
+• (a) a rapier or (b) a shortsword;
+• (a) a shortbow and quiver of 20 arrows or (b) a shortsword;
+• (a) a burglar’s pack, (b) a dungeoneer’s pack, or (c) an explorer’s pack;
+• Leather armor, two daggers, and thieves’ tools.
         </column>
         <column name="_equipment_id" translation="POR">
-            • (a) um florete ou (b) uma espada curta
-            • (a) um arco curto e uma aljava com 20 flechas, ou (b) uma espada curta
-            • (a) um kit de traficante, (b) um kit de aventureiro, ou (c) um kit de explorador
-            • Uma armadura de couro leve, duas adagas e ferramentas de ladrao
+• (a) um florete ou (b) uma espada curta;
+• (a) um arco curto e uma aljava com 20 flechas, ou (b) uma espada curta;
+• (a) um kit de traficante, (b) um kit de aventureiro, ou (c) um kit de explorador;
+• Uma armadura de couro leve, duas adagas e ferramentas de ladrao.
         </column>
         <column name="_source_id" id="true">source_basic_rules</column>
     </insert>
@@ -342,16 +342,16 @@
         <column name="_money_id" translation="ENG">3d4*10 gp (75)</column>
         <column name="_money_id" translation="POR">3d4*10 p.o. (75)</column>
         <column name="_equipment_id" translation="ENG">
-            • (a) a light crossbow and 20 bolts or (b) any simple weapon
-            • (a) a com ponent pouch or (b) an arcane focus
-            • (a) a dungeoneer’s pack or (b) an explorer’s pack
-            • Two daggers
+• (a) a light crossbow and 20 bolts or (b) any simple weapon;
+• (a) a com ponent pouch or (b) an arcane focus;
+• (a) a dungeoneer’s pack or (b) an explorer’s pack;
+• Two daggers.
         </column>
         <column name="_equipment_id" translation="POR">
-            • (a) uma besta leve e um estojo com 20 virotes, ou (b) qualquer arma simples
-            • (a) uma sacola de componentes ou (b) um foco arcano
-            • (a) um kit de aventureiro ou (b) um kit de explorador
-            • Duas adagas
+• (a) uma besta leve e um estojo com 20 virotes, ou (b) qualquer arma simples;
+• (a) uma sacola de componentes ou (b) um foco arcano;
+• (a) um kit de aventureiro ou (b) um kit de explorador;
+• Duas adagas.
         </column>
         <column name="_source_id" id="true">source_playershandbook</column>
     </insert>
@@ -378,16 +378,16 @@
         <column name="_money_id" translation="ENG">4d4*10 gp (100)</column>
         <column name="_money_id" translation="POR">4d4*10 p.o. (100)</column>
         <column name="_equipment_id" translation="ENG">
-            • (a) a light crossbow and 20 bolts or (b) any simple weapon
-            • (a) a component pouch or (b) an arcane focus
-            • (a) a scholar’s pack or (b) a dungeoneer’s pack
-            • Leather armor, any simple weapon, and two daggers
+• (a) a light crossbow and 20 bolts or (b) any simple weapon;
+• (a) a component pouch or (b) an arcane focus;
+• (a) a scholar’s pack or (b) a dungeoneer’s pack;
+• Leather armor, any simple weapon, and two daggers.
         </column>
         <column name="_equipment_id" translation="POR">
-            • (a) uma besta leve e um estojo com 20 virotes, ou (b) qualquer arma simples
-            • (a) uma sacola de componentes ou (b) um foco arcano
-            • (a) um kit de estudioso ou (b) um kit de aventureiro
-            • Armadura de couro leve, qualquer arma simpĺes e duas adagas
+• (a) uma besta leve e um estojo com 20 virotes, ou (b) qualquer arma simples;
+• (a) uma sacola de componentes ou (b) um foco arcano;
+• (a) um kit de estudioso ou (b) um kit de aventureiro;
+• Armadura de couro leve, qualquer arma simpĺes e duas adagas.
         </column>
         <column name="_source_id" id="true">source_playershandbook</column>
     </insert>
@@ -414,16 +414,16 @@
         <column name="_money_id" translation="ENG">4d4*10 gp (100)</column>
         <column name="_money_id" translation="POR">4d4*10 p.o. (100)</column>
         <column name="_equipment_id" translation="ENG">
-            • (a) a quarterstaff or (b) a dagger
-            • (a) a component pouch or (b) an arcane focus
-            • (a) a scholar’s pack or (b) an explorer’s pack
-            • A spellbook
+• (a) a quarterstaff or (b) a dagger;
+• (a) a component pouch or (b) an arcane focus;
+• (a) a scholar’s pack or (b) an explorer’s pack;
+• A spellbook.
         </column>
         <column name="_equipment_id" translation="POR">
-            • (a) um cajado/bastão ou (b) uma adaga
-            • (a) uma sacola de componentes ou (b) um foco arcano
-            • (a) um kit de estudioso ou (b) um kit de explorador
-            • Um livro de feitiços
+• (a) um cajado/bastão ou (b) uma adaga;
+• (a) uma sacola de componentes ou (b) um foco arcano;
+• (a) um kit de estudioso ou (b) um kit de explorador;
+• Um livro de feitiços.
         </column>
         <column name="_source_id" id="true">source_basic_rules</column>
     </insert>

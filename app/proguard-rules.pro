@@ -10,8 +10,8 @@
 # Add any project specific keep options here:
 
 # If your project uses WebView with JS, uncomment the following
-# and specify the fully qualified class nameId to the JavaScript interface
-# class:
-#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+# and specify the fully qualified phb nameId to the JavaScript interface
+# phb:
+#-keepclassmembers phb fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}

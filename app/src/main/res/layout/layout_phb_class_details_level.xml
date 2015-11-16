@@ -17,6 +17,7 @@
         android:textColor="@android:color/black"
         android:textSize="@dimen/text_large"
         android:background="@android:color/darker_gray"
+        android:text="@string/phb_class_details_level_title"
         tools:text="1st Level"/>
 
     <LinearLayout

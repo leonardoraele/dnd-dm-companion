@@ -68,11 +68,12 @@ public class Utils {
         Log.end();
     }
 
-    public void showInfoDialog(String title, String description) {
-        new AlertDialog.Builder(mContext)
+    public AlertDialog showInfoDialog(String title, String description) {
+        AlertDialog dialog = new AlertDialog.Builder(mContext)
                 .setTitle(title)
                 .setMessage(description)
-                .create()
-                .show();
+                .create();
+        dialog.show();
+        return dialog;
     }
 }

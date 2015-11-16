@@ -1,4 +1,4 @@
-package raele.dnd_dm_companion.fragment;
+package raele.dnd_dm_companion.fragment.phb.classes;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -115,9 +115,9 @@ public class ClassesFragment extends Fragment {
     }
 
     public void selectClass(Class clazz) {
-        ClassDetailsFragment fragment = new ClassDetailsFragment();
+        ClassDetailsPagerFragment fragment = new ClassDetailsPagerFragment();
         Bundle args = new Bundle();
-        args.putInt(ClassDetailsFragment.ARGS_CLASS_ID, clazz.id);
+        args.putInt(ClassDetailsPagerFragment.ARG_SHOWN_CLASS, clazz.id);
         fragment.setArguments(args);
 
         getActivity().getSupportFragmentManager().beginTransaction()

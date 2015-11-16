@@ -59,4 +59,22 @@
     <column name="_name_id" translation="ENG">Aasimar</column>
     <column name="_name_id" translation="POR">Aasimar</column>
   </insert>
+  <insert table="_super_race">
+    <column name="_id" id="true">superrace_aarakokra</column>
+    <column name="_source_id" id="true">source_elementalevilplayerscompanion</column>
+    <column name="_name_id" translation="ENG">Aarakokra</column>
+    <column name="_name_id" translation="POR">Aarakokra</column>
+  </insert>
+  <insert table="_super_race">
+    <column name="_id" id="true">superrace_genasi</column>
+    <column name="_source_id" id="true">source_elementalevilplayerscompanion</column>
+    <column name="_name_id" translation="ENG">Genasi</column>
+    <column name="_name_id" translation="POR">Genasi</column>
+  </insert>
+  <insert table="_super_race">
+    <column name="_id" id="true">superrace_goliath</column>
+    <column name="_source_id" id="true">source_elementalevilplayerscompanion</column>
+    <column name="_name_id" translation="ENG">Goliath</column>
+    <column name="_name_id" translation="POR">Golias</column>
+  </insert>
 </data>

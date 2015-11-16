@@ -1,4 +1,4 @@
-package raele.dnd_dm_companion.fragment;
+package raele.dnd_dm_companion.fragment.phb.races;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;

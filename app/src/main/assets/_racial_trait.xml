@@ -1,63 +1,354 @@
 <data>
 
-  <insert table="_racial_trait">
-    <column name="_sub_race_id" id="true">subrace_varianthuman</column>
-    <column name="_feature_id" id="true">feature_varianthuman_skills</column>
-  </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_varianthuman</column>
+        <column name="_feature_id" id="true">feature_varianthuman_skills</column>
+    </insert>
 
-  <insert table="_racial_trait">
-    <column name="_sub_race_id" id="true">subrace_varianthuman</column>
-    <column name="_feature_id" id="true">feature_varianthuman_feat</column>
-  </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_varianthuman</column>
+        <column name="_feature_id" id="true">feature_varianthuman_feat</column>
+    </insert>
 
-  <insert table="_racial_trait">
-    <column name="_sub_race_id" id="true">subrace_hillsdwarf</column>
-    <column name="_feature_id" id="true">feature_dwarf_dwarvenresilience</column>
-  </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_hillsdwarf</column>
+        <column name="_feature_id" id="true">feature_dwarf_dwarvenresilience</column>
+    </insert>
 
-  <insert table="_racial_trait">
-    <column name="_sub_race_id" id="true">subrace_mountaindwarf</column>
-    <column name="_feature_id" id="true">feature_dwarf_dwarvenresilience</column>
-  </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_mountaindwarf</column>
+        <column name="_feature_id" id="true">feature_dwarf_dwarvenresilience</column>
+    </insert>
 
-  <insert table="_racial_trait">
-    <column name="_sub_race_id" id="true">subrace_hillsdwarf</column>
-    <column name="_feature_id" id="true">feature_dwarf_dwarvencombattraining</column>
-  </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_hillsdwarf</column>
+        <column name="_feature_id" id="true">feature_dwarf_dwarvencombattraining</column>
+    </insert>
 
-  <insert table="_racial_trait">
-    <column name="_sub_race_id" id="true">subrace_mountaindwarf</column>
-    <column name="_feature_id" id="true">feature_dwarf_dwarvencombattraining</column>
-  </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_mountaindwarf</column>
+        <column name="_feature_id" id="true">feature_dwarf_dwarvencombattraining</column>
+    </insert>
 
-  <insert table="_racial_trait">
-    <column name="_sub_race_id" id="true">subrace_hillsdwarf</column>
-    <column name="_feature_id" id="true">feature_dwarf_toolproficiency</column>
-  </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_hillsdwarf</column>
+        <column name="_feature_id" id="true">feature_dwarf_toolproficiency</column>
+    </insert>
 
-  <insert table="_racial_trait">
-    <column name="_sub_race_id" id="true">subrace_mountaindwarf</column>
-    <column name="_feature_id" id="true">feature_dwarf_toolproficiency</column>
-  </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_mountaindwarf</column>
+        <column name="_feature_id" id="true">feature_dwarf_toolproficiency</column>
+    </insert>
 
-  <insert table="_racial_trait">
-    <column name="_sub_race_id" id="true">subrace_hillsdwarf</column>
-    <column name="_feature_id" id="true">feature_dwarf_stonecunning</column>
-  </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_hillsdwarf</column>
+        <column name="_feature_id" id="true">feature_dwarf_stonecunning</column>
+    </insert>
 
-  <insert table="_racial_trait">
-    <column name="_sub_race_id" id="true">subrace_mountaindwarf</column>
-    <column name="_feature_id" id="true">feature_dwarf_stonecunning</column>
-  </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_mountaindwarf</column>
+        <column name="_feature_id" id="true">feature_dwarf_stonecunning</column>
+    </insert>
 
-  <insert table="_racial_trait">
-    <column name="_sub_race_id" id="true">subrace_hillsdwarf</column>
-    <column name="_feature_id" id="true">feature_hillsdwarf_dwarventoughness</column>
-  </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_hillsdwarf</column>
+        <column name="_feature_id" id="true">feature_hillsdwarf_dwarventoughness</column>
+    </insert>
 
-  <insert table="_racial_trait">
-    <column name="_sub_race_id" id="true">subrace_mountaindwarf</column>
-    <column name="_feature_id" id="true">feature_mountaindwarf_dwarvenarmortraining</column>
-  </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_mountaindwarf</column>
+        <column name="_feature_id" id="true">feature_mountaindwarf_dwarvenarmortraining</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_highelf</column>
+        <column name="_feature_id" id="true">feature_elf_keensenses</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_highelf</column>
+        <column name="_feature_id" id="true">feature_elf_feyancestry</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_highelf</column>
+        <column name="_feature_id" id="true">feature_elf_trance</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_woodelf</column>
+        <column name="_feature_id" id="true">feature_elf_keensenses</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_woodelf</column>
+        <column name="_feature_id" id="true">feature_elf_feyancestry</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_woodelf</column>
+        <column name="_feature_id" id="true">feature_elf_trance</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_drow</column>
+        <column name="_feature_id" id="true">feature_elf_keensenses</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_drow</column>
+        <column name="_feature_id" id="true">feature_elf_feyancestry</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_drow</column>
+        <column name="_feature_id" id="true">feature_elf_trance</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_highelf</column>
+        <column name="_feature_id" id="true">feature_elf_elfweapontraining</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_woodelf</column>
+        <column name="_feature_id" id="true">feature_elf_elfweapontraining</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_highelf</column>
+        <column name="_feature_id" id="true">feature_highelf_cantrip</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_woodelf</column>
+        <column name="_feature_id" id="true">feature_woodelf_maskofthewild</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_drow</column>
+        <column name="_feature_id" id="true">feature_drow_drowweapontraining</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_drow</column>
+        <column name="_feature_id" id="true">feature_drow_sunlightsensibility</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_drow</column>
+        <column name="_feature_id" id="true">feature_drow_drowmagic</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_halflinglightfoot</column>
+        <column name="_feature_id" id="true">feature_halfling_luck</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_halflinglightfoot</column>
+        <column name="_feature_id" id="true">feature_halfling_brave</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_halflinglightfoot</column>
+        <column name="_feature_id" id="true">feature_haflling_nimbless</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_halflinglightfoot</column>
+        <column name="_feature_id" id="true">feature_haflling_naturallystealthy</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_halflingstout</column>
+        <column name="_feature_id" id="true">feature_halfling_luck</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_halflingstout</column>
+        <column name="_feature_id" id="true">feature_halfling_brave</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_halflingstout</column>
+        <column name="_feature_id" id="true">feature_haflling_nimbless</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_halflingstout</column>
+        <column name="_feature_id" id="true">feature_haflling_stoutresillience</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_dragonborn</column>
+        <column name="_feature_id" id="true">feature_dragonborn_draconicancestry</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_dragonborn</column>
+        <column name="_feature_id" id="true">feature_dragonborn_breathweapon</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_dragonborn</column>
+        <column name="_feature_id" id="true">feature_dragonborn_damageresistence</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_forestgnome</column>
+        <column name="_feature_id" id="true">feature_gnome_gnomecunning</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_forestgnome</column>
+        <column name="_feature_id" id="true">feature_forestgnome_naturalillusionist</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_forestgnome</column>
+        <column name="_feature_id" id="true">feature_forestgnome_speakwithsmallbeast</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_subrace_rockgnome</column>
+        <column name="_feature_id" id="true">feature_gnome_gnomecunning</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_subrace_rockgnome</column>
+        <column name="_feature_id" id="true">feature_rockgnome_artificerslore</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_subrace_rockgnome</column>
+        <column name="_feature_id" id="true">feature_rockgnome_tinker</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_halfelf</column>
+        <column name="_feature_id" id="true">feature_elf_feyancestry</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_halfelf</column>
+        <column name="_feature_id" id="true">feature_halfelf_skillversality</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_halforc</column>
+        <column name="_feature_id" id="true">feature_halforc_menacing</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_halforc</column>
+        <column name="_feature_id" id="true">feature_halforc_relentlessendurance</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_halforc</column>
+        <column name="_feature_id" id="true">feature_halforc_savageattacks</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_tielfling</column>
+        <column name="_feature_id" id="true">feature_tielfling_hellishresistance</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_tielfling</column>
+        <column name="_feature_id" id="true">feature_tielfling_infernallegacy</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_eladrin</column>
+        <column name="_feature_id" id="true">feature_elf_keensenses</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_eladrin</column>
+        <column name="_feature_id" id="true">feature_elf_feyancestry</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_eladrin</column>
+        <column name="_feature_id" id="true">feature_elf_trance</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_eladrin</column>
+        <column name="_feature_id" id="true">feature_elf_elfweapontraining</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_eladrin</column>
+        <column name="_feature_id" id="true">feature_eladrin_feystep</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_aasimar</column>
+        <column name="_feature_id" id="true">feature_aasimar_celestialresistance</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_aasimar</column>
+        <column name="_feature_id" id="true">feature_aasimar_celestiallegacy</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_aarakokra</column>
+        <column name="_feature_id" id="true">feature_aarakokra_flight</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_aarakokra</column>
+        <column name="_feature_id" id="true">feature_aarakokra_taloons</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_deepgnome</column>
+        <column name="_feature_id" id="true">feature_gnome_gnomecunning</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_deepgnome</column>
+        <column name="_feature_id" id="true">feature_deepgnome_stonecamouflage</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_airgenasi</column>
+        <column name="_feature_id" id="true">feature_airgenasi_unendingbreath</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_airgenasi</column>
+        <column name="_feature_id" id="true">feature_airgenasi_minglewiththewind</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_earthgenasi</column>
+        <column name="_feature_id" id="true">feature_earthgenasi_earthwalk</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_earthgenasi</column>
+        <column name="_feature_id" id="true">feature_earthgenasi_mergewithstone</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_firegenasi</column>
+        <column name="_feature_id" id="true">feature_firegenasi_fireresistance</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_firegenasi</column>
+        <column name="_feature_id" id="true">feature_firegenasi_reachtotheblaze</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_watergenasi</column>
+        <column name="_feature_id" id="true">feature_watergenasi_acidresistance</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_watergenasi</column>
+        <column name="_feature_id" id="true">feature_watergenasi_amphibious</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_watergenasi</column>
+        <column name="_feature_id" id="true">feature_watergenasi_swim</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_watergenasi</column>
+        <column name="_feature_id" id="true">feature_watergenasi_calltothewave</column>
+    </insert>
+
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_goliath</column>
+        <column name="_feature_id" id="true">feature_goliath_naturalathelete</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_goliath</column>
+        <column name="_feature_id" id="true">feature_goliath_stonesendurance</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_goliath</column>
+        <column name="_feature_id" id="true">feature_goliath_powerfulbuild</column>
+    </insert>
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true">subrace_goliath</column>
+        <column name="_feature_id" id="true">feature_goliath_mountainborn</column>
+    </insert>
+
+    <!--
+    <insert table="_racial_trait">
+        <column name="_sub_race_id" id="true"></column>
+        <column name="_feature_id" id="true"></column>
+    </insert>
+    -->
 
 </data>

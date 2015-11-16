@@ -1,490 +1,392 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
     android:background="@android:color/white">
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/phb_class_details_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:orientation="vertical">
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_xlarge"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@android:color/darker_gray"
+        tools:text="@string/phb_class_details_title"/>
 
-        <TextView
-            android:id="@+id/phb_class_details_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@android:color/black"
-            android:textSize="@dimen/text_xlarge"
-            android:textStyle="bold"
-            android:gravity="center"
-            android:background="@android:color/darker_gray"
-            tools:text="The Barbarian"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="8dp" />
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:background="@android:color/darker_gray">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_gravity="center"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_large"
-                android:text="@string/phb_class_details_intro"/>
-
-            <Button
-                android:id="@+id/phb_class_details_read"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/phb_class_details_read"/>
-
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="8dp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:background="@android:color/darker_gray">
-
-            <TextView
-                android:id="@+id/phb_class_details_lore1_txt"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_gravity="center"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_large"
-                tools:text="Primal Instinct"/>
-
-            <Button
-                android:id="@+id/phb_class_details_lore1_btn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tools:text="Read"/>
-
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="8dp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:background="@android:color/darker_gray">
-
-            <TextView
-                android:id="@+id/phb_class_details_lore2_txt"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_gravity="center"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_large"
-                tools:text="Life of Danger"/>
-
-            <Button
-                android:id="@+id/phb_class_details_lore2_btn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tools:text="Read"/>
-
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="8dp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:background="@android:color/darker_gray">
-
-            <TextView
-                android:id="@+id/phb_class_details_creating_txt"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_gravity="center"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_large"
-                tools:text="Creating a Barbarian"/>
-
-            <Button
-                android:id="@+id/phb_class_details_creating_btn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tools:text="Read"/>
-
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="8dp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:background="@android:color/darker_gray">
-
-            <TextView
-                android:id="@+id/phb_class_details_table_txt"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_gravity="center"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_large"
-                tools:text="Barbarian Table"/>
-
-            <Button
-                android:id="@+id/phb_class_details_table_btn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tools:text="Show"/>
-
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="16dp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textColor="@android:color/black"
-            android:textSize="@dimen/text_xlarge"
-            android:textStyle="bold"
-            android:text="Barbarian Features"
-            android:background="@android:color/darker_gray"/>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="8dp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@android:color/black"
-            android:textSize="@dimen/text_large"
-            android:text="@string/phb_class_details_hitpoints"
-            android:background="@android:color/darker_gray"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_medium"
-                android:text="@string/phb_class_details_hitdice"/>
-
-            <TextView
-                android:id="@+id/phb_class_details_hitdice"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_medium"
-                tools:text="d12"/>
-
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="8dp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@android:color/black"
-            android:textSize="@dimen/text_large"
-            android:text="@string/phb_class_details_proficiencies"
-            android:background="@android:color/darker_gray"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_medium"
-                android:text="@string/phb_class_details_armor"/>
-
-            <TextView
-                android:id="@+id/phb_class_details_armor"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_medium"
-                android:text="None"
-                tools:text="Light armor, medium armor, shields"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_medium"
-                android:text="@string/phb_class_details_weapons"/>
-
-            <TextView
-                android:id="@+id/phb_class_details_weapons"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_medium"
-                android:text="None"
-                tools:text="Simple weapons, martial weapons"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_medium"
-                android:text="@string/phb_class_details_tools"/>
-
-            <TextView
-                android:id="@+id/phb_class_details_tools"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_medium"
-                android:text="None"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_medium"
-                android:text="@string/phb_class_details_saves"/>
-
-            <TextView
-                android:id="@+id/phb_class_details_saves"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_medium"
-                android:text="None"
-                tools:text="Str, Con"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_medium"
-                android:text="@string/phb_class_details_skills"/>
-
-            <TextView
-                android:id="@+id/phb_class_details_skills"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_medium"
-                android:text="None"
-                tools:text="Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception and Survival"/>
-
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="8dp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@android:color/black"
-            android:textSize="@dimen/text_large"
-            android:text="@string/phb_class_details_belongings"
-            android:background="@android:color/darker_gray"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_medium"
-                android:text="@string/phb_class_details_equipment"/>
-
-            <TextView
-                android:id="@+id/phb_class_details_equipment"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_medium"
-                android:text="None"
-                tools:text="* (a) greataxe or (b) any martial melee weapon\n* (a) two handaxes or (b) any simple weapon\n* An explorer's pack and four javelins"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_medium"
-                android:text="@string/phb_class_details_wealth"/>
-
-            <TextView
-                android:id="@+id/phb_class_details_wealth"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_medium"
-                android:text="None"
-                tools:text="2d4*10 gp (50)"/>
-
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="8dp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@android:color/black"
-            android:textSize="@dimen/text_large"
-            android:text="@string/phb_class_details_multiclassing"
-            android:background="@android:color/darker_gray"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_medium"
-                android:text="@string/phb_class_details_multiclass_prerequisites"/>
-
-            <TextView
-                android:id="@+id/phb_class_details_multiclass_prerequisites"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_medium"
-                android:text="None"
-                tools:text="Str 13+"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_medium"
-                android:text="@string/phb_class_details_multiclass_proficiencies"/>
-
-            <TextView
-                android:id="@+id/phb_class_details_multiclass_proficiencies"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/text_medium"
-                android:text="None"
-                tools:text="Shields, simple weapons, martial weapons"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/phb_class_details_level_features"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <include
-                android:visibility="gone"
-                tools:visibility="visible"
-                layout="@layout/layout_phb_class_details_level" />
+            <LinearLayout
+                android:id="@+id/phb_class_details_lore_block"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@android:color/darker_gray">
+
+                <TextView
+                    android:id="@+id/phb_class_details_table_txt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_large"
+                    tools:text="@string/phb_class_details_table_txt"/>
+
+                <Button
+                    android:id="@+id/phb_class_details_table_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phb_class_details_table_btn"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+
+            <TextView
+                android:id="@+id/phb_class_details_features"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_xlarge"
+                android:textStyle="bold"
+                android:background="@android:color/darker_gray"
+                tools:text="@string/phb_class_details_features"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_large"
+                android:text="@string/phb_class_details_hitpoints"
+                android:background="@android:color/darker_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_medium"
+                    android:text="@string/phb_class_details_hitdice"/>
+
+                <TextView
+                    android:id="@+id/phb_class_details_hitdice"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_medium"
+                    tools:text="d12"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_large"
+                android:text="@string/phb_class_details_proficiencies"
+                android:background="@android:color/darker_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_medium"
+                    android:text="@string/phb_class_details_armor"/>
+
+                <TextView
+                    android:id="@+id/phb_class_details_armor"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_medium"
+                    android:text="None"
+                    tools:text="Light armor, medium armor, shields"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_medium"
+                    android:text="@string/phb_class_details_weapons"/>
+
+                <TextView
+                    android:id="@+id/phb_class_details_weapons"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_medium"
+                    android:text="None"
+                    tools:text="Simple weapons, martial weapons"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_medium"
+                    android:text="@string/phb_class_details_tools"/>
+
+                <TextView
+                    android:id="@+id/phb_class_details_tools"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_medium"
+                    android:text="None"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_medium"
+                    android:text="@string/phb_class_details_saves"/>
+
+                <TextView
+                    android:id="@+id/phb_class_details_saves"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_medium"
+                    android:text="None"
+                    tools:text="Str, Con"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_medium"
+                    android:text="@string/phb_class_details_skills"/>
+
+                <TextView
+                    android:id="@+id/phb_class_details_skills"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_medium"
+                    android:text="None"
+                    tools:text="Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception and Survival"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_large"
+                android:text="@string/phb_class_details_belongings"
+                android:background="@android:color/darker_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_medium"
+                    android:text="@string/phb_class_details_equipment"/>
+
+                <TextView
+                    android:id="@+id/phb_class_details_equipment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_medium"
+                    android:text="None"
+                    tools:text="* (a) greataxe or (b) any martial melee weapon\n* (a) two handaxes or (b) any simple weapon\n* An explorer's pack and four javelins"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_medium"
+                    android:text="@string/phb_class_details_wealth"/>
+
+                <TextView
+                    android:id="@+id/phb_class_details_wealth"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_medium"
+                    android:text="None"
+                    tools:text="2d4*10 gp (50)"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_large"
+                android:text="@string/phb_class_details_multiclassing"
+                android:background="@android:color/darker_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_medium"
+                    android:text="@string/phb_class_details_multiclass_prerequisites"/>
+
+                <TextView
+                    android:id="@+id/phb_class_details_multiclass_prerequisites"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_medium"
+                    android:text="None"
+                    tools:text="Str 13+"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_medium"
+                    android:text="@string/phb_class_details_multiclass_proficiencies"/>
+
+                <TextView
+                    android:id="@+id/phb_class_details_multiclass_proficiencies"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_medium"
+                    android:text="None"
+                    tools:text="Shields, simple weapons, martial weapons"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/phb_class_details_level_features"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    layout="@layout/layout_phb_class_details_level" />
+
+            </LinearLayout>
 
         </LinearLayout>
 
-    </LinearLayout>
+    </ScrollView>
 
-</ScrollView>
+</LinearLayout>

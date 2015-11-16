@@ -21,9 +21,9 @@ import android.widget.Toast;
 /**
  * Main annotations to use are:
  * 
- * * ActivityActionBarMenu(int menuId) on the class to define the menu to be
+ * * ActivityActionBarMenu(int menuId) on the phb to define the menu to be
  * 		used in the menu bar for this activity.
- * * ActivityContentLayout(int layoutId) on the class to define the layout for
+ * * ActivityContentLayout(int layoutId) on the phb to define the layout for
  * 		the activity.
  * * ActionOnClick(int viewId) on a method to define the action to be called
  * 		when the user press the button with viewId id. The method can have any
@@ -88,7 +88,7 @@ public abstract class BaseActivity extends ActionBarActivity {
 			this.setupFromScreenViewField(field);
 		}
 		
-		// Check class annotations
+		// Check phb annotations
 		this.setupActionBarMenu();
 		this.setupContentLayout();
 		
@@ -273,7 +273,7 @@ public abstract class BaseActivity extends ActionBarActivity {
 	}
 
 	/**
-	 * Get all declared methods from this object's class and any super class that
+	 * Get all declared methods from this object's phb and any super phb that
 	 * subclass BaseActivity.
 	 */
 	private Method[] getMethods() {
@@ -289,7 +289,7 @@ public abstract class BaseActivity extends ActionBarActivity {
 	}
 
 	/**
-	 * Get all declared fields from this object's class and any super class that
+	 * Get all declared fields from this object's phb and any super phb that
 	 * subclass BaseActivity.
 	 */
 	private Field[] getFields() {
