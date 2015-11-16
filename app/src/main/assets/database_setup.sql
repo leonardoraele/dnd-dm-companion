@@ -230,7 +230,7 @@ CREATE TABLE _trinket_table (
     _id INTEGER PRIMARY KEY AUTOINCREMENT,
     _name_id INTEGER,
     _description_id INTEGER,
-    _roll TEXT, -- "1d100" (em outras tabelas poderia ser: 2d10; 1d12+1d8; etc.)
+    _roll TEXT, -- 1d100 (em outras tabelas poderia ser: 2d10, 1d12+1d8, etc.)
     _source_id INTEGER,
     FOREIGN KEY (_name_id) REFERENCES _translation(_id),
     FOREIGN KEY (_description_id) REFERENCES _translation(_id),
