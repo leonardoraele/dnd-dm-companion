@@ -3,22 +3,8 @@ The faithful companion of any Dungeon Master for D&amp;D 5E
 
 #### Planned Features
 * Player's Handbook Consulting
-* * Races
-* * * Human
-* * * * Default Human
-* * * * Variant Human
-* * * Elf
-* * * * High Elf
-* * * * Wood Elf
-* * * * Drow
-* * * Dwarf
-* * * * Hills Dwarf
-* * * * Mountain Dwarf
-* * * Halfling
-* * * * Halfling Lightfoot
-* * * * Halfling Stout
-(dragonborn, half-elf, gnome, tielfling)
-* * Classes
+* * Add SCAG races and variants
+* * Add classes' features' descriptions
 * * Backgrounds
 * * Feats
 * * Equipments
@@ -27,16 +13,16 @@ The faithful companion of any Dungeon Master for D&amp;D 5E
 * * * Adventuring Goods
 * * * Tools
 * * * Packs
-* * Other
-* * * Experience table
+* * Downtime, Traveling & Services
 * * * Lifestyles
 * * * Services' costs
 * * * Traveling speed
 * * * Downtime activities
+* * Other
+* * * Experience table
 * * * Conditions
 * * * Trinkets table
 * * * Magic surge table
-* * * Etc.
 * * Spells
 * * * Spell lists
 * * * Spells' descriptions
@@ -53,16 +39,20 @@ The faithful companion of any Dungeon Master for D&amp;D 5E
 * * (what more?)
 
 * Monster Manual
+* * Monster database
+* * Search by CR, type and other statistics
 
 * Random Dungeon Generator (DMG-like)
 
 * Unofficial content
+* * Sample encounter tables
 * * Fan-made adventures
 * * Fan-made spells
 * * Fan-made magic items
 * * Fan-made monsters
 * * Fan-made class options
-* * Fan-made races
+* * Fan-made prestige classes
+* * Fan-made races, subraces and variants
 
 * Dice roller
 

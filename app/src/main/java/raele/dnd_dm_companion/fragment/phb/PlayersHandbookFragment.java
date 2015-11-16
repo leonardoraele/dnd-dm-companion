@@ -33,6 +33,7 @@ public class PlayersHandbookFragment extends Fragment {
             public void onClick(View v) {onClassesClick();
             }
         });
+        /*
         view.findViewById(R.id.phb_item_backgrounds).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -75,6 +76,7 @@ public class PlayersHandbookFragment extends Fragment {
             public void onClick(View v) {
                 onTrinketsClick();}
         });
+        */
 
         return view;
     }

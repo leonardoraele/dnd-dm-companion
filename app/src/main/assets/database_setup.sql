@@ -225,8 +225,8 @@ CREATE TABLE _class_feature (
 --    PRIMARY KEY (_weapon_id, _feature_id)
 --);
 
-DROP TABLE IF EXISTS _trinket_table;
-CREATE TABLE _trinket_table (
+DROP TABLE IF EXISTS _rollable_table;
+CREATE TABLE _rollable_table (
     _id INTEGER PRIMARY KEY AUTOINCREMENT,
     _name_id INTEGER,
     _description_id INTEGER,
@@ -237,13 +237,13 @@ CREATE TABLE _trinket_table (
     FOREIGN KEY (_source_id) REFERENCES _source(_id)
 );
 
-DROP TABLE IF EXISTS _trinket_item;
-CREATE TABLE _trinket_item (
+DROP TABLE IF EXISTS _table_item;
+CREATE TABLE _table_item (
     _id INTEGER PRIMARY KEY AUTOINCREMENT,
-    _table_id INTEGER,
-    _description_id INTEGER, -- The ashes of a long dead hero
+    _rollable_table_id INTEGER,
+    _feature_id INTEGER, -- The ashes of a long dead hero
     _range_from INTEGER, -- 8 (this is the result for any roll from 8 to 10 in the table)
     _range_to INTEGER, -- 10
-    FOREIGN KEY (_table_id) REFERENCES _trinket_table(_id),
-    FOREIGN KEY (_description_id) REFERENCES _translation(_id)
+    FOREIGN KEY (_rollable_table_id) REFERENCES _rolllable_table(_id),
+    FOREIGN KEY (_feature_id) REFERENCES _feature(_id)
 );

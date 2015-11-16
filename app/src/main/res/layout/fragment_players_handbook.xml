@@ -8,32 +8,29 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@android:color/white">
+        android:background="@drawable/partyreddragon">
 
-        <LinearLayout
+        <Button
+            android:id="@+id/phb_item_races"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/races"
+            android:text="@string/phb_menu_races"
+            android:textColor="@android:color/white"
+            android:padding="4dp"
+            android:background="@android:color/transparent"/>
 
-            <Button
-                android:id="@+id/phb_item_races"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:drawableTop="@drawable/abc_btn_check_to_on_mtrl_015"
-                android:padding="8dp"
-                android:text="@string/phb_menu_races"/>
+        <Button
+            android:id="@+id/phb_item_classes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/swordaxe"
+            android:text="@string/phb_menu_classes"
+            android:textColor="@android:color/white"
+            android:padding="4dp"
+            android:background="@android:color/transparent"/>
 
-            <Button
-                android:id="@+id/phb_item_classes"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:drawableTop="@drawable/abc_btn_check_to_on_mtrl_015"
-                android:text="@string/phb_menu_classes"/>
-
-        </LinearLayout>
-
+        <!--
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="100dp"
@@ -125,6 +122,7 @@
                 android:text="@string/phb_menu_trinkets"/>
 
         </LinearLayout>
+        -->
 
     </LinearLayout>
 
