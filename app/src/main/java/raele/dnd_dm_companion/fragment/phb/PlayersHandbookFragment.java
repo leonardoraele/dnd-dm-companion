@@ -71,12 +71,12 @@ public class PlayersHandbookFragment extends Fragment {
             public void onClick(View v) {
                 onExperienceClick();}
         });
+        */
         view.findViewById(R.id.phb_item_trinkets).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onTrinketsClick();}
         });
-        */
 
         return view;
     }

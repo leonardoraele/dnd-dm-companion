@@ -16,6 +16,8 @@
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/races"
             android:text="@string/phb_menu_races"
+            android:textSize="20sp"
+            android:textStyle="bold"
             android:textColor="@android:color/white"
             android:padding="4dp"
             android:background="@android:color/transparent"/>
@@ -26,6 +28,20 @@
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/swordaxe"
             android:text="@string/phb_menu_classes"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:padding="4dp"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/phb_item_trinkets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/trinkets"
+            android:text="@string/phb_menu_trinkets"
+            android:textSize="20sp"
+            android:textStyle="bold"
             android:textColor="@android:color/white"
             android:padding="4dp"
             android:background="@android:color/transparent"/>

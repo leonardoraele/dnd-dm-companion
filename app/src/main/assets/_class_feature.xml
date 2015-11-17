@@ -1,42 +1,49 @@
 <data>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_barbarian_1A</column>
         <column name="_class_id" id="true">class_barbarian</column>
         <column name="_feature_id" id="true">feature_barbarian_rage</column>
         <column name="_level">1</column>
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_barbarian_1B</column>
         <column name="_class_id" id="true">class_barbarian</column>
         <column name="_feature_id" id="true">feature_barbarian_unarmoreddefense</column>
         <column name="_level">1</column>
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_1A</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_feature_id" id="true">feature_fighter_fightingstyle</column>
         <column name="_level">1</column>
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_1B</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_feature_id" id="true">feature_fighter_secondwind</column>
         <column name="_level">1</column>
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_2A</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_feature_id" id="true">feature_fighter_actionsurge</column>
         <column name="_level">2</column>
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_3A</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_feature_id" id="true">feature_fighter_martialarchetype</column>
         <column name="_level">3</column>
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_3B</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_class_option_id" id="true">classoption_fighter_champion</column>
         <column name="_feature_id" id="true">feature_fighter_improvedcritical</column>
@@ -44,24 +51,28 @@
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_4A</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_feature_id" id="true">feature_abilityscoreimprovement</column>
         <column name="_level">4</column>
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_5A</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_feature_id" id="true">feature_extraattack</column>
         <column name="_level">5</column>
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_6A</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_feature_id" id="true">feature_abilityscoreimprovement</column>
         <column name="_level">6</column>
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_7A</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_class_option_id" id="true">classoption_fighter_champion</column>
         <column name="_feature_id" id="true">feature_fighterchampion_remarkableathlete</column>
@@ -69,18 +80,21 @@
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_8A</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_feature_id" id="true">feature_abilityscoreimprovement</column>
         <column name="_level">8</column>
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_9A</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_feature_id" id="true">feature_fighter_indomable</column>
         <column name="_level">9</column>
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_10A</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_class_option_id" id="true">classoption_fighter_champion</column>
         <column name="_feature_id" id="true">feature_fighterchampion_additionalfightingstyle</column>
@@ -88,30 +102,35 @@
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_11A</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_feature_id" id="true">feature_fighter_threeattacks</column>
         <column name="_level">11</column>
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_12A</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_feature_id" id="true">feature_abilityscoreimprovement</column>
         <column name="_level">12</column>
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_13A</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_feature_id" id="true">feature_fighter_indomitable2</column>
         <column name="_level">13</column>
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_14A</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_feature_id" id="true">feature_abilityscoreimprovement</column>
         <column name="_level">14</column>
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_15A</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_class_option_id" id="true">classoption_fighter_champion</column>
         <column name="_feature_id" id="true">feature_fighterchampion_superiorcritical</column>
@@ -119,24 +138,28 @@
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_16A</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_feature_id" id="true">feature_abilityscoreimprovement</column>
         <column name="_level">16</column>
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_17A</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_feature_id" id="true">feature_fighter_actionsurge2</column>
         <column name="_level">17</column>
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_17B</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_feature_id" id="true">feature_fighter_indomitable3</column>
         <column name="_level">17</column>
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_18A</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_class_option_id" id="true">classoption_fighter_champion</column>
         <column name="_feature_id" id="true">feature_fighterchampion_survivor</column>
@@ -144,12 +167,14 @@
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_19A</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_feature_id" id="true">feature_abilityscoreimprovement</column>
         <column name="_level">19</column>
     </insert>
 
     <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_20A</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_feature_id" id="true">feature_fighter_fourattacks</column>
         <column name="_level">20</column>

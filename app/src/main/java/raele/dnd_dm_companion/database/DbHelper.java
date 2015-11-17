@@ -31,7 +31,7 @@ public class DbHelper extends SQLiteOpenHelper {
 
     private static final String SETUP_SCRIPT_FILENAME = "database_setup.sql";
     private static final String DATABASE_FILENAME = "database.db";
-    private static final int DATABASE_VERSION = 22;
+    private static final int DATABASE_VERSION = 36;
     private static final String[] XML_DATA_FILES = new String[] {
             "_size.xml",
             "_super_race.xml",
@@ -44,6 +44,9 @@ public class DbHelper extends SQLiteOpenHelper {
             "_class.xml",
             "_class_option.xml",
             "_class_feature.xml",
+            "_rollable_table.xml",
+            "_table_item.xml",
+            "_trinket_table.xml",
     };
 
     private final Context mContext;
@@ -104,7 +107,7 @@ public class DbHelper extends SQLiteOpenHelper {
         int id = 1;
 
         for (int i = 0; i < XML_DATA_FILES.length; i++) {
-            Log.info("Inserting data to " + XML_DATA_FILES[i] + " table...");
+            Log.info("Inserting data of " + XML_DATA_FILES[i] + "...");
             id = readXmlData(db, XML_DATA_FILES[i], idTable, id);
         }
 
@@ -112,8 +115,10 @@ public class DbHelper extends SQLiteOpenHelper {
     }
 
     private int readXmlData(SQLiteDatabase db, String assetName, Map<String, Integer> idMap, int nextId) {
+        Log.begin();
         InputStream input;
         try {
+            Log.info("Opening file...");
             input = mContext.getAssets().open(assetName);
         } catch (IOException e) {
             Log.printStackTrace(e);
@@ -122,6 +127,7 @@ public class DbHelper extends SQLiteOpenHelper {
 
         Document doc;
         try {
+            Log.info("Reading xml...");
             doc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(input);
         } catch (SAXException | IOException | ParserConfigurationException e) {
             Log.printStackTrace(e);
@@ -130,15 +136,21 @@ public class DbHelper extends SQLiteOpenHelper {
 
         doc.getDocumentElement().normalize();
 
+        Log.info("Searching 'insert' nodes...");
         NodeList inserts = doc.getElementsByTagName("insert");
+        Log.info("Found " + inserts.getLength() + " nodes.");
 
+        Log.info("Beginning transaction.");
         db.beginTransaction();
+        Log.info("Setting up data...");
 
         for (int i = 0; i < inserts.getLength(); i++) {
             Node insertNode = inserts.item(i);
             String tableName = insertNode.getAttributes().getNamedItem("table").getTextContent().trim();
             ContentValues values = new ContentValues();
             NodeList columnNodes = insertNode.getChildNodes();
+
+            Log.info("Reading node " + i + " (table " + tableName + ")");
 
             for (int j = 0; j < columnNodes.getLength(); j++) {
                 if (columnNodes.item(j).getNodeType() == Node.ELEMENT_NODE) {
@@ -181,9 +193,12 @@ public class DbHelper extends SQLiteOpenHelper {
             db.insert(tableName, null, values);
         }
 
+        Log.info("Finishing transaction...");
         db.setTransactionSuccessful();
         db.endTransaction();
+        Log.info("Transaction commited successfully.");
 
+        Log.end();
         return nextId;
     }
 

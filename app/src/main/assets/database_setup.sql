@@ -158,13 +158,13 @@ CREATE TABLE _class_option (
 -- N-N table to link classes to their features
 DROP TABLE IF EXISTS _class_feature;
 CREATE TABLE _class_feature (
-    _class_id INTEGER NOT NULL,
-    _feature_id INTEGER NOT NULL,
+    _id INTEGER PRIMARY KEY AUTOINCREMENT,
+    _class_id INTEGER,
+    _feature_id INTEGER,
     _class_option_id INTEGER, -- Or null for base class feature
     _level INTEGER, -- The level at which the character learns this feature
     FOREIGN KEY (_class_id) REFERENCES _class(_id),
     FOREIGN KEY (_feature_id) REFERENCES _feature(_id),
-    PRIMARY KEY (_class_id, _feature_id),
     FOREIGN KEY (_class_option_id) REFERENCES _class_option(_id)
 );
 
@@ -241,9 +241,16 @@ DROP TABLE IF EXISTS _table_item;
 CREATE TABLE _table_item (
     _id INTEGER PRIMARY KEY AUTOINCREMENT,
     _rollable_table_id INTEGER,
-    _feature_id INTEGER, -- The ashes of a long dead hero
+    _description_id INTEGER, -- The ashes of a long dead hero
     _range_from INTEGER, -- 8 (this is the result for any roll from 8 to 10 in the table)
     _range_to INTEGER, -- 10
     FOREIGN KEY (_rollable_table_id) REFERENCES _rolllable_table(_id),
-    FOREIGN KEY (_feature_id) REFERENCES _feature(_id)
+    FOREIGN KEY (_description_id) REFERENCES _translation(_id)
+);
+
+DROP TABLE IF EXISTS _trinket_table;
+CREATE TABLE _trinket_table (
+    _id INTEGER PRIMARY KEY AUTOINCREMENT,
+    _rollable_table_id INTEGER,
+    FOREIGN KEY (_rollable_table_id) REFERENCES _rollable_table(_id)
 );

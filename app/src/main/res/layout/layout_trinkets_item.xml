@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    tools:layout_height="100dp">
+
+    <ImageView
+        android:id="@+id/phb_trinkets_item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        tools:src="@drawable/android" />
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/phb_trinkets_item_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="@dimen/text_large"
+        android:gravity="center"
+        tools:text="Elemental Evil Trinkets' Table"/>
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/phb_trinkets_item_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/text_small"
+        android:layout_gravity="center"
+        android:text="@string/phb_trinkets_quick_roll"/>
+
+</LinearLayout>

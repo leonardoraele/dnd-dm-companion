@@ -1,0 +1,13 @@
+<data>
+
+    <insert table="_rollable_table">
+        <column name="_id" id="true">rollabletable_trinkets</column>
+        <column name="_name_id" translation="ENG">Player's Handbook's Table</column>
+        <column name="_name_id" translation="POR">Tabela do Livro do Jogador</column>
+        <column name="_description_id" translation="ENG">(pending description)</column>
+        <column name="_description_id" translation="POR">(descrição pendente)</column>
+        <column name="_roll">1d100</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+</data>
