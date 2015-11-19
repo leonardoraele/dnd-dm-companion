@@ -1,0 +1,255 @@
+<data>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_alert</column>
+        <column name="_feature_id" id="true">feature_feat_alert</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_athlete</column>
+        <column name="_feature_id" id="true">feature_feat_athlete</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_actor</column>
+        <column name="_feature_id" id="true">feature_feat_actor</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_charger</column>
+        <column name="_feature_id" id="true">feature_feat_charger</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_crossbowexpert</column>
+        <column name="_feature_id" id="true">feature_feat_crossbowexpert</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_defensiveduelist</column>
+        <column name="_feature_id" id="true">feature_feat_defensiveduelist</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_dualwielder</column>
+        <column name="_feature_id" id="true">feature_feat_dualwielder</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_dungeondelver</column>
+        <column name="_feature_id" id="true">feature_feat_dungeondelver</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_durable</column>
+        <column name="_feature_id" id="true">feature_feat_durable</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_elementaladept</column>
+        <column name="_feature_id" id="true">feature_feat_elementaladept</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_grappler</column>
+        <column name="_feature_id" id="true">feature_feat_grappler</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_greatweaponmaster</column>
+        <column name="_feature_id" id="true">feature_feat_greatweaponmaster</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_healer</column>
+        <column name="_feature_id" id="true">feature_feat_healer</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_heavilyarmored</column>
+        <column name="_feature_id" id="true">feature_feat_heavilyarmored</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_heavyarmormaster</column>
+        <column name="_feature_id" id="true">feature_feat_heavyarmormaster</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_inspiringleader</column>
+        <column name="_feature_id" id="true">feature_feat_inspiringleader</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_keenmind</column>
+        <column name="_feature_id" id="true">feature_feat_keenmind</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_lightlyarmored</column>
+        <column name="_feature_id" id="true">feature_feat_lightlyarmored</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_linguist</column>
+        <column name="_feature_id" id="true">feature_feat_linguist</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_lucky</column>
+        <column name="_feature_id" id="true">feature_feat_lucky</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_mageslayer</column>
+        <column name="_feature_id" id="true">feature_feat_mageslayer</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_magicinitiate</column>
+        <column name="_feature_id" id="true">feature_feat_magicinitiate</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_martialadept</column>
+        <column name="_feature_id" id="true">feature_feat_martialadept</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_mediumarmormaster</column>
+        <column name="_feature_id" id="true">feature_feat_mediumarmormaster</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_mobile</column>
+        <column name="_feature_id" id="true">feature_feat_mobile</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_moderatelyarmored</column>
+        <column name="_feature_id" id="true">feature_feat_moderatelyarmored</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_mountedcombatant</column>
+        <column name="_feature_id" id="true">feature_feat_mountedcombatant</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_observant</column>
+        <column name="_feature_id" id="true">feature_feat_observant</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_polearmmaster</column>
+        <column name="_feature_id" id="true">feature_feat_polearmmaster</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_resilient</column>
+        <column name="_feature_id" id="true">feature_feat_resilient</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_ritualcaster</column>
+        <column name="_feature_id" id="true">feature_feat_ritualcaster</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_savageattacker</column>
+        <column name="_feature_id" id="true">feature_feat_savageattacker</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_sentinel</column>
+        <column name="_feature_id" id="true">feature_feat_sentinel</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_sharpshooter</column>
+        <column name="_feature_id" id="true">feature_feat_sharpshooter</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_shieldmaster</column>
+        <column name="_feature_id" id="true">feature_feat_shieldmaster</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_skilled</column>
+        <column name="_feature_id" id="true">feature_feat_skilled</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_skulker</column>
+        <column name="_feature_id" id="true">feature_feat_skulker</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_spellsniper</column>
+        <column name="_feature_id" id="true">feature_feat_spellsniper</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_tavernbrawler</column>
+        <column name="_feature_id" id="true">feature_feat_tavernbrawler</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_tough</column>
+        <column name="_feature_id" id="true">feature_feat_tough</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_warcaster</column>
+        <column name="_feature_id" id="true">feature_feat_warcaster</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_feat">
+        <column name="_id" id="true">feat_weaponmaster</column>
+        <column name="_feature_id" id="true">feature_feat_weaponmaster</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+</data>

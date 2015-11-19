@@ -24,7 +24,7 @@ import raele.util.android.log.Log;
 /**
  * Created by lpr on 21/09/15.
  */
-public class RacesFragment extends Fragment {
+public class RaceListFragment extends Fragment {
 
     private static final String GET_ALL_SUB_RACE_NAMES =
             "SELECT sr._id, tr._text FROM _sub_race sr, _translation tr WHERE " +

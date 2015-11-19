@@ -22,7 +22,7 @@ import raele.dnd_dm_companion.database.DbHelper;
 /**
  * Created by lpr on 28/09/15.
  */
-public class ClassesFragment extends Fragment {
+public class ClassListFragment extends Fragment {
 
 
     private static final String GET_ALL_CLASSES_SQL =

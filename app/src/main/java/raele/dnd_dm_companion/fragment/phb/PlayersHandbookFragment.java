@@ -8,9 +8,10 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import raele.dnd_dm_companion.R;
-import raele.dnd_dm_companion.fragment.phb.classes.ClassesFragment;
-import raele.dnd_dm_companion.fragment.phb.races.RacesFragment;
-import raele.dnd_dm_companion.fragment.phb.trinkets.TrinketsFragment;
+import raele.dnd_dm_companion.fragment.phb.classes.ClassListFragment;
+import raele.dnd_dm_companion.fragment.phb.feat.FeatListFragment;
+import raele.dnd_dm_companion.fragment.phb.races.RaceListFragment;
+import raele.dnd_dm_companion.fragment.phb.trinkets.TrinketListFragment;
 import raele.util.android.Utils;
 
 /**
@@ -33,56 +34,21 @@ public class PlayersHandbookFragment extends Fragment {
             public void onClick(View v) {onClassesClick();
             }
         });
-        /*
-        view.findViewById(R.id.phb_item_backgrounds).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onBackgroundsClicks();}
-        });
         view.findViewById(R.id.phb_item_feats).setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                onFeatsClick();
+            public void onClick(View v) {onFeatsClick();
             }
         });
-        view.findViewById(R.id.phb_item_equipments).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {onEquipmentsClick();}
-        });
-        view.findViewById(R.id.phb_item_downtime).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onDowntimeClick();}
-        });
-        view.findViewById(R.id.phb_item_combat).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onCombatClick();
-            }
-        });
-        view.findViewById(R.id.phb_item_spells).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onSpellsClick();
-            }
-        });
-        view.findViewById(R.id.phb_item_experience).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onExperienceClick();}
-        });
-        */
         view.findViewById(R.id.phb_item_trinkets).setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                onTrinketsClick();}
+            public void onClick(View v) {onTrinketsClick();}
         });
 
         return view;
     }
 
     private void onTrinketsClick() {
-        TrinketsFragment fragment = new TrinketsFragment();
+        TrinketListFragment fragment = new TrinketListFragment();
 
         getActivity().getSupportFragmentManager().beginTransaction()
                 .addToBackStack(toString())
@@ -90,36 +56,17 @@ public class PlayersHandbookFragment extends Fragment {
                 .commit();
     }
 
-    private void onExperienceClick() {
-        Utils.of(getActivity()).notImplemented();
-    }
-
-    private void onSpellsClick() {
-        Utils.of(getActivity()).notImplemented();
-    }
-
-    private void onCombatClick() {
-        Utils.of(getActivity()).notImplemented();
-    }
-
-    private void onDowntimeClick() {
-        Utils.of(getActivity()).notImplemented();
-    }
-
-    private void onEquipmentsClick() {
-        Utils.of(getActivity()).notImplemented();
-    }
-
     private void onFeatsClick() {
-        Utils.of(getActivity()).notImplemented();
-    }
+        Fragment fragment = new FeatListFragment();
 
-    private void onBackgroundsClicks() {
-        Utils.of(getActivity()).notImplemented();
+        getActivity().getSupportFragmentManager().beginTransaction()
+                .addToBackStack(toString())
+                .replace(R.id.container, fragment)
+                .commit();
     }
 
     private void onClassesClick() {
-        Fragment fragment = new ClassesFragment();
+        Fragment fragment = new ClassListFragment();
 
         getActivity().getSupportFragmentManager().beginTransaction()
                 .addToBackStack(toString())
@@ -128,7 +75,7 @@ public class PlayersHandbookFragment extends Fragment {
     }
 
     private void onRacesClick() {
-        Fragment fragment = new RacesFragment();
+        Fragment fragment = new RaceListFragment();
 
         getActivity().getSupportFragmentManager().beginTransaction()
                 .addToBackStack(toString())

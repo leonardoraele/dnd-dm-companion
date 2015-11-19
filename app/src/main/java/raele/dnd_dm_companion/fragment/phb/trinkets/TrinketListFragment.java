@@ -26,7 +26,7 @@ import raele.util.android.log.Log;
 /**
  * Created by lpr on 19/10/15.
  */
-public class TrinketsFragment extends Fragment {
+public class TrinketListFragment extends Fragment {
 
     private static final String SQL_GET_ALL_TRINKET_TABLE =
             "SELECT _rollable_table._id, _rollable_table._roll, tr_name._text, tr_description._text " +

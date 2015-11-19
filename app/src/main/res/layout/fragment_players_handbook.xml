@@ -35,6 +35,18 @@
             android:background="@android:color/transparent"/>
 
         <Button
+            android:id="@+id/phb_item_feats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/potion"
+            android:text="@string/phb_menu_feats"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:padding="4dp"
+            android:background="@android:color/transparent"/>
+
+        <Button
             android:id="@+id/phb_item_trinkets"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -45,100 +57,6 @@
             android:textColor="@android:color/white"
             android:padding="4dp"
             android:background="@android:color/transparent"/>
-
-        <!--
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/phb_item_backgrounds"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:drawableTop="@drawable/abc_btn_check_to_on_mtrl_015"
-                android:text="@string/phb_menu_backgrounds"/>
-
-            <Button
-                android:id="@+id/phb_item_feats"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:drawableTop="@drawable/abc_btn_check_to_on_mtrl_015"
-                android:text="@string/phb_menu_feats"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/phb_item_equipments"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:drawableTop="@drawable/abc_btn_check_to_on_mtrl_015"
-                android:text="@string/phb_menu_equipments"/>
-
-            <Button
-                android:id="@+id/phb_item_downtime"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:drawableTop="@drawable/abc_btn_check_to_on_mtrl_015"
-                android:text="@string/phb_menu_downtime"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/phb_item_combat"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:drawableTop="@drawable/abc_btn_check_to_on_mtrl_015"
-                android:text="@string/phb_menu_combat"/>
-
-            <Button
-                android:id="@+id/phb_item_spells"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:drawableTop="@drawable/abc_btn_check_to_on_mtrl_015"
-                android:text="@string/phb_menu_spells"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/phb_item_experience"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:drawableTop="@drawable/abc_btn_check_to_on_mtrl_015"
-                android:text="@string/phb_menu_experience"/>
-
-            <Button
-                android:id="@+id/phb_item_trinkets"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:drawableTop="@drawable/abc_btn_check_to_on_mtrl_015"
-                android:text="@string/phb_menu_trinkets"/>
-
-        </LinearLayout>
-        -->
 
     </LinearLayout>
 

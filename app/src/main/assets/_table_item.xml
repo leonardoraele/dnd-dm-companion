@@ -679,7 +679,7 @@
         <column name="_id" id="true">trinketitem_phb_76</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">A four-leaf clover pressed inside a book discussing manners and etiquette</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Um trevo de quatro folhas dentro de um livro que fala sobre conduta e etiqueta.</column>
         <column name="_range_from">76</column>
         <column name="_range_to">76</column>
     </insert>
@@ -688,7 +688,7 @@
         <column name="_id" id="true">trinketitem_phb_77</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">A sheet of parchment upon which is drawn a complex mechanical contraption</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Um pedaço de pergaminho sobre como é desenhado um determinado mecanismo complexo.</column>
         <column name="_range_from">77</column>
         <column name="_range_to">77</column>
     </insert>
@@ -697,7 +697,7 @@
         <column name="_id" id="true">trinketitem_phb_78</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">An ornate scabbard that fits no blade you have found so far</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Uma bainha ornamentada para um tipo de lâmina exótica que você nunca viu.</column>
         <column name="_range_from">78</column>
         <column name="_range_to">78</column>
     </insert>
@@ -706,7 +706,7 @@
         <column name="_id" id="true">trinketitem_phb_79</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">An invitation to a party where a murder happened</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Um convite para uma festa no qual houve um assassinato.</column>
         <column name="_range_from">79</column>
         <column name="_range_to">79</column>
     </insert>
@@ -715,7 +715,7 @@
         <column name="_id" id="true">trinketitem_phb_80</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">A bronze pentacle with an etching of a rat's head in its center</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Um pentadrama de bronze com a imagem da cabeça de um rato no centro.</column>
         <column name="_range_from">80</column>
         <column name="_range_to">80</column>
     </insert>
@@ -724,7 +724,7 @@
         <column name="_id" id="true">trinketitem_phb_81</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">A purple handkerchief embroidered with the name of a powerful archmage</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Um lenço de pescoço roxo bordado com o nome de um poderoso arquimago.</column>
         <column name="_range_from">81</column>
         <column name="_range_to">81</column>
     </insert>
@@ -733,7 +733,7 @@
         <column name="_id" id="true">trinketitem_phb_82</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">Half of a floorplan for a temple, castle, or some other structure</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Um mapa incompleto com metade da planta de um templo, castelo ou alguma outra estrutura.</column>
         <column name="_range_from">82</column>
         <column name="_range_to">82</column>
     </insert>
@@ -742,7 +742,7 @@
         <column name="_id" id="true">trinketitem_phb_83</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">A bit of folded cloth that, when unfolded, turns into a stylish cap</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Um pouco de pano dobrado que, quando desdobrado, se transforma em um gorro estiloso.</column>
         <column name="_range_from">83</column>
         <column name="_range_to">83</column>
     </insert>
@@ -751,7 +751,7 @@
         <column name="_id" id="true">trinketitem_phb_84</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">A receipt of deposit at a bank in a far-flung city</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Um recibo de depósito em um banco em uma distante cidade.</column>
         <column name="_range_from">84</column>
         <column name="_range_to">84</column>
     </insert>
@@ -760,7 +760,7 @@
         <column name="_id" id="true">trinketitem_phb_85</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">A diary with seven missing pages</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Um diário com sete páginas faltando.</column>
         <column name="_range_from">85</column>
         <column name="_range_to">85</column>
     </insert>
@@ -769,7 +769,7 @@
         <column name="_id" id="true">trinketitem_phb_86</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">An empty silver snuffbox bearing an inscription on the surface that says “dreams”</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Uma caixa de rapé prateada vazia com uma inscrição na superfície que diz "sonhos".</column>
         <column name="_range_from">86</column>
         <column name="_range_to">86</column>
     </insert>
@@ -778,7 +778,7 @@
         <column name="_id" id="true">trinketitem_phb_87</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">An iron holy symbol devoted to an unknown god</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Um símbolo sagrado de ferro de um deus desconhecido.</column>
         <column name="_range_from">87</column>
         <column name="_range_to">87</column>
     </insert>
@@ -787,7 +787,7 @@
         <column name="_id" id="true">trinketitem_phb_88</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">A book that tells the story of a legendary hero's rise and fall, with the last chapter missing</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Um livro que conta a história da ascenção e queda de um herói lendário, com o último capítulo faltando.</column>
         <column name="_range_from">88</column>
         <column name="_range_to">88</column>
     </insert>
@@ -796,7 +796,7 @@
         <column name="_id" id="true">trinketitem_phb_89</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">A vial of dragon blood</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Um frasco com sangue de dragão.</column>
         <column name="_range_from">89</column>
         <column name="_range_to">89</column>
     </insert>
@@ -805,7 +805,7 @@
         <column name="_id" id="true">trinketitem_phb_90</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">An ancient arrow of elven design</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Uma flecha antiga com design élfico.</column>
         <column name="_range_from">90</column>
         <column name="_range_to">90</column>
     </insert>
@@ -814,7 +814,7 @@
         <column name="_id" id="true">trinketitem_phb_91</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">A needle that never bends</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Uma agulha que nunca entorta.</column>
         <column name="_range_from">91</column>
         <column name="_range_to">91</column>
     </insert>
@@ -823,7 +823,7 @@
         <column name="_id" id="true">trinketitem_phb_92</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">An ornate brooch of dwarven design</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Um broche ornamentado com design anão.</column>
         <column name="_range_from">92</column>
         <column name="_range_to">92</column>
     </insert>
@@ -832,7 +832,7 @@
         <column name="_id" id="true">trinketitem_phb_93</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">An empty wine bottle a pretty labbearing el that says, “The Wizard of Wines Winery, Red Dragon Crush, 331422-W”</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Uma garrafa de vinho vazia com uma bonita etiqueta que diz "Vinícola do Mago dos Vinhos, Safra do Dragão Vermelho, 331422-W".</column>
         <column name="_range_from">93</column>
         <column name="_range_to">93</column>
     </insert>
@@ -841,7 +841,7 @@
         <column name="_id" id="true">trinketitem_phb_94</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">A mosaic tile with a multicolored, glazed surface</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Um azulejo mosáico com uma superfície envidraçada colorida.</column>
         <column name="_range_from">94</column>
         <column name="_range_to">94</column>
     </insert>
@@ -850,7 +850,7 @@
         <column name="_id" id="true">trinketitem_phb_95</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">A petrified mouse</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Um rato petrificado.</column>
         <column name="_range_from">95</column>
         <column name="_range_to">95</column>
     </insert>
@@ -859,7 +859,7 @@
         <column name="_id" id="true">trinketitem_phb_96</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">A black pirate flag adorned with a dragon's skull and crossbones</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Uma bandeira pirata adornada com um crânio de dragão e ossos cruzados.</column>
         <column name="_range_from">96</column>
         <column name="_range_to">96</column>
     </insert>
@@ -868,7 +868,7 @@
         <column name="_id" id="true">trinketitem_phb_97</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">A tiny mechanical crab or spider that moves about when it’s not being observed</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Um(a) pequeno(a) carangueijo ou aranha mecânico(a) que se mexe quando não está sendo observado(a).</column>
         <column name="_range_from">97</column>
         <column name="_range_to">97</column>
     </insert>
@@ -877,7 +877,7 @@
         <column name="_id" id="true">trinketitem_phb_98</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">A glass jar containing lard with a label that reads, “Griffon Grease”</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Um vazo de vidro com uma gosma gordurosa, com uma etiqueta escrita "Graxa de Grifo".</column>
         <column name="_range_from">98</column>
         <column name="_range_to">98</column>
     </insert>
@@ -886,7 +886,7 @@
         <column name="_id" id="true">trinketitem_phb_99</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">A wooden box with a ceramic bottom that holds a living worm with a head on each end of its body</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Uma caixa de madeira de fundo de cerâmica com uma minhoca viva com uma cabeça em cada ponta do corpo.</column>
         <column name="_range_from">99</column>
         <column name="_range_to">99</column>
     </insert>
@@ -895,7 +895,7 @@
         <column name="_id" id="true">trinketitem_phb_100</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">A metal urn containing the ashes of a hero</column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">Uma urna de metal contendo as cinzas de um herói.</column>
         <column name="_range_from">100</column>
         <column name="_range_to">100</column>
     </insert>

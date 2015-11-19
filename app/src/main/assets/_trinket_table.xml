@@ -2,5 +2,6 @@
     <insert table="_trinket_table">
         <column name="_id" id="true">trinkettable_phb</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
     </insert>
 </data>

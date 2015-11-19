@@ -252,5 +252,16 @@ DROP TABLE IF EXISTS _trinket_table;
 CREATE TABLE _trinket_table (
     _id INTEGER PRIMARY KEY AUTOINCREMENT,
     _rollable_table_id INTEGER,
-    FOREIGN KEY (_rollable_table_id) REFERENCES _rollable_table(_id)
+    _source_id INTEGER,
+    FOREIGN KEY (_rollable_table_id) REFERENCES _rollable_table(_id),
+    FOREIGN KEY (_source_id) REFERENCES _source(_id)
+);
+
+DROP TABLE IF EXISTS _feat;
+CREATE TABLE _feat (
+    _id INTEGER PRIMARY KEY AUTOINCREMENT,
+    _feature_id INTEGER,
+    _source_id INTEGER,
+    FOREIGN KEY (_feature_id) REFERENCES _feature(_id),
+    FOREIGN KEY (_source_id) REFERENCES _source(_id)
 );
