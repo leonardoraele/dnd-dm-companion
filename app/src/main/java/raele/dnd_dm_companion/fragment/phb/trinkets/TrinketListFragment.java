@@ -90,7 +90,15 @@ public class TrinketListFragment extends Fragment {
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Utils.of(getActivity()).notImplemented(); // TODO Go to triket table fragment
+                Fragment fragment = new TrinketTableFragment();
+                Bundle args = new Bundle();
+                args.putInt(TrinketTableFragment.ARG_TABLE_ID, mTableList.get(position).getId());
+                fragment.setArguments(args);
+
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .addToBackStack(toString())
+                        .replace(R.id.container, fragment)
+                        .commit();
             }
         });
         list.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
@@ -144,13 +152,13 @@ public class TrinketListFragment extends Fragment {
                 TextView nameView = (TextView) view.findViewById(R.id.phb_trinkets_item_name);
                 nameView.setText(table.getName());
 
-                View quickRollBtn = view.findViewById(R.id.phb_trinkets_item_button);
-                quickRollBtn.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        quickRoll(table);
-                    }
-                });
+//                View quickRollBtn = view.findViewById(R.id.phb_trinkets_item_button);
+//                quickRollBtn.setOnClickListener(new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View v) {
+//                        quickRoll(table);
+//                    }
+//                });
 
                 return view;
             }

@@ -12,7 +12,6 @@ import raele.dnd_dm_companion.fragment.phb.classes.ClassListFragment;
 import raele.dnd_dm_companion.fragment.phb.feat.FeatListFragment;
 import raele.dnd_dm_companion.fragment.phb.races.RaceListFragment;
 import raele.dnd_dm_companion.fragment.phb.trinkets.TrinketListFragment;
-import raele.util.android.Utils;
 
 /**
  * Created by lpr on 21/09/15.

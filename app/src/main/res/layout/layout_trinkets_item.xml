@@ -32,6 +32,7 @@
         android:layout_width="10dp"
         android:layout_height="match_parent" />
 
+    <!--
     <Button
         android:id="@+id/phb_trinkets_item_button"
         android:layout_width="wrap_content"
@@ -39,5 +40,6 @@
         android:textSize="@dimen/text_small"
         android:layout_gravity="center"
         android:text="@string/phb_trinkets_quick_roll"/>
+        -->
 
 </LinearLayout>

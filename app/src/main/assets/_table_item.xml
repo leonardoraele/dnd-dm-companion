@@ -94,7 +94,7 @@
         <column name="_id" id="true">trinketitem_phb_11</column>
         <column name="_rollable_table_id" id="true">rollabletable_trinkets</column>
         <column name="_description_id" translation="ENG">A 1-ounce block made from an unknown material</column>
-        <column name="_description_id" translation="POR">(tradução pendente)</column>
+        <column name="_description_id" translation="POR">Um bloco de aproximadamente 28 gramas feito de um material desconhecido.</column>
         <column name="_range_from">11</column>
         <column name="_range_to">11</column>
     </insert>
