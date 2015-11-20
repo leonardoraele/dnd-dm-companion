@@ -261,7 +261,9 @@ DROP TABLE IF EXISTS _feat;
 CREATE TABLE _feat (
     _id INTEGER PRIMARY KEY AUTOINCREMENT,
     _feature_id INTEGER,
+    _prerequisite_id INTEGER,
     _source_id INTEGER,
     FOREIGN KEY (_feature_id) REFERENCES _feature(_id),
+    FOREIGN KEY (_prerequisite_id) REFERENCES _translation(_id),
     FOREIGN KEY (_source_id) REFERENCES _source(_id)
 );

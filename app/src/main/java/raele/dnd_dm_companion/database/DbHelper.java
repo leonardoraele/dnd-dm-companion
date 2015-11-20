@@ -31,7 +31,7 @@ public class DbHelper extends SQLiteOpenHelper {
 
     private static final String SETUP_SCRIPT_FILENAME = "database_setup.sql";
     private static final String DATABASE_FILENAME = "database.db";
-    private static final int DATABASE_VERSION = 39;
+    private static final int DATABASE_VERSION = 40;
     private static final String[] XML_DATA_FILES = new String[] {
             "_size.xml",
             "_super_race.xml",

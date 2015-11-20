@@ -105,4 +105,5 @@
     <string name="phb_class_details_level_title">%sth Level</string>
     <string name="phb_trinkets_quick_roll">Quick Roll</string>
     <string name="phb_trinkets_quick_roll_all">Quick Roll on a Random Table</string>
+    <string name="prerequisite">Prerequisite</string>
 </resources>

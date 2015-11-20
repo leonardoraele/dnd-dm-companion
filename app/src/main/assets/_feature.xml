@@ -779,7 +779,6 @@ Thanks to extensive practice with the crossbow , you gain the following benefits
         <column name="_name_id" translation="ENG">Defensive Duelist</column>
         <column name="_name_id" translation="POR">Duelista Defensivo</column>
         <column name="_description_id" translation="ENG">
-Prerequisite: Dexterity 13 or higher
 When you are wielding a finesse weapon with which you are proficient and another creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you.
         </column>
         <column name="_description_id" translation="POR"></column>
@@ -828,7 +827,6 @@ Hardy and resilient, you gain the following benefits:
         <column name="_name_id" translation="ENG">Elemental Adept</column>
         <column name="_name_id" translation="POR">Adepto Elemental</column>
         <column name="_description_id" translation="ENG">
-Prerequisite: The ability to cast at least one spell
 When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.
 Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.
 You can select this feat multiple times. Each time you do so, you must choose a different damage type.
@@ -841,7 +839,6 @@ You can select this feat multiple times. Each time you do so, you must choose a 
         <column name="_name_id" translation="ENG">Grappler</column>
         <column name="_name_id" translation="POR">Agarrador</column>
         <column name="_description_id" translation="ENG">
-Prerequisite: Strength 13 or higher
 You’ve developed the skills necessary to hold your ow n in close-quarters grappling. You gain the following benefits:
 • You have advantage on attack rolls against a creature you are grappling.
 • You can use your action to try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both restrained until the grapple ends.
@@ -880,7 +877,6 @@ You are an able physician, allowing you to mend wounds quickly and get your alli
         <column name="_name_id" translation="ENG">Heavily Armored</column>
         <column name="_name_id" translation="POR">Pesadamente Armadurado</column>
         <column name="_description_id" translation="ENG">
-Prerequisite: Proficiency with medium armor
 You have trained to master the use of heavy armor, gaining the following benefits:
 • Increase your Strength score by 1, to a m aximum of 20.
 • You gain proficiency with heavy armor.
@@ -893,10 +889,9 @@ You have trained to master the use of heavy armor, gaining the following benefit
         <column name="_name_id" translation="ENG">Heavy Armor Master</column>
         <column name="_name_id" translation="POR">Mestre com Armaduras Pesadas</column>
         <column name="_description_id" translation="ENG">
-Prerequisite: Proficiency with heavy armor
 You can use your arm or to deflect strikes that would kill others. You gain the following benefits:
 • Increase your Strength score by 1, to a maximum of 20.
-• While you are w earing heavy armor, bludgeoning, piercing, and slashing damage that you take from non magical w eapons is reduced by 3.
+• While you are wearing heavy armor, bludgeoning, piercing, and slashing damage that you take from nonmagical weapons is reduced by 3.
         </column>
         <column name="_description_id" translation="POR"></column>
     </insert>
@@ -906,7 +901,6 @@ You can use your arm or to deflect strikes that would kill others. You gain the 
         <column name="_name_id" translation="ENG">Inspiring Leader</column>
         <column name="_name_id" translation="POR">Líder Inspirador</column>
         <column name="_description_id" translation="ENG">
-Prerequisite: Charisma 13 or higher
 You can spend 10 minutes inspiring your com panions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you w ho can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + your Charisma modifier.
 A creature can’t gain tem porary hit points from this feat again until it has finished a short or long rest.
         </column>
@@ -1008,7 +1002,6 @@ You have martial training that allows you to perform special com bat maneuvers. 
         <column name="_name_id" translation="ENG">Medium Armor Master</column>
         <column name="_name_id" translation="POR">Mestre com Armaduras Médias</column>
         <column name="_description_id" translation="ENG">
-Prerequisite: Proficiency with medium armor
 You have practiced moving in medium arm or to gain the follow ing benefits:
 • Wearing medium arm or doesn’t im pose disadvantage on your Dexterity (Stealth) checks.
 • When you w ear medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher
@@ -1033,7 +1026,6 @@ You are exceptionally speedy and agile. You gain the following benefits:
         <column name="_name_id" translation="ENG">Moderately Armored</column>
         <column name="_name_id" translation="POR">Moderadamente Armadurado</column>
         <column name="_description_id" translation="ENG">
-Prerequisite: Proficiency with light armor
 You have trained to master the use of medium armor and shields, gaining the following benefits:
 • Increase your Strength or Dexterity score by 1, to a maximum of 20.
 • You gain proficiency with medium arm or and shields.
@@ -1096,7 +1088,6 @@ Choose one ability score. You gain the following benefits:
         <column name="_name_id" translation="ENG">Ritual Caster</column>
         <column name="_name_id" translation="POR">Conjurador de Rituais</column>
         <column name="_description_id" translation="ENG">
-Prerequisite: Intelligence or Wisdom 13 or higher
 You have learned a number of spells that you can cast as rituals. These spells are written in a ritual book, which you must have in hand while casting one of them.
 When you choose this feat, you acquire a ritual book holding two 1st-level spells of your choice. Choose one of the following classes: bard, cleric, druid, sorcerer, warlock, or wizard. You must choose your spells from that class’s spell list, and the spells you choose must have the ritual tag. The class you choose also determines your  spellcasting ability for these spells: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.
 If you come across a spell in written form, such as a magical spell scroll or a wizard’s spellbook, you might be able to add it to your ritual book. The spell must be on the spell list for the class you chose, the spell’s level can be no higher than half your level (rounded up), and it must have the ritual tag. The process of copying the spell into your ritual book takes 2 hours per level of the spell, and costs 50 gp per level. The cost represents material com ponents you expend as you experiment with the spell to master it, as well as the fine inks you need to record it.
@@ -1168,7 +1159,6 @@ You gain proficiency in any combination of three skills or tools of your choice.
         <column name="_name_id" translation="ENG">Skulker</column>
         <column name="_name_id" translation="POR">Espreitador</column>
         <column name="_description_id" translation="ENG">
-Prerequisite: Dexterity 13 or higher
 You are expert at slinking through shadows. You gain the following benefits:
 • You can try to hide when you are lightly obscured from the creature from which you are hiding.
 • When you are hidden from a creature and miss it with a ranged weapon attack, making the attack doesn't reveal your position.
@@ -1182,7 +1172,6 @@ You are expert at slinking through shadows. You gain the following benefits:
         <column name="_name_id" translation="ENG">Spell Sniper</column>
         <column name="_name_id" translation="POR">Spell Sniper</column>
         <column name="_description_id" translation="ENG">
-Prerequisite: The ability to cast at least one spell
 You have learned techniques to enhance your attacks with certain kinds o f spells, gaining the follow ing benefits:
 • When you cast a spell that requires you to make an attack roll, the spell’s range is doubled.
 • Your ranged spell attacks ignore half cover and three-quarters cover.
@@ -1220,7 +1209,6 @@ Your hit point maximum increases by an amount equal to twice your level when you
         <column name="_name_id" translation="ENG">War Caster</column>
         <column name="_name_id" translation="POR">Conjurador de Guerra</column>
         <column name="_description_id" translation="ENG">
-Prerequisite: The ability to cast at least one spell
 You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits:
 • You have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage.
 • You can perform the som atic com ponents of spells even when you have weapons or a shield in one or both hands.
