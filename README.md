@@ -53,6 +53,7 @@ The faithful companion of any Dungeon Master for D&amp;D 5E
 * * Fan-made class options
 * * Fan-made prestige classes
 * * Fan-made races, subraces and variants
+* * Critical hit and critical failure tables
 
 * Dice roller
 

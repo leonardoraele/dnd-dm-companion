@@ -731,10 +731,15 @@ Sempre atento ao perigo, você ganha os seguintes benefícios:
         <column name="_description_id" translation="ENG">
 You have undergone extensive physical training to gain the follow ing benefits:
 • Increase your Strength or Dexterity score by 1, to a maximum of 20.
-• W hen you are prone, standing up uses only 5 feet of your movement. Climbing doesn’t halve your speed.
+• When you are prone, standing up uses only 5 feet of your movement. Climbing doesn’t halve your speed.
 • You can make a running long jum p or a running high jump after moving only 5 feet on foot, rather than 10 feet.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você já passou por um extensivo treinamento físico para ganhar os seguintes benefícios:
+• Aumente sua pontuação de Força ou Destreza em 1, até um máximo de 20.
+• Quando você é derrubado, se levantar custa somente 5 pés de movimento. Escalar não reduz sua velocidade à metade.
+• Você pode realizar um salto à distância ou um salto alto com impulso após correr somente 5 pés de movimento, ao invés de 10.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -747,7 +752,12 @@ Skilled at mimicry and dramatics, you gain the following benefits:
 • You have advantage on Charisma (Deception) and Charisma (Performance) checks when trying to pass yourself off as a different person.
 • You can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature make the sound, for at least 1 minute. A successful Wisdom (Insight) check contested by your Charisma (Deception) check allows a listener to determine that the effect is faked.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Habilidoso com imitação e dramatização, você ganha os seguintes benefícios:
+• Aumente sua pontuação de Carisma em 1, até um máximo de 20.
+• Você tem vantagem em testes de Carisma (Enganação) e Carisma (Performance) quando tenta se passar por outra pessoa.
+• Você pode imitar a de outra pessoa ou os sons feitos por outras criaturas. Você precisa ter ouvido a pessoa falando ou o som da criatura por ao menos um minuto. Um teste de Sabedoria (Intuição) contestado pelo seu Carisma (Enganação) permite que os ouvintes descobrirem que os sons são falsos.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -755,10 +765,13 @@ Skilled at mimicry and dramatics, you gain the following benefits:
         <column name="_name_id" translation="ENG">Charger</column>
         <column name="_name_id" translation="POR">Carga</column>
         <column name="_description_id" translation="ENG">
-When you use your action to Dash, you can use a bonus action to make one m elee w eapon attack or to shove a creature.
+When you use your action to Dash, you can use a bonus action to make one melee weapon attack or to shove a creature.
 If you move at least 10 feet in a straight line immediately before taking this bonus action, you either gain a +5 bonus to the attack’s damage roll (if you chose to make a melee attack and hit) or push the target up to 10 feet away from you (if you chose to shove and you succeed).
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Quando você usa sua ação para Disparar (Dash), você pode usar uma ação bônus para fazer um ataque armado de curto alcance ou empurrar uma criatura.
+Se você se mover ao menos 10 pés em linha reta imediatamente antes de usar esta açao bônus, você ganha um bônus de +5 na rolagem de dano do ataque ataque (se você escolheu fazer um ataque de curto alcance e acertar) ou empurra o alvo até 10 pés para longe de você (se você escolheu empurrar e obteve sucesso).
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -771,7 +784,13 @@ Thanks to extensive practice with the crossbow , you gain the following benefits
 • Being within 5 feet of a hostile creature doesn’t impose disadvantage on your ranged attack rolls.
 • When you use the Attack action and attack with a onehanded weapon, you can use a bonus action to attack with a loaded hand crossbow you are holding.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Thanks to extensive practice with the crossbow, you gain the following benefits:
+Graças à sua extensiva prática com bestas, você ganha os seguintes benefícios:
+• Você ignora a propriedade de carregamento de bestas que você é proficiente.
+• Estar à 5 pés de distância de uma criatura hostil não impõe desvantagem em suas rolagens de ataque.
+• Quando você usa uma ação de Ataque e ataca com uma arma de uma mão, você pode usar uma ação bônus para atacar com uma besta que você estiver segurando desde que ela já esteja carregada com um virote.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -781,7 +800,9 @@ Thanks to extensive practice with the crossbow , you gain the following benefits
         <column name="_description_id" translation="ENG">
 When you are wielding a finesse weapon with which you are proficient and another creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Quando você está segurando uma arma de finesse no qual você é proficiente e outra criatura lhe acerta com um ataque de curto alcance, você pode usar sua reação para adicionar seu bônus de proficiência à sua AC para este ataque, potencialmente evitando o acerto.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -794,7 +815,12 @@ You master fighting with two weapons, gaining the following benefits:
 • You can use two-weapon fighting even when the onehanded melee weapons you are wielding aren’t light.
 • You can draw or stow two one-handed weapons when you would normally be able to draw or stow only one.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você domina a luta com duas armas, ganhando os seguintes benefícios:
+• Você ganha um bônus de +1 na sua AC enquanto estiver segurando uma arma distinta em cada mão.
+• Você pode lutar com duas armas mesmo enquanto as armas de uma mão que você estiver segurando não sejam leves.
+• Você pode sacar ou guardar duas armas de uma mão enquanto você normalmente só estaria apto à sacar ou guardar apenas uma.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -803,12 +829,18 @@ You master fighting with two weapons, gaining the following benefits:
         <column name="_name_id" translation="POR">Desbravador de Masmorras</column>
         <column name="_description_id" translation="ENG">
 Alert to the hidden traps and secret doors found in many dungeons, you gain the following benefits:
-• You have advantage on W isdom (Perception) and Intelligence (Investigation) checks made to detect the presence of secret doors.
+• You have advantage on Wisdom (Perception) and Intelligence (Investigation) checks made to detect the presence of secret doors.
 • You have advantage on saving throws made to avoid or resist traps.
 • You have resistance to the damage dealt by traps.
 • You can search for traps while traveling at a normal pace, instead of only at a slow pace.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Alerta para armadilhas escondidas e passagens secretas encontradas nas masmorra e calabouços, você ganha os seguintes benefícios:
+• Você tem vantagem em testes de Sabedoria (Percepção) e Inteligência (Investigação) que faz para detectar a presença de portas e passagens secretas.
+• Você tem vantagem em testes de resistência para evitar ou resistir à armadilhas.
+• Você tem resistência contra danos causados por armadilhas.
+• Você pode procurar por armadilhas enquanto está viajando em ritmo normal, ao invés de somente em ritmo lento.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -819,7 +851,10 @@ Alert to the hidden traps and secret doors found in many dungeons, you gain the 
 Hardy and resilient, you gain the following benefits:
 • Increase your Constitution score by 1, to a maximum of 20. When you roll a Hit Die to regain hit points, the minimum number of hit points you regain from the roll equals twice your Constitution modifier (minimum of 2).
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Resistente e resiliente, você ganha os seguintes benefícios:
+• Aumente sua pontuação de Constituição em 1, até um máximo de 20. Quando você rola um Dado de Vida para recuperar pontos de vida, o número mínimo de pontos de vida que você recupera da rolagem é igual a duas vezes seu modificador de Constituição (mínimo de 2).
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -831,7 +866,11 @@ When you gain this feat, choose one of the following damage types: acid, cold, f
 Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.
 You can select this feat multiple times. Each time you do so, you must choose a different damage type.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Quando você ganha este talento, escolha um dos seguintes tipos de dano: ácido (acid), frio (cold), fogo (fire), elétrico (lighting) ou sônico (thunder).
+Magias que você conjura ignoram resistência contra o tipo de dano escolhido. Além disso, quando você rola dano para uma magia que você conjura que causa dano daquele tipo, você pode tratar qualquer 1 num dado de dano como um 2.
+Você pode selecionar este talento múltiplas vezes. Cada vez que você o faz, você deve escolher um tipo de dano diferente.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -839,12 +878,17 @@ You can select this feat multiple times. Each time you do so, you must choose a 
         <column name="_name_id" translation="ENG">Grappler</column>
         <column name="_name_id" translation="POR">Agarrador</column>
         <column name="_description_id" translation="ENG">
-You’ve developed the skills necessary to hold your ow n in close-quarters grappling. You gain the following benefits:
+You’ve developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:
 • You have advantage on attack rolls against a creature you are grappling.
 • You can use your action to try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both restrained until the grapple ends.
 • Creatures that are one size larger than you don’t automatically succeed on checks to escape your grapple.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você desenvolveu as habilidades necessárias para manter agarrões. Você ganha os seguintes benefícios:
+• Você tem vantagem em rolagens de ataque contra criaturas que está agarrando.
+• Você pode usar sua ação para tentar girar uma criatura que está agarrando. Para fazer isto, faça outra teste de agarrar. Se obtiver sucesso, você e a criatura estão âmbas restringidas até que o agarrão termine.
+• Criaturas que são de um tamanho maiores do que você não sucedem automaticamente um teste para escapar de serem agarrados por você.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -857,7 +901,12 @@ You gain the following benefits:
 • On your turn, when you score a critical hit with a melee weapon or reduce a creature to 0 hit points with one, you can make one melee weapon attack as a bonus action.
 • Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack’s damage.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você aprendeu a usar o peso de sua arma a seu favor, permitindo fortalecer seus golpes.
+Você ganha os seguintes benefícios.
+• No seu turno, quando você acerta um ataque crítico com uma arma de curto alcance ou reduz uma criatura à 0 pontos de vida com um ataque crítico, você pode fazer um ataque armado de curto alcance como uma ação bônus.
+• Antes de você fazer um ataque de curto alcance com uma arma pesada que você é proficiente, você pode escolher receber uma penalidade de -5 na rolagem de ataque. Se o ataque acertar, você adiciona +10 no dano do ataque.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -869,7 +918,11 @@ You are an able physician, allowing you to mend wounds quickly and get your alli
 • When you use a healer’s kit to stabilize a dying creature, that creature also regains 1 hit point.
 • As an action, you can spend one use of a healer’s kit to tend to a creature and restore 1d6 + 4 hit points to it, plus additional hit points equal to the creature’s maximum number of Hit Dice. The creature can’t regain hit points from this feat again until it finishes a short or long rest.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você é físico apto, permitindo você a remendar ferimentos rapidamente e devolver seus aliados de volta para a luta. Voce ganha os seguintes beneficios:
+• Quando você usa um kit de primeiros socorros para estabilizar uma criatura, ela também recupera 1 ponto de vida.
+• Com uma ação, você pode gastar um uso de seu kit de primeiros socorros para cuidar de uma criatura e recuperar 1d6 + 4 pontos de vida, mais uma quantidade de pontos de vida igual ao número máximo do Dado de Vida da criatura. A criatura não recupra pontos de vida deste talento de novo até que você conclua um descanso curto ou longo.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -881,7 +934,11 @@ You have trained to master the use of heavy armor, gaining the following benefit
 • Increase your Strength score by 1, to a m aximum of 20.
 • You gain proficiency with heavy armor.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você treinou para dominar o sudo de armaduras pesadas, ganhando os seguintes benefícios:
+• Aumenta sua pontuação de Força em 1, até um máximo de 20.
+• Você ganha proficiência com armaduras pesadas.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -893,7 +950,11 @@ You can use your arm or to deflect strikes that would kill others. You gain the 
 • Increase your Strength score by 1, to a maximum of 20.
 • While you are wearing heavy armor, bludgeoning, piercing, and slashing damage that you take from nonmagical weapons is reduced by 3.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você pode usar sua armadura para defletir golpes que matariam outros. Você ganha os seguintes benefícios:
+• Aumente sua pontuação de força em 1, até um máximo de 20.
+• Enquanto você estiver vestindo armadura pesada, dano de contundente, perfurante e cortante que você recebe de armas não-mágicas são reduzidos em 3.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -901,10 +962,13 @@ You can use your arm or to deflect strikes that would kill others. You gain the 
         <column name="_name_id" translation="ENG">Inspiring Leader</column>
         <column name="_name_id" translation="POR">Líder Inspirador</column>
         <column name="_description_id" translation="ENG">
-You can spend 10 minutes inspiring your com panions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you w ho can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + your Charisma modifier.
-A creature can’t gain tem porary hit points from this feat again until it has finished a short or long rest.
+You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + your Charisma modifier.
+A creature can’t gain temporary hit points from this feat again until it has finished a short or long rest.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você pode gastar 10 minutos inspirando seus companheiros, elevando sua determinaçao para lutar. Quando voce faz isso, escolha até seis criaturas aliadas (podendo incluir você mesmo) em até 30 pés de você que podem lhe ver ou ouvir e que podem lhe entender. Cada criatura pode ganhar pontos de vida temporários igual ao seu nível + seu modificador de Carisma.
+A criatura não pode ganhar pontos de vida temporários deste talento de novo até que conclua um descanso curto ou longo.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -918,7 +982,13 @@ You have a mind that can track time, direction, and detail with uncanny precisio
 • You always know the number of hours left before the next sunrise or sunset.
 • You can accurately recall anything you have seen or heard within the past month.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você tem uma mente que pode rastrear o tempo, direção e detalhes com uma estranha precisão. Você ganha os seguintes benefícios.
+• Aumente sua pontuação de Inteligência em 1, até um máximo de 20.
+• Você sempre sabe qual a direção do norte.
+• Você sempre sabe o número de horas restantes até o próximo por ou nascer do sol.
+• Você pode relembrar precisamente qualquer coisa que você tenha visto ou ouvido no último mês.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -930,7 +1000,11 @@ You have trained to master the use of light armor, gaining the following benefit
 • Increase your Strength or Dexterity score by 1, to a maximum of 20.
 • You gain proficiency with light armor.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você treinou para dominar o uso de armadura leve, ganhando os seguintes benefícios:
+• Aumente sua pontuação de Força ou Destreza em 1, até um máximo de 20.
+• Você ganha proficiência com armaduras leves.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -943,7 +1017,12 @@ You have studied languages and codes, gaining the following benefits:
 • You learn three languages of your choice.
 • You can ably create written ciphers. Others can’t decipher a code you create unless you teach them, they succeed on an Intelligence check (DC equal to your Intelligence score + your proficiency bonus), or they use m agic to decipher it.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você estudou linguagens e códigos, ganhando os seguintes benefícios:
+• Aumente sua pontuação de Inteligência em 1, até um máximo de 20.
+• Você aprende três linguagens de sua escolha.
+• Você pode hábiamente criar cifras escritas. Outros não podem decifrar o código que você cria a não ser que você os ensine como, eles sucedam num teste de Inteligência (DC igual à sua pontuação de Inteligência + seu bônus de proficiência), ou eles suem magia para decrifrá-la.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -951,13 +1030,19 @@ You have studied languages and codes, gaining the following benefits:
         <column name="_name_id" translation="ENG">Lucky</column>
         <column name="_name_id" translation="POR">Sortudo</column>
         <column name="_description_id" translation="ENG">
-You have inexplicable luck that seem s to kick in at just the right moment.
-You have 3 luck points. W henever you make an attack roll, an ability check, or a saving throw, you can spend one luck point to roll an additional d20. You can choose to spend one of your luck points after you roll the die, but before the outcom e is determined. You choose which of the d20s is used for the attack roll, ability check, or saving throw.
+You have inexplicable luck that seems to kick in at just the right moment.
+You have 3 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend one luck point to roll an additional d20. You can choose to spend one of your luck points after you roll the die, but before the outcome is determined. You choose which of the d20s is used for the attack roll, ability check, or saving throw.
 You can also spend one luck point when an attack roll is made against you. Roll a d20, and then choose whether the attack uses the attacker’s roll or yours.
-If more than one creature spends a luck point to influence the outcom e of a roll, the points cancel each other out; no additional dice are rolled.
-You regain your expended luck points w hen you finish a long rest.
+If more than one creature spends a luck point to influence the outcome of a roll, the points cancel each other out; no additional dice are rolled.
+You regain your expended luck points when you finish a long rest.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você tem uma sorte inesplicável que parece aparecer nos melhores momentos.
+Você tem 3 pontos de sorte. Sempre que você faz uma rolagem de ataque, teste de habilidade ou de teste de resistência (saving throw), você pode gastar um ponto de sorte para rolar um d20 adicional. Você pode escolher gastar um de seus pontos de sorte após rolar o dado, mas antes do resultado ser determinado. Você escolhe quais dos d20s é usado na rolagem de ataque, teste de habilidade ou teste de resistência (saving throw).
+Você também pode gastar um ponto de sorte quando uma rolagem de ataque é feita contra você. Role um d20 e escolha se a rolagem de ataque usa o dado do atacante ou o seu.
+Se mais de uma criatura gastar um ponto de sorte para influenciar o resultado de uma rolagem, os pontos se cancelam multuamente e nenhum dado adicional é rolado.
+Você recupera seus pontos de sorte gastos quando você conclui um descanso longo.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -965,12 +1050,17 @@ You regain your expended luck points w hen you finish a long rest.
         <column name="_name_id" translation="ENG">Mage Slayer</column>
         <column name="_name_id" translation="POR">Matador de Magos</column>
         <column name="_description_id" translation="ENG">
-You have practiced techniques useful in melee com bat against spellcasters, gaining the following benefits:
+You have practiced techniques useful in melee combat against spellcasters, gaining the following benefits:
 • When a creature within 5 feet of you casts a spell, you can use your reaction to make a m elee weapon attack against that creature.
 • When you damage a creature that is concentrating on a spell, that creature has disadvantage on the saving throw it makes to maintain its concentration.
 • You have advantage on saving throws against spells cast by creatures within 5 feet of you.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você praticou técnicas úteis de combate de curto alcance contra conjuradores, ganhando os seguintes benefícios:
+• Quando uma criatura dentro de 5 pés de você conjura uma magia, você pode usar sua reação para fazer um ataque armado de curto alcance contra aquela criatura.
+• Quando você causa dano à uma criatura que está concentrando numa magia, a criatura tem desvantagem no teste de resistência (saving throw) para manter a concentração.
+• Você tem vantagem em testes de resistência (saving throw) contra magias conjuradas por criaturas que estejam em até 5 pés de você.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -982,7 +1072,11 @@ Choose a class: bard, cleric, druid, sorcerer, warlock, or wizard. You learn two
 In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.
 Your spellcasting ability for these spells depends on the class you chose: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid: or Intelligence for wizard.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Escolha uma classe: bardo, clérigo, druida, feiticeiro, bruxo ou mago. Você aprende duas cantrips de sua escolha daquela lista de magias daquela classe.
+Além disso, escolha uma magia de primeiro nível daquela lista. Você aprende aquela magia e pode conjurá-la no menor nível possível. Após conjurá-la, você deve concluir um descanso longo antes de conjurá-la novamente.
+Seu atributo de conjurador para estas magias depende da classe que você escolheu: Carisma para bardo, feiticeiro ou bruxo; Sabedoria para clérigo ou druida; ou Inteligência para mago.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -990,11 +1084,15 @@ Your spellcasting ability for these spells depends on the class you chose: Chari
         <column name="_name_id" translation="ENG">Martial Adept</column>
         <column name="_name_id" translation="POR">Adepto Marcial</column>
         <column name="_description_id" translation="ENG">
-You have martial training that allows you to perform special com bat maneuvers. You gain the following benefits:
+You have martial training that allows you to perform special combat maneuvers. You gain the following benefits:
 • You learn two maneuvers of your choice from among those available to the Battle Master archetype in the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver’s effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).
 • If you already have superiority dice, you gain one more; otherwise, you have one superiority die, which is a d6. This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você tem treinamento marcial que lhe permite realizar manobras especiais de combate. Você ganha os seguintes benefícios:
+• Você aprende duas manobras à sua escolha dentre aqueles disponíveis para o arquétipo Mestre de Batalhas na classe do lutador. Se uma manobra que você usa requer que seu alvo faça um teste de resistência (saving throw) para evitar os efeitos da manobra, o DC do é igual a 8 + seu bônus de proficiência + seu modificador de Força ou Destreza (sua escolha).
+• Se você já tem dados de superioridade, você ganha mais um; caso contrário, você tem um dado de superioridade, que é um d6. Este dado é usado para munir suas manobras. Um dado de superioridade é gasto quando você o usa. Você recupera os dados de superioridade gastos quando você conclui um descanso curto ou longo.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -1002,11 +1100,15 @@ You have martial training that allows you to perform special com bat maneuvers. 
         <column name="_name_id" translation="ENG">Medium Armor Master</column>
         <column name="_name_id" translation="POR">Mestre com Armaduras Médias</column>
         <column name="_description_id" translation="ENG">
-You have practiced moving in medium arm or to gain the follow ing benefits:
-• Wearing medium arm or doesn’t im pose disadvantage on your Dexterity (Stealth) checks.
-• When you w ear medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher
+You have practiced moving in medium armor to gain the following benefits:
+• Wearing medium armor doesn’t impose disadvantage on your Dexterity (Stealth) checks.
+• When you wear medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você praticou movimentação com armaduras médias para ganhar os seguintes benefícios:
+• Vestir armadura média não impõe desvantagem em testes de Destreza (Furtividade).
+• Quando você veste armadura média, você adiciona 3, ao invés de 2, na sua AC se você uma Destreza de 16 ou maior.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -1016,9 +1118,13 @@ You have practiced moving in medium arm or to gain the follow ing benefits:
         <column name="_description_id" translation="ENG">
 You are exceptionally speedy and agile. You gain the following benefits:
 • Your speed increases by 10 feet. When you use the Dash action, difficult terrain doesn’t cost you extra movement on that turn.
-• When you make a m elee attack against a creature, you don’t provoke opportunity attacks from that creature for the rest of the turn, whether you hit or not.
+• When you make a melee attack against a creature, you don’t provoke opportunity attacks from that creature for the rest of the turn, whether you hit or not.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você é excepcionalmente ágil e veloz. Você ganha os seguintes benefícios:
+• Sua velocidade aumenta em 10 pés. Quando você usa ação de Disparar (Dash), terreno difícil não lhe custa movimento extra neste turno.
+• Quando você faz um ataque de curto alcance contra uma criatura, você não provoca ataque de oportunidade daquela criatura pelo resto do turno, acertando o ataque ou não.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -1028,9 +1134,13 @@ You are exceptionally speedy and agile. You gain the following benefits:
         <column name="_description_id" translation="ENG">
 You have trained to master the use of medium armor and shields, gaining the following benefits:
 • Increase your Strength or Dexterity score by 1, to a maximum of 20.
-• You gain proficiency with medium arm or and shields.
+• You gain proficiency with medium armor and shields.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você treinou para dominar o uso de armaduras médias e escudo, ganhando os seguintes benefícios:
+• Aumente sua Força ou Destreza em 1, até um máximo de 20.
+• Você ganha proficiência com armaduras médias e escudos.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -1043,7 +1153,12 @@ You are a dangerous foe to face while mounted. While you are mounted and aren’
 • You can force an attack targeted at your mount to target you instead.
 • If your mount is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você é um inimigo perigoso para se enfrentar enquanto está montado. Enquanto você está montado e não está incapacidade, você ganha os seguintes benefícios:
+• Você tem vantagem em rolagens de ataque de curto alcance contra qualquer criatura sem montaria que seja de tamanho menor do que a sua montaria.
+• Você pode forçar um ataque que alveja sua montaria à alvejar você.
+• Se sua montaria é submetida à um efeito que permite que ela faça um teste de resistência (saving throw) de Destreza para receber metade do dano, ela não recebe nenhum dano caso obtenha sucesso, e somente metade do dano caso falhe.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -1056,7 +1171,12 @@ Quick to notice details of your environment, you gain the following benefits:
 • If you can see a creature’s mouth while it is speaking a language you understand, you can interpret what it’s saying by reading its lips.
 • You have a +5 bonus to your passive Wisdom (Perception) and passive Intelligence (Investigation) scores.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Rápido para perceberdetalhes do ambiente, você ganha os seguintes benefícios:
+• Aumente sua pontuação de Inteligência ou Sabedoria em 1, até um máximo de 20.
+• Se você puder ver a boca de uma criatura enquanto ela está falando uma língua que você compreenda, você pode interpretar o que ela está dizendo lendo seus lábios.
+• Você tem um bônus de +5 nas suas pontuações passivas de Sabedoria (Percepção) e Inteligência (Investigação).
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -1068,7 +1188,11 @@ You can keep your enemies at bay with reach weapons. You gain the following bene
 • When you take the Attack action and attack with only a glaive, halberd, or quarterstaff, you can use a bonus action to make a melee attack with the opposite end of the weapon. The weapon’s damage die for this attack is a d4, and the attack deals bludgeoning damage.
 • While you are wielding a glaive, halberd, pike, or quarterstaff, other creatures provoke an opportunity attack from you when they enter your reach.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você pode manter seus inimigos afastado no alcance da sua arma. Você ganha os seguintes benefícios:
+• Quando você toma uma ação de Ataque e ataca com somente um glaive, alabarda (halberd) ou bastão (quarterstaff), você pode usar uma ação bônus para fazer um ataque de curto alcance com a extremidade oposta da sua arma. O dado de dano da sua arma para este ataque é um d4 e o ataque causa dano contundente.
+• Enquanto você está segurando um glaive, alabarda (halberd), pique (pike) ou bastão (quarterstaff), outras criaturas provocam ataque de oportunidade de você quando eles entram no seu alcance.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -1080,7 +1204,11 @@ Choose one ability score. You gain the following benefits:
 • Increase the chosen ability score by 1, to a maximum of 20.
 • You gain proficiency in saving throws using the chosen ability.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Escolha um atributo (ability score). Você ganha os seguintes benefícios:
+• Aumente a sua pontuação do atributo escolhido em 1, até o máximo de 20.
+• Você ganha proficiência em testes de resistência (saving throw) usando a habilidade escolhida.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -1089,10 +1217,14 @@ Choose one ability score. You gain the following benefits:
         <column name="_name_id" translation="POR">Conjurador de Rituais</column>
         <column name="_description_id" translation="ENG">
 You have learned a number of spells that you can cast as rituals. These spells are written in a ritual book, which you must have in hand while casting one of them.
-When you choose this feat, you acquire a ritual book holding two 1st-level spells of your choice. Choose one of the following classes: bard, cleric, druid, sorcerer, warlock, or wizard. You must choose your spells from that class’s spell list, and the spells you choose must have the ritual tag. The class you choose also determines your  spellcasting ability for these spells: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.
+When you choose this feat, you acquire a ritual book holding two 1st-level spells of your choice. Choose one of the following classes: bard, cleric, druid, sorcerer, warlock, or wizard. You must choose your spells from that class’s spell list, and the spells you choose must have the ritual tag. The class you choose also determines your spellcasting ability for these spells: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.
 If you come across a spell in written form, such as a magical spell scroll or a wizard’s spellbook, you might be able to add it to your ritual book. The spell must be on the spell list for the class you chose, the spell’s level can be no higher than half your level (rounded up), and it must have the ritual tag. The process of copying the spell into your ritual book takes 2 hours per level of the spell, and costs 50 gp per level. The cost represents material com ponents you expend as you experiment with the spell to master it, as well as the fine inks you need to record it.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você aprendeu um número de magias que você pode conjurar como ritual. Estas magias estão escitas num livro de rituais, que você precisa ter em mãos para conjurar uma delas.
+Quando você escolhe este talento, você adquire um livro de rituais que possui duas magias de primeiro nível à sua escolha. Escolha uma das seguintes classes: bardo, clérigo, druida, feiticeiro, bruxo ou mago. Você deve escolher suas magias da lista de magias daquela classe e as magias escolhidas precisam ter a marca (tag) de ritual. A classe que você escolhe também determina seu atributo de conjurador para estas magias: Carisma para bardo, feiticeiro ou bruxo; Sabedoria para clérigo e druida; ou Inteligência para mago.
+Se você vier a por as mãos numa magia em forma escrita, como um pergaminho mágico ou um livro de feitiços de um mago, você pode adicioná-la ao seu livro de rituais. A magia precisa fazer parte da lista de magias da classe que você escolheu, o nível da magia não pode maior do que metade do seu nível (arredondado para cima), e ela precisa ter a marca (tag) de ritual. O processo de copiar a magia para seu livro toma 2 horas por nível e custa 50 gp por nível. O custo representa os componentes materiais que você gasta praticando a magia até dominá-la, assim como as tintas especiais que você precisa usar para escrever a magia no seu livro.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -1102,7 +1234,9 @@ If you come across a spell in written form, such as a magical spell scroll or a 
         <column name="_description_id" translation="ENG">
 Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon’s damage dice and use either total.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Uma vez por turno, quando você faz uma rolagem de dano para um ataque armado de curto alcance, você pode optar por rerrolar o dado de dano da arma e usar o resultado que preferir.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -1111,11 +1245,16 @@ Once per turn when you roll damage for a melee weapon attack, you can reroll the
         <column name="_name_id" translation="POR">Sentinela</column>
         <column name="_description_id" translation="ENG">
 You have mastered techniques to take advantage of every drop in any enemy’s guard, gaining the following benefits:
-• When you hit a creature with an opportunity attack, the creature’s speed becom es 0 for the rest of the turn.
+• When you hit a creature with an opportunity attack, the creature’s speed becomes 0 for the rest of the turn.
 • Creatures within 5 feet of you provoke opportunity attacks from you even if they take the Disengage action before leaving your reach.
 • When a creature within 5 feet of you makes an attack against a target other than you (and that target doesn’t have this feat), you can use your reaction to make a melee weapon attack against the attacking creature.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você dominou as técnicas de tomar vantagem de cada baixa de guarda dos seus inimigos, ganhando os seguintes benefícios:
+• Quando você acerta uma criatura com um ataque de oportunidade, a velocidade da critatura se torna 0 (zero) até o final do turno.
+• Criaturas com 5 pés de você provocam ataques de oportunidade de vocÊ mesmo se eles tomarem a ação de Desengatar (Disengage) antes de sair do seu alcance.
+• Quando uma criatura em até 5 pés de você faz um ataque contra um alvo que não seja você (e aquele alvo não tem este talento), você pode usar sua reação para fazer um ataque armado de curto alcance contra a criatura atacante.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -1123,12 +1262,17 @@ You have mastered techniques to take advantage of every drop in any enemy’s gu
         <column name="_name_id" translation="ENG">Sharpshooter</column>
         <column name="_name_id" translation="POR">Exímio Atirador</column>
         <column name="_description_id" translation="ENG">
-You have mastered ranged weapons and can make shots that others find im possible. You gain the following benefits:
-• Attacking at long range doesn't im pose disadvantage on your ranged w eapon attack rolls.
+You have mastered ranged weapons and can make shots that others find impossible. You gain the following benefits:
+• Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.
 • Your ranged weapon attacks ignore half cover and three-quarters cover.
 • Before you make an attack with a ranged weapon that you are proficient with, you can choose to take a - 5 penalty to the attack roll. If the attack hits, you add +10 to the attack’s damage.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você dominou armas de longo alcance e pode realizar disparos que outros acham impossível. Você ganha os seguintes benefícios:
+• Atacar à distâncias além do seu alcance normal não impõe desvantagem em rolagens de ataque de longo alcance.
+• Suas armas de longo alcance ignoram meia cobertura e três-quartos de cobertura.
+• Antes de você fazer um ataque com armas de longo alcance que você é proficiente, você pode escolher receber uma penalidade de -5 na rolagem de ataque. Se este ataque acertar, você adiciona +10 no dano do ataque.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -1141,7 +1285,12 @@ You use shields not just for protection but also for offense. You gain the follo
 • If you aren’t incapacitated, you can add your shield’s AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you.
 • If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield between yourself and the source of the effect.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você usa escudos não somente para proteção mas também ofensivamente. Você ganha os seguintes benefícios enquanto estiver segurando um escudo:
+• Se você tomar uma ação de Ataque no seu turno, você pode usar uma ação bônus para tentar empurrar uma criatura com 5 pés de você com seu escudo.
+• Se você não estiver incapacitado, você pode adicionar o bônus de AC do seu escudo para qualquer teste de resistência (saving throw) de Destreza que você ficar contra magias ou outros efeitos prejudiciais que tiverem somente você como alvo.
+• Se você for submetido à um efeito que permite você fazer um teste de resistência (saving throw) de Destreza para receber somente metade do dano, você pode usar sua reação para não tomar nenhum dano se você obter sucesso, colocando seu escudo entre você e a fonte do efeito.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -1151,7 +1300,9 @@ You use shields not just for protection but also for offense. You gain the follo
         <column name="_description_id" translation="ENG">
 You gain proficiency in any combination of three skills or tools of your choice.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você ganha proficiência em qualquer combinação de três habilidades ou ferramentas de sua escolha.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -1164,7 +1315,12 @@ You are expert at slinking through shadows. You gain the following benefits:
 • When you are hidden from a creature and miss it with a ranged weapon attack, making the attack doesn't reveal your position.
 • Dim light doesn’t impose disadvantage on your Wisdom (Perception) checks relying on sight.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você é especialista em espreitar nas sombras. Você ganha os seguintes benefícios:
+• Você pode tentar se esconder quando você está levemente obscurecido da criatura do qual você se esconde.
+• Quando você está escondido de uma criatura e erra um ataque armado de longo alcance contra ela, fazer o ataque não revela sua posição.
+• Luz baixa (dim light) não impõe desvantagem nos seus testes de Sabedoria (Percepção) que dependem de visão.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -1172,12 +1328,17 @@ You are expert at slinking through shadows. You gain the following benefits:
         <column name="_name_id" translation="ENG">Spell Sniper</column>
         <column name="_name_id" translation="POR">Spell Sniper</column>
         <column name="_description_id" translation="ENG">
-You have learned techniques to enhance your attacks with certain kinds o f spells, gaining the follow ing benefits:
+You have learned techniques to enhance your attacks with certain kinds of spells, gaining the follow ing benefits:
 • When you cast a spell that requires you to make an attack roll, the spell’s range is doubled.
 • Your ranged spell attacks ignore half cover and three-quarters cover.
-• You learn one cantrip that requires an attack roll. Choose the cantrip from the bard, cleric, druid, sorcerer, warlock, or w izard spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.
+• You learn one cantrip that requires an attack roll. Choose the cantrip from the bard, cleric, druid, sorcerer, warlock, or wizard spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você aprendeu técnicas de aprimorar seus ataques com certos tipos de magia, ganhando os seguintes benefícios:
+• Quando você conjura uma magia que requer que você faça uma rolagem de ataque, o alcance da magia é dobrada.
+• Seus ataques mágicos de longo alcance ignoram meia cobertura e três-quartos de cobertura.
+• Você aprende um cantrip que requer rolagem de ataque. Escolha um cantrip da lista de magias dos bardos, clérigos, druidas, feiticeiros, bruxos ou magos. Sua habilidade mágica para este cantrip depende da lista de magia que você escolheu: Carisma para bardo, feiticeiro ou bruxo; Sabedoria para clérigom ou druida; ou Inteligência para mago.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -1185,13 +1346,19 @@ You have learned techniques to enhance your attacks with certain kinds o f spell
         <column name="_name_id" translation="ENG">Tavern Brawler</column>
         <column name="_name_id" translation="POR">Brigão de Tavernas</column>
         <column name="_description_id" translation="ENG">
-Accustom ed to rough-and-tumble fighting using whatever weapons happen to be at hand, you gain the following benefits:
+Accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand, you gain the following benefits:
 • Increase your Strength or Constitution score by 1, to a maximum o f 20.
-• You are proficient with im provised weapons and unarmed strikes.
-• Your unarm ed strike uses a d4 for damage.
-• When you hit a creature with an unarmed strike or an im provised weapon on your turn, you can use a bonus action to attempt to grapple the target.
+• You are proficient with improvised weapons and unarmed strikes.
+• Your unarmed strike uses a d4 for damage.
+• When you hit a creature with an unarmed strike or an improvised weapon on your turn, you can use a bonus action to attempt to grapple the target.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Acostumado à lutas confusas e desordenadas usando qualquer arma que estiver ao alcance das mãos, você ganha os seguintes benefícios:
+• Aumente sua pontuação de Força ou Constituição em 1, até um máximo de 20.
+• Você é proficiente com armas improvisadas e ataques desarmados.
+• Seus ataques desarmados usam um d4 para dano.
+• Quando você acerta uma criatura com um ataque desarmado ou com uma arma improvisada no seu turno, você pode usar uma ação bônus para tentar agarrar o alvo.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -1201,7 +1368,9 @@ Accustom ed to rough-and-tumble fighting using whatever weapons happen to be at 
         <column name="_description_id" translation="ENG">
 Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Sua quantidade máxima de pontos de vida aumenta em uma quantidade igual ao dobro do seu nível quando você ganha este talento. Sempre que você ganha um nível depois disso, sua quantidade máxima de pontos de vida aumenta em um adicional de 2 pontos de vida.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -1211,10 +1380,15 @@ Your hit point maximum increases by an amount equal to twice your level when you
         <column name="_description_id" translation="ENG">
 You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits:
 • You have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage.
-• You can perform the som atic com ponents of spells even when you have weapons or a shield in one or both hands.
+• You can perform the somatic components of spells even when you have weapons or a shield in one or both hands.
 • When a hostile creature’s movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você tem treinamento para conjurar magias no meio de um combate, aprendendo técnicas que lhe concedem os seguintes benefícios:
+• Você tem vantagem em testes de resistência (saving throws) de Constituição que você faz para manter sua concentração em magias quando você recebe dano.
+• Você pode realizar componentes somaticos de magias mesmo quando você tem armas ou escudos em um ou âmbas mãos.
+• Quando o movimento de uma criatura hostil provoca ataque de oportunidade de você, você pode usar sua reação para conjurar uma magia naquela criatura, ao invás de realizar um ataque de oportunidade. A magia precisa ter um tempo de conjuração de 1 ação e precisa ter como alvo somente aquela criatura.
+        </column>
     </insert>
 
     <insert table="_feature">
@@ -1226,7 +1400,11 @@ You have practiced extensively with a variety of weapons, gaining the following 
 • Increase your Strength or Dexterity score by 1, to a maximum of 20.
 • You gain proficiency with four weapons of your choice.
         </column>
-        <column name="_description_id" translation="POR"></column>
+        <column name="_description_id" translation="POR">
+Você praticou extensivamente com uma variedade de armas, ganhando os seguintes benefícios:
+• Aumente sua pontuação de Força ou Destreza em 1, até um máximo de 20.
+• Você ganha proficiência com quatro armas de sua escolha.
+        </column>
     </insert>
 
     <!--
