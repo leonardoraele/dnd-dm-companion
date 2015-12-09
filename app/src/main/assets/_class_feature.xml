@@ -46,7 +46,39 @@
         <column name="_id" id="true">classfeature_fighter_3B</column>
         <column name="_class_id" id="true">class_fighter</column>
         <column name="_class_option_id" id="true">classoption_fighter_champion</column>
-        <column name="_feature_id" id="true">feature_fighter_improvedcritical</column>
+        <column name="_feature_id" id="true">feature_fighterchampion_improvedcritical</column>
+        <column name="_level">3</column>
+    </insert>
+
+    <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_3C</column>
+        <column name="_class_id" id="true">class_fighter</column>
+        <column name="_class_option_id" id="true">classoption_fighter_battlemaster</column>
+        <column name="_feature_id" id="true">feature_fighterbattlemaster_combatsuperiority</column>
+        <column name="_level">3</column>
+    </insert>
+
+    <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_3D</column>
+        <column name="_class_id" id="true">class_fighter</column>
+        <column name="_class_option_id" id="true">classoption_fighter_battlemaster</column>
+        <column name="_feature_id" id="true">feature_fighterbattlemaster_manauvers</column>
+        <column name="_level">3</column>
+    </insert>
+
+    <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_3E</column>
+        <column name="_class_id" id="true">class_fighter</column>
+        <column name="_class_option_id" id="true">classoption_fighter_battlemaster</column>
+        <column name="_feature_id" id="true">feature_fighterbattlemaster_superioritydices</column>
+        <column name="_level">3</column>
+    </insert>
+
+    <insert table="_class_feature">
+        <column name="_id" id="true">classfeature_fighter_3F</column>
+        <column name="_class_id" id="true">class_fighter</column>
+        <column name="_class_option_id" id="true">classoption_fighter_battlemaster</column>
+        <column name="_feature_id" id="true">feature_fighterbattlemaster_studentofwar</column>
         <column name="_level">3</column>
     </insert>
 

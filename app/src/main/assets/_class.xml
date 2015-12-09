@@ -31,6 +31,8 @@
 • (a) duas machadinhas (b) qualquer arma simples;
 • Um kit de explorador e quatro azagaias.
         </column>
+        <column name="_classoption_name_id" translation="ENG">Primal Path</column>
+        <column name="_classoption_name_id" translation="POR">Caminho Primitivo</column>
         <column name="_source_id" id="true">source_playershandbook</column>
     </insert>
 
@@ -67,6 +69,8 @@
 • (a) um kit de diplomata ou (b) um kit de artista;
 • Armadura de couro leve e uma adaga.
         </column>
+        <column name="_classoption_name_id" translation="ENG">Bard College</column>
+        <column name="_classoption_name_id" translation="POR">Colégio Bardo</column>
         <column name="_source_id" id="true">source_playershandbook</column>
     </insert>
 
@@ -105,6 +109,8 @@
 • (a) um kit de sacerdote ou (b) um kit de explorador;
 • Um escudo e um simbolo sagrado.
         </column>
+        <column name="_classoption_name_id" translation="ENG">Divine Domain</column>
+        <column name="_classoption_name_id" translation="POR">Domínio Divino</column>
         <column name="_source_id" id="true">source_basic_rules</column>
     </insert>
 
@@ -139,6 +145,8 @@
 • (a) uma cimitarra ou (b) qualquer arma simples de curto alcance;
 • Armadura de couro leve, um kit de explorador e um foco druídico.
         </column>
+        <column name="_classoption_name_id" translation="ENG">Druid Circle</column>
+        <column name="_classoption_name_id" translation="POR">Círculo Druídico</column>
         <column name="_source_id" id="true">source_playershandbook</column>
     </insert>
 
@@ -175,6 +183,8 @@
 • (a) cota de malha ou (b) armadura de couro leve, um arco longo e uma aljava com 20 flechas;
 • (a) um kit de aventureiro ou (b) um kit de explorador.
         </column>
+        <column name="_classoption_name_id" translation="ENG">Martial Archetype</column>
+        <column name="_classoption_name_id" translation="POR">Arquétipo Marcial</column>
         <column name="_source_id" id="true">source_basic_rules</column>
     </insert>
 
@@ -209,6 +219,8 @@
 • (a) um kit de aventureiro ou (b) um kit de explorador;
 • 10 dardos.
         </column>
+        <column name="_classoption_name_id" translation="ENG">Monasteric Tradition</column>
+        <column name="_classoption_name_id" translation="POR">Tradição Monastérica</column>
         <column name="_source_id" id="true">source_playershandbook</column>
     </insert>
 
@@ -245,6 +257,8 @@
 • (a) um kit de sacerdote ou (b) um kit de explorador;
 • Cota de malha e um símbolo sagrado.
         </column>
+        <column name="_classoption_name_id" translation="ENG">Sacred Oath</column>
+        <column name="_classoption_name_id" translation="POR">Juramento Sagrado</column>
         <column name="_source_id" id="true">source_playershandbook</column>
     </insert>
 
@@ -281,6 +295,8 @@
 • (a) um kit de aventureiro ou (b) um kit de explorador;
 • Um arco longo e uma aljava com 20 flechas.
         </column>
+        <column name="_classoption_name_id" translation="ENG">Ranger Archetype</column>
+        <column name="_classoption_name_id" translation="POR">Arquétipo de Patrulheiro</column>
         <column name="_source_id" id="true">source_playershandbook</column>
     </insert>
 
@@ -317,6 +333,8 @@
 • (a) um kit de traficante, (b) um kit de aventureiro, ou (c) um kit de explorador;
 • Uma armadura de couro leve, duas adagas e ferramentas de ladrao.
         </column>
+        <column name="_classoption_name_id" translation="ENG">Rogue Archetype</column>
+        <column name="_classoption_name_id" translation="POR">Arquétipo Ladino</column>
         <column name="_source_id" id="true">source_basic_rules</column>
     </insert>
 
@@ -353,6 +371,8 @@
 • (a) um kit de aventureiro ou (b) um kit de explorador;
 • Duas adagas.
         </column>
+        <column name="_classoption_name_id" translation="ENG">Sorcerous Origin</column>
+        <column name="_classoption_name_id" translation="POR">Origem da Feitiçaria</column>
         <column name="_source_id" id="true">source_playershandbook</column>
     </insert>
 
@@ -389,6 +409,8 @@
 • (a) um kit de estudioso ou (b) um kit de aventureiro;
 • Armadura de couro leve, qualquer arma simpĺes e duas adagas.
         </column>
+        <column name="_classoption_name_id" translation="ENG">Otherwordly Patron</column>
+        <column name="_classoption_name_id" translation="POR">Patrono Extraplanar</column>
         <column name="_source_id" id="true">source_playershandbook</column>
     </insert>
 
@@ -425,6 +447,8 @@
 • (a) um kit de estudioso ou (b) um kit de explorador;
 • Um livro de feitiços.
         </column>
+        <column name="_classoption_name_id" translation="ENG">Arcane Tradition</column>
+        <column name="_classoption_name_id" translation="POR">Tradiçao Arcana</column>
         <column name="_source_id" id="true">source_basic_rules</column>
     </insert>
 

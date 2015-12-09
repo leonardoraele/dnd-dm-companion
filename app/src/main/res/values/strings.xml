@@ -108,4 +108,5 @@
     <string name="prerequisite">Prerequisite</string>
     <string name="phb_trinket_table_roll_desc">Rolling on this table: </string>
     <string name="phb_trinket_table_roll_btn">Roll on This Table</string>
+    <string name="phb_class_details_classoption_choose">Choose:</string>
 </resources>

@@ -21,6 +21,16 @@
     </insert>
 
     <insert table="_class_option">
+        <column name="_id" id="true">classoption_fighter_battlemaster</column>
+        <column name="_name_id" translation="ENG">Battle Master</column>
+        <column name="_name_id" translation="POR">Mestre de Batalha</column>
+        <column name="_description_id" translation="ENG">(pending description)</column>
+        <column name="_description_id" translation="POR">(descrição pendente)</column>
+        <column name="_class_id" id="true">class_fighter</column>
+        <column name="_source_id" id="true">source_playershandbook</column>
+    </insert>
+
+    <insert table="_class_option">
         <column name="_id" id="true">classoption_rogue_thief</column>
         <column name="_name_id" translation="ENG">Thief</column>
         <column name="_name_id" translation="POR">Ladrão</column>

@@ -116,6 +116,7 @@ CREATE TABLE _class (
     _money_id INTEGER, -- If your DM allows, you can choose to start with this amount of initial wealth. If you do, you doesn't receive any equipment from your class' initial equipment or your background.
     _equipment_id INTEGER,
     _source_id INTEGER,
+    _classoption_name_id INTEGER,
     FOREIGN KEY (_name_id) REFERENCES _translation(_id),
     FOREIGN KEY (_armors_id) REFERENCES _translation(_id),
     FOREIGN KEY (_weapons_id) REFERENCES _translation(_id),
@@ -126,7 +127,8 @@ CREATE TABLE _class (
     FOREIGN KEY (_multicl_prof_id) REFERENCES _translation(_id),
     FOREIGN KEY (_money_id) REFERENCES _translation(_id),
     FOREIGN KEY (_equipment_id) REFERENCES _translation(_id),
-    FOREIGN KEY (_source_id) REFERENCES _source(_id)
+    FOREIGN KEY (_source_id) REFERENCES _source(_id),
+    FOREIGN KEY (_classoption_name_id) REFERENCES _translation(_id)
 );
 
 ---- classes

@@ -9,10 +9,15 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.Spinner;
+import android.widget.SpinnerAdapter;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -34,11 +39,13 @@ public class ClassDetailsFragment extends Fragment {
     private static final String SQL_GET_CLASS_INFO =
             "SELECT tr_name._text, _class._hit_dice, tr_armors._text, tr_weapons._text, " +
                     "tr_tools._text, tr_saves._text, tr_skills._text, tr_multicl_prer._text, " +
-                    "tr_multicl_prof._text, tr_money._text, tr_equipment._text " +
+                    "tr_multicl_prof._text, tr_money._text, tr_equipment._text, " +
+                    "tr_classoption._text " +
             "FROM _class, _translation tr_name, _translation tr_armors, _translation tr_weapons, " +
                     "_translation tr_tools, _translation tr_saves, _translation tr_skills, " +
                     "_translation tr_multicl_prer, _translation tr_multicl_prof, " +
-                    "_translation tr_money, _translation tr_equipment " +
+                    "_translation tr_money, _translation tr_equipment, " +
+                    "_translation tr_classoption " +
             "WHERE _class._id = ? AND " +
                     "tr_name._id = _class._name_id AND tr_name._language = ? AND " +
                     "tr_armors._id = _class._armors_id AND tr_armors._language = ? AND " +
@@ -49,13 +56,14 @@ public class ClassDetailsFragment extends Fragment {
                     "tr_multicl_prer._id = _class._multicl_prer_id AND tr_multicl_prer._language = ? AND " +
                     "tr_multicl_prof._id = _class._multicl_prof_id AND tr_multicl_prof._language = ? AND " +
                     "tr_money._id = _class._money_id AND tr_money._language = ? AND " +
-                    "tr_equipment._id = _class._equipment_id AND tr_equipment._language = ?";
+                    "tr_equipment._id = _class._equipment_id AND tr_equipment._language = ? AND " +
+                    "tr_classoption._id = _class._classoption_name_id AND tr_classoption._language = ?";
 
     private static final String SQL_GET_CLASS_FEATURES =
             "SELECT tr_name._text, tr_description._text, _class_feature._level " +
             "FROM _class_feature, _feature, _translation tr_name, _translation tr_description " +
             "WHERE _class_feature._class_id = ? AND " +
-//                    "_class_feature._class_option_id = 'null' AND " +
+                    "(_class_feature._class_option_id = ? OR _class_feature._class_option_id IS NULL) AND " +
                     "_class_feature._feature_id = _feature._id AND " +
                     "tr_name._id = _feature._name_id AND tr_name._language = ? AND " +
                     "tr_description._id = _feature._description_id AND tr_description._language = ? ";
@@ -80,6 +88,8 @@ public class ClassDetailsFragment extends Fragment {
         public Integer level;
     }
 
+    private int mId;
+
     private String mName;
     private int mHitDice;
     private String mArmors;
@@ -91,10 +101,12 @@ public class ClassDetailsFragment extends Fragment {
     private String mMulticl_prof;
     private String mMoney;
     private String mEquipment;
+    private String mClassOptionName;
 
     private View mView;
     private LinearLayout mFeaturesLayout;
 
+    private ArrayList<ClassOption> mClassOptions;
     private LinkedList<ClassFeature> mBaseFeatures = new LinkedList<>();
     private LinkedList<ClassFeature> mSpecFeatures = new LinkedList<>();
 
@@ -104,17 +116,18 @@ public class ClassDetailsFragment extends Fragment {
         Log.begin();
 
         if (getArguments() != null && getArguments().containsKey(ARGS_CLASS_ID)) {
-            int id = getArguments().getInt(ARGS_CLASS_ID);
-            Log.info("Received id " + id);
+            mId = getArguments().getInt(ARGS_CLASS_ID);
+            Log.info("Received id " + mId);
 
-            String lang = Locale.getDefault().getISO3Language().toUpperCase();
-            Log.info("Using language " + lang);
+            String lg = Locale.getDefault().getISO3Language().toUpperCase();
+            Log.info("Using language " + lg);
 
             Log.info("Requesting readable database...");
             SQLiteDatabase db = new DbHelper(getActivity()).getReadableDatabase();
 
             Log.info("Requesting phb info.");
-            Cursor classInfoCursor = db.rawQuery(SQL_GET_CLASS_INFO, new String[]{"" + id, lang, lang, lang, lang, lang, lang, lang, lang, lang, lang});
+            Cursor classInfoCursor = db.rawQuery(SQL_GET_CLASS_INFO, new String[]{"" + mId,
+                    lg, lg, lg, lg, lg, lg, lg, lg, lg, lg, lg});
 
             Log.info("Found " + classInfoCursor.getCount() + " results.");
             if (classInfoCursor.moveToNext()) {
@@ -129,6 +142,7 @@ public class ClassDetailsFragment extends Fragment {
                 mMulticl_prof = classInfoCursor.getString(8);
                 mMoney = classInfoCursor.getString(9);
                 mEquipment = classInfoCursor.getString(10);
+                mClassOptionName = classInfoCursor.getString(11);
             } else {
                 Utils.of(getActivity()).showInfoDialog("Info", "Class Not Found")
                         .setOnDismissListener(new DialogInterface.OnDismissListener() {
@@ -139,25 +153,15 @@ public class ClassDetailsFragment extends Fragment {
                         });
             }
 
-            Log.info("Querying for phb features for " + mName + "...");
-            Cursor classFeaturesCursor = db.rawQuery(SQL_GET_CLASS_FEATURES, new String[] {""+id, lang, lang});
+            Cursor classOptionsCursor = db.rawQuery(SQL_GET_CLASS_OPTIONS, new String[]{"" + mId, lg});
 
-            Log.info("Found " + classFeaturesCursor.getCount() + " features.");
-            while (classFeaturesCursor.moveToNext()) {
-                ClassFeature feature = new ClassFeature();
-                feature.name = classFeaturesCursor.getString(0);
-                feature.description = classFeaturesCursor.getString(1);
-                feature.level = classFeaturesCursor.getInt(2);
-
-                mBaseFeatures.add(feature);
+            mClassOptions = new ArrayList<>(classOptionsCursor.getCount());
+            while (classOptionsCursor.moveToNext()) {
+                ClassOption classOption = new ClassOption();
+                classOption.setId(classOptionsCursor.getInt(0));
+                classOption.setName(classOptionsCursor.getString(1));
+                mClassOptions.add(classOption);
             }
-
-            Collections.sort(mBaseFeatures, new Comparator<ClassFeature>() {
-                @Override
-                public int compare(ClassFeature lhs, ClassFeature rhs) {
-                    return lhs.level - rhs.level;
-                }
-            });
 
         }
 
@@ -186,7 +190,9 @@ public class ClassDetailsFragment extends Fragment {
         TextView wealthView = (TextView) mView.findViewById(R.id.phb_class_details_wealth);
         TextView prerequisitesView = (TextView) mView.findViewById(R.id.phb_class_details_multiclass_prerequisites);
         TextView proficienciesView = (TextView) mView.findViewById(R.id.phb_class_details_multiclass_proficiencies);
+        TextView classOptionNameView = (TextView) mView.findViewById(R.id.phb_class_details_classoption_name);
         Button classTableButton = (Button) mView.findViewById(R.id.phb_class_details_table_btn);
+        Spinner classOptionSpinner = (Spinner) mView.findViewById(R.id.phb_class_details_classoption_spinner);
         mFeaturesLayout = (LinearLayout) mView.findViewById(R.id.phb_class_details_level_features);
 
         titleView.setText(String.format(getString(R.string.phb_class_details_title), mName));
@@ -202,6 +208,7 @@ public class ClassDetailsFragment extends Fragment {
         wealthView.setText(mMoney);
         prerequisitesView.setText(mMulticl_prer);
         proficienciesView.setText(mMulticl_prof);
+        classOptionNameView.setText(mClassOptionName);
 
         classTableButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -211,14 +218,59 @@ public class ClassDetailsFragment extends Fragment {
             }
         });
 
-        setupFeatures();
+        SpinnerAdapter adapter = createClassOptionsAdapter();
+        classOptionSpinner.setAdapter(adapter);
+        classOptionSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                setupFeatures(mClassOptions.get(position).getId());
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+
+        setupFeatures(null);
 
         Log.end();
 
         return mView;
     }
 
-    private void setupFeatures() {
+    private SpinnerAdapter createClassOptionsAdapter() {
+        return new BaseAdapter() {
+            @Override
+            public int getCount() {
+                return mClassOptions.size();
+            }
+
+            @Override
+            public ClassOption getItem(int position) {
+                return mClassOptions.get(position);
+            }
+
+            @Override
+            public long getItemId(int position) {
+                return -1;
+            }
+
+            @Override
+            public View getView(int position, View convertView, ViewGroup parent) {
+                View view = getActivity().getLayoutInflater().inflate(android.R.layout.simple_dropdown_item_1line, null);
+
+                TextView nameView = (TextView) view.findViewById(android.R.id.text1);
+                nameView.setText(getItem(position).getName());
+
+                return view;
+            }
+        };
+    }
+
+    private void setupFeatures(Integer classOptionId) {
+        loadFeatures(classOptionId);
+
         HashMap<Integer, ViewGroup> levelViews = new HashMap<>(20);
 
         LayoutInflater inflater = getActivity().getLayoutInflater();
@@ -255,4 +307,52 @@ public class ClassDetailsFragment extends Fragment {
         }
     }
 
+    private void loadFeatures(Integer classOptionId) {
+        mBaseFeatures.clear();
+
+        String lg = Locale.getDefault().getISO3Language().toUpperCase();
+
+        SQLiteDatabase db = new DbHelper(getActivity()).getReadableDatabase();
+
+        Log.info("Querying for phb features for " + mName + "...");
+        Cursor classFeaturesCursor = db.rawQuery(SQL_GET_CLASS_FEATURES, new String[]{"" + mId, "" + classOptionId, lg, lg});
+
+        Log.info("Found " + classFeaturesCursor.getCount() + " features.");
+        while (classFeaturesCursor.moveToNext()) {
+            ClassFeature feature = new ClassFeature();
+            feature.name = classFeaturesCursor.getString(0);
+            feature.description = classFeaturesCursor.getString(1);
+            feature.level = classFeaturesCursor.getInt(2);
+
+            mBaseFeatures.add(feature);
+        }
+
+        Collections.sort(mBaseFeatures, new Comparator<ClassFeature>() {
+            @Override
+            public int compare(ClassFeature lhs, ClassFeature rhs) {
+                return lhs.level - rhs.level;
+            }
+        });
+    }
+
+    private class ClassOption {
+        private int id;
+        private String name;
+
+        public void setId(int id) {
+            this.id = id;
+        }
+
+        public int getId() {
+            return id;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public String getName() {
+            return name;
+        }
+    }
 }
